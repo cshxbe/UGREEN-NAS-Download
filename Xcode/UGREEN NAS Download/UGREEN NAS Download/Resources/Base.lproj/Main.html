@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../Style.css">
+    <script src="../Script.js" defer></script>
+</head>
+<body>
+    <img src="../Icon.png" width="128" height="128" alt="UGREEN NAS Download Icon">
+    <p class="state-unknown">Activez l’extension dans Safari → Réglages → Extensions.</p>
+    <p class="state-on">L’extension est activée. Les envois vers le NAS fonctionnent sans ouvrir sa page dans Safari.</p>
+    <p class="state-off">L’extension est désactivée. Activez-la dans les réglages Safari.</p>
+    <p>Ouvrez le bouton de l’extension dans Safari, puis Options de connexion au NAS. Configurez votre compte une seule fois : aucun onglet NAS ni partage SMB n’est ensuite nécessaire.</p>
+    <button id="network-permission">Autoriser la connexion au réseau local…</button>
+    <p id="network-status" role="status"></p>
+    <button class="open-preferences">Ouvrir les réglages de l’extension…</button>
+</body>
+</html>

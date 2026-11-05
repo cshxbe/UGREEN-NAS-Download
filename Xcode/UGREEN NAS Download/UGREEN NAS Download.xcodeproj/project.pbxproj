@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0520000000000000000006 /* icon-dark-256.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000006; };
+		DD0520000000000000000005 /* icon-dark-128.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000005; };
+		DD0520000000000000000004 /* icon-dark-96.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000004; };
+		DD0520000000000000000003 /* icon-dark-64.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000003; };
+		DD0520000000000000000002 /* icon-dark-48.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000002; };
+		DD0520000000000000000001 /* icon-dark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000001; };
+		DD0520000000000000000000 /* icon-dark-16.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000000; };
+		AAA052000000000000000001 /* UGREENIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = AAA052000000000000000002 /* UGREENIcon.icon */; };
+		BC000000000000000000001B /* toolbar-128.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000000000000000000001B /* toolbar-128.png */; };
+		BC000000000000000000001A /* toolbar-64.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000000000000000000001A /* toolbar-64.png */; };
+		BC0000000000000000000019 /* toolbar-48.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000019 /* toolbar-48.png */; };
+		BC0000000000000000000018 /* toolbar-32.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000018 /* toolbar-32.png */; };
+		BC0000000000000000000017 /* toolbar-16.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000017 /* toolbar-16.png */; };
+		BC0000000000000000000016 /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000016 /* icon-256.png */; };
+		BC0000000000000000000015 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000015 /* icon-128.png */; };
+		BC0000000000000000000014 /* icon-96.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000014 /* icon-96.png */; };
+		BC0000000000000000000013 /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000013 /* icon-64.png */; };
+		BC0000000000000000000012 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000012 /* icon-48.png */; };
+		BC0000000000000000000011 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000011 /* icon-32.png */; };
+		BC0000000000000000000010 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000010 /* icon-16.png */; };
+		BB0000000000000000000003 /* page-bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* page-bridge.js */; };
+		8378F0DD309358C80089605E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378F0DC309358C80089605E /* AppDelegate.swift */; };
+		8378F0E1309358C80089605E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 8378F0DF309358C80089605E /* Main.html */; };
+		8378F0E3309358C80089605E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8378F0E2309358C80089605E /* Icon.png */; };
+		8378F0E5309358C80089605E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8378F0E4309358C80089605E /* Style.css */; };
+		8378F0E7309358C80089605E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 8378F0E6309358C80089605E /* Script.js */; };
+		8378F0E9309358C80089605E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378F0E8309358C80089605E /* ViewController.swift */; };
+		8378F0EC309358C80089605E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8378F0EA309358C80089605E /* Main.storyboard */; };
+		8378F0EE309358C90089605E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8378F0ED309358C90089605E /* Assets.xcassets */; };
+		8378F0F5309358C90089605E /* UGREEN NAS Download Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8378F0F4309358C90089605E /* UGREEN NAS Download Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8378F0FA309358C90089605E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378F0F9309358C90089605E /* SafariWebExtensionHandler.swift */; };
+		8378F10C309358C90089605E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 8378F106309358C90089605E /* popup.js */; };
+		8378F10D309358C90089605E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 8378F107309358C90089605E /* background.js */; };
+		8378F10E309358C90089605E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 8378F108309358C90089605E /* popup.html */; };
+		8378F10F309358C90089605E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 8378F109309358C90089605E /* manifest.json */; };
+		8378F110309358C90089605E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 8378F10A309358C90089605E /* popup.css */; };
+		8378F111309358C90089605E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 8378F10B309358C90089605E /* content.js */; };
+		BB0000000000000000000001 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* options.html */; };
+		BB0000000000000000000002 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* options.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8378F0F6309358C90089605E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8378F0D1309358C80089605E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8378F0F3309358C90089605E;
+			remoteInfo = "UGREEN NAS Download Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8378F101309358C90089605E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				8378F0F5309358C90089605E /* UGREEN NAS Download Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE0520000000000000000006 /* icon-dark-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-256.png"; sourceTree = SOURCE_ROOT; };
+		DE0520000000000000000005 /* icon-dark-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-128.png"; sourceTree = SOURCE_ROOT; };
+		DE0520000000000000000004 /* icon-dark-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-96.png"; sourceTree = SOURCE_ROOT; };
+		DE0520000000000000000003 /* icon-dark-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-64.png"; sourceTree = SOURCE_ROOT; };
+		DE0520000000000000000002 /* icon-dark-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-48.png"; sourceTree = SOURCE_ROOT; };
+		DE0520000000000000000001 /* icon-dark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-32.png"; sourceTree = SOURCE_ROOT; };
+		DE0520000000000000000000 /* icon-dark-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-16.png"; sourceTree = SOURCE_ROOT; };
+		AAA052000000000000000002 /* UGREENIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer; path = "../../Design/Adaptive/UGREENIcon.icon"; sourceTree = SOURCE_ROOT; };
+		AC000000000000000000001B /* toolbar-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-128.png"; path = "../../../Extension/toolbar-128.png"; sourceTree = "<group>"; };
+		AC000000000000000000001A /* toolbar-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-64.png"; path = "../../../Extension/toolbar-64.png"; sourceTree = "<group>"; };
+		AC0000000000000000000019 /* toolbar-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-48.png"; path = "../../../Extension/toolbar-48.png"; sourceTree = "<group>"; };
+		AC0000000000000000000018 /* toolbar-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-32.png"; path = "../../../Extension/toolbar-32.png"; sourceTree = "<group>"; };
+		AC0000000000000000000017 /* toolbar-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-16.png"; path = "../../../Extension/toolbar-16.png"; sourceTree = "<group>"; };
+		AC0000000000000000000016 /* icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-256.png"; path = "../../../Extension/icon-256.png"; sourceTree = "<group>"; };
+		AC0000000000000000000015 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../../Extension/icon-128.png"; sourceTree = "<group>"; };
+		AC0000000000000000000014 /* icon-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-96.png"; path = "../../../Extension/icon-96.png"; sourceTree = "<group>"; };
+		AC0000000000000000000013 /* icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-64.png"; path = "../../../Extension/icon-64.png"; sourceTree = "<group>"; };
+		AC0000000000000000000012 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-48.png"; path = "../../../Extension/icon-48.png"; sourceTree = "<group>"; };
+		AC0000000000000000000011 /* icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-32.png"; path = "../../../Extension/icon-32.png"; sourceTree = "<group>"; };
+		AC0000000000000000000010 /* icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-16.png"; path = "../../../Extension/icon-16.png"; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* page-bridge.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = page-bridge.js; path = ../../../Extension/page-bridge.js; sourceTree = "<group>"; };
+		8378F0D9309358C80089605E /* UGREEN NAS Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UGREEN NAS Download.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8378F0DC309358C80089605E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8378F0E0309358C80089605E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		8378F0E2309358C80089605E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8378F0E4309358C80089605E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		8378F0E6309358C80089605E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		8378F0E8309358C80089605E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8378F0EB309358C80089605E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8378F0ED309358C90089605E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8378F0EF309358C90089605E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8378F0F4309358C90089605E /* UGREEN NAS Download Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UGREEN NAS Download Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8378F0F9309358C90089605E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		8378F0FB309358C90089605E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8378F106309358C90089605E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../../Extension/popup.js; sourceTree = "<group>"; };
+		8378F107309358C90089605E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../Extension/background.js; sourceTree = "<group>"; };
+		8378F108309358C90089605E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../../Extension/popup.html; sourceTree = "<group>"; };
+		8378F109309358C90089605E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../Extension/manifest.json; sourceTree = "<group>"; };
+		8378F10A309358C90089605E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../../Extension/popup.css; sourceTree = "<group>"; };
+		8378F10B309358C90089605E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../../Extension/content.js; sourceTree = "<group>"; };
+		AA0000000000000000000001 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text; name = options.html; path = ../../../Extension/options.html; sourceTree = "<group>"; };
+		AA0000000000000000000002 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = text; name = options.js; path = ../../../Extension/options.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8378F0D6309358C80089605E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8378F0F1309358C90089605E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8378F0D0309358C80089605E = {
+			isa = PBXGroup;
+			children = (
+				8378F0DB309358C80089605E /* UGREEN NAS Download */,
+				8378F0F8309358C90089605E /* UGREEN NAS Download Extension */,
+				8378F0DA309358C80089605E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8378F0DA309358C80089605E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8378F0D9309358C80089605E /* UGREEN NAS Download.app */,
+				8378F0F4309358C90089605E /* UGREEN NAS Download Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8378F0DB309358C80089605E /* UGREEN NAS Download */ = {
+			isa = PBXGroup;
+			children = (
+				8378F0DC309358C80089605E /* AppDelegate.swift */,
+				8378F0E8309358C80089605E /* ViewController.swift */,
+				8378F0EA309358C80089605E /* Main.storyboard */,
+				AAA052000000000000000002 /* UGREENIcon.icon */,
+				8378F0ED309358C90089605E /* Assets.xcassets */,
+				8378F0EF309358C90089605E /* Info.plist */,
+				8378F0DE309358C80089605E /* Resources */,
+			);
+			path = "UGREEN NAS Download";
+			sourceTree = "<group>";
+		};
+		8378F0DE309358C80089605E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8378F0DF309358C80089605E /* Main.html */,
+				8378F0E2309358C80089605E /* Icon.png */,
+				8378F0E4309358C80089605E /* Style.css */,
+				8378F0E6309358C80089605E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8378F0F8309358C90089605E /* UGREEN NAS Download Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8378F105309358C90089605E /* Resources */,
+				8378F0F9309358C90089605E /* SafariWebExtensionHandler.swift */,
+				8378F0FB309358C90089605E /* Info.plist */,
+			);
+			path = "UGREEN NAS Download Extension";
+			sourceTree = "<group>";
+		};
+		8378F105309358C90089605E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8378F106309358C90089605E /* popup.js */,
+				8378F107309358C90089605E /* background.js */,
+				8378F108309358C90089605E /* popup.html */,
+				8378F109309358C90089605E /* manifest.json */,
+				AA0000000000000000000002 /* options.js */,
+				AA0000000000000000000003 /* page-bridge.js */,
+				AC000000000000000000001B /* toolbar-128.png */,
+				AC000000000000000000001A /* toolbar-64.png */,
+				AC0000000000000000000019 /* toolbar-48.png */,
+				AC0000000000000000000018 /* toolbar-32.png */,
+				AC0000000000000000000017 /* toolbar-16.png */,
+				AC0000000000000000000016 /* icon-256.png */,
+				AC0000000000000000000015 /* icon-128.png */,
+				AC0000000000000000000014 /* icon-96.png */,
+				AC0000000000000000000013 /* icon-64.png */,
+				AC0000000000000000000012 /* icon-48.png */,
+				AC0000000000000000000011 /* icon-32.png */,
+				AC0000000000000000000010 /* icon-16.png */,
+				AA0000000000000000000001 /* options.html */,
+				8378F10A309358C90089605E /* popup.css */,
+				DE0520000000000000000000 /* icon-dark-16.png */,
+				DE0520000000000000000001 /* icon-dark-32.png */,
+				DE0520000000000000000002 /* icon-dark-48.png */,
+				DE0520000000000000000003 /* icon-dark-64.png */,
+				DE0520000000000000000004 /* icon-dark-96.png */,
+				DE0520000000000000000005 /* icon-dark-128.png */,
+				DE0520000000000000000006 /* icon-dark-256.png */,
+				8378F10B309358C90089605E /* content.js */,
+			);
+			name = Resources;
+			path = "UGREEN NAS Download Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8378F0D8309358C80089605E /* UGREEN NAS Download */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8378F102309358C90089605E /* Build configuration list for PBXNativeTarget "UGREEN NAS Download" */;
+			buildPhases = (
+				8378F0D5309358C80089605E /* Sources */,
+				8378F0D6309358C80089605E /* Frameworks */,
+				8378F0D7309358C80089605E /* Resources */,
+				8378F101309358C90089605E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8378F0F7309358C90089605E /* PBXTargetDependency */,
+			);
+			name = "UGREEN NAS Download";
+			productName = "UGREEN NAS Download";
+			productReference = 8378F0D9309358C80089605E /* UGREEN NAS Download.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8378F0F3309358C90089605E /* UGREEN NAS Download Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8378F0FE309358C90089605E /* Build configuration list for PBXNativeTarget "UGREEN NAS Download Extension" */;
+			buildPhases = (
+				8378F0F0309358C90089605E /* Sources */,
+				8378F0F1309358C90089605E /* Frameworks */,
+				8378F0F2309358C90089605E /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "UGREEN NAS Download Extension";
+			productName = "UGREEN NAS Download Extension";
+			productReference = 8378F0F4309358C90089605E /* UGREEN NAS Download Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8378F0D1309358C80089605E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					8378F0D8309358C80089605E = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					8378F0F3309358C90089605E = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = 8378F0D4309358C80089605E /* Build configuration list for PBXProject "UGREEN NAS Download" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8378F0D0309358C80089605E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8378F0DA309358C80089605E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8378F0D8309358C80089605E /* UGREEN NAS Download */,
+				8378F0F3309358C90089605E /* UGREEN NAS Download Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8378F0D7309358C80089605E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				8378F0E3309358C80089605E /* Icon.png in Resources */,
+				8378F0EC309358C80089605E /* Main.storyboard in Resources */,
+				8378F0E7309358C80089605E /* Script.js in Resources */,
+				8378F0E1309358C80089605E /* Main.html in Resources */,
+				AAA052000000000000000001 /* UGREENIcon.icon in Resources */,
+				8378F0EE309358C90089605E /* Assets.xcassets in Resources */,
+				8378F0E5309358C80089605E /* Style.css in Resources */,
+			);
+		};
+		8378F0F2309358C90089605E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				DD0520000000000000000000 /* icon-dark-16.png in Resources */,
+				DD0520000000000000000001 /* icon-dark-32.png in Resources */,
+				DD0520000000000000000002 /* icon-dark-48.png in Resources */,
+				DD0520000000000000000003 /* icon-dark-64.png in Resources */,
+				DD0520000000000000000004 /* icon-dark-96.png in Resources */,
+				DD0520000000000000000005 /* icon-dark-128.png in Resources */,
+				DD0520000000000000000006 /* icon-dark-256.png in Resources */,
+				8378F111309358C90089605E /* content.js in Resources */,
+				8378F110309358C90089605E /* popup.css in Resources */,
+				8378F10F309358C90089605E /* manifest.json in Resources */,
+				BB0000000000000000000002 /* options.js in Resources */,
+				BB0000000000000000000003 /* page-bridge.js in Resources */,
+				BC000000000000000000001B /* toolbar-128.png in Resources */,
+				BC000000000000000000001A /* toolbar-64.png in Resources */,
+				BC0000000000000000000019 /* toolbar-48.png in Resources */,
+				BC0000000000000000000018 /* toolbar-32.png in Resources */,
+				BC0000000000000000000017 /* toolbar-16.png in Resources */,
+				BC0000000000000000000016 /* icon-256.png in Resources */,
+				BC0000000000000000000015 /* icon-128.png in Resources */,
+				BC0000000000000000000014 /* icon-96.png in Resources */,
+				BC0000000000000000000013 /* icon-64.png in Resources */,
+				BC0000000000000000000012 /* icon-48.png in Resources */,
+				BC0000000000000000000011 /* icon-32.png in Resources */,
+				BC0000000000000000000010 /* icon-16.png in Resources */,
+				BB0000000000000000000001 /* options.html in Resources */,
+				8378F10D309358C90089605E /* background.js in Resources */,
+				8378F10E309358C90089605E /* popup.html in Resources */,
+				8378F10C309358C90089605E /* popup.js in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8378F0D5309358C80089605E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				8378F0E9309358C80089605E /* ViewController.swift in Sources */,
+				8378F0DD309358C80089605E /* AppDelegate.swift in Sources */,
+			);
+		};
+		8378F0F0309358C90089605E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				8378F0FA309358C90089605E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8378F0F7309358C90089605E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8378F0F3309358C90089605E /* UGREEN NAS Download Extension */;
+			targetProxy = 8378F0F6309358C90089605E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8378F0DF309358C80089605E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8378F0E0309358C80089605E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		8378F0EA309358C80089605E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8378F0EB309358C80089605E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8378F0FC309358C90089605E /* Debug configuration for PBXProject "UGREEN NAS Download" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8378F0FD309358C90089605E /* Release configuration for PBXProject "UGREEN NAS Download" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8378F0FF309358C90089605E /* Debug configuration for PBXNativeTarget "UGREEN NAS Download Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 51;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UGREEN NAS Download Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UGREEN NAS Download";
+				INFOPLIST_KEY_CFBundleName = "UGREEN NAS Download";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.5.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UGREENNASDownload.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8378F100309358C90089605E /* Release configuration for PBXNativeTarget "UGREEN NAS Download Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 51;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UGREEN NAS Download Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UGREEN NAS Download";
+				INFOPLIST_KEY_CFBundleName = "UGREEN NAS Download";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.5.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UGREENNASDownload.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8378F103309358C90089605E /* Debug configuration for PBXNativeTarget "UGREEN NAS Download" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = UGREENIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 51;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UGREEN NAS Download/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UGREEN NAS Download";
+				INFOPLIST_KEY_CFBundleName = "UGREEN NAS Download";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.5.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UGREENNASDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8378F104309358C90089605E /* Release configuration for PBXNativeTarget "UGREEN NAS Download" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = UGREENIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 51;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UGREEN NAS Download/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UGREEN NAS Download";
+				INFOPLIST_KEY_CFBundleName = "UGREEN NAS Download";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.5.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UGREENNASDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8378F0D4309358C80089605E /* Build configuration list for PBXProject "UGREEN NAS Download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8378F0FC309358C90089605E /* Debug configuration for PBXProject "UGREEN NAS Download" */,
+				8378F0FD309358C90089605E /* Release configuration for PBXProject "UGREEN NAS Download" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8378F0FE309358C90089605E /* Build configuration list for PBXNativeTarget "UGREEN NAS Download Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8378F0FF309358C90089605E /* Debug configuration for PBXNativeTarget "UGREEN NAS Download Extension" */,
+				8378F100309358C90089605E /* Release configuration for PBXNativeTarget "UGREEN NAS Download Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8378F102309358C90089605E /* Build configuration list for PBXNativeTarget "UGREEN NAS Download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8378F103309358C90089605E /* Debug configuration for PBXNativeTarget "UGREEN NAS Download" */,
+				8378F104309358C90089605E /* Release configuration for PBXNativeTarget "UGREEN NAS Download" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8378F0D1309358C80089605E /* Project object */;
+	validationLevel = 1;
+}
