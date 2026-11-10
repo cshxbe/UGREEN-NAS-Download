@@ -18,7 +18,7 @@ private enum DownloadNotifications {
         let settings=await status()
         guard settings["authorized"] as? Bool == true,settings["banners"] as? Bool == true else {
             logger.error("Notification blocked by system settings")
-            throw fail("Autorisez les bannières de UGREEN NAS Download dans Réglages Système → Notifications.")
+            throw fail(L("ui_cdc531eeb77d", "Autorisez les bannières de UGREEN NAS Download dans Réglages Système → Notifications."))
         }
         let content=UNMutableNotificationContent();content.title=title;content.body=body;content.sound = .default
         do {
@@ -26,14 +26,14 @@ private enum DownloadNotifications {
             logger.info("Notification submitted successfully")
         } catch {
             logger.error("Notification submission failed, code: \((error as NSError).code,privacy:.public)")
-            throw fail("macOS n’a pas accepté la notification. Vérifiez les réglages de notifications de l’application.")
+            throw fail(L("ui_b43b586485e3", "macOS n’a pas accepté la notification. Vérifiez les réglages de notifications de l’application."))
         }
     }
 }
 private enum ClientError: Error { case message(String); case expired }
 private func fail(_ message: String) -> ClientError { .message(message) }
 private func endpoint(_ raw: String) throws -> URL {
-    guard let c = URLComponents(string: raw.trimmingCharacters(in: .whitespacesAndNewlines)), c.scheme == "https", let host = c.host, !host.isEmpty, c.user == nil, c.password == nil, c.query == nil, c.fragment == nil, c.path.isEmpty || c.path == "/", let url = c.url else { throw fail("Utilisez une adresse HTTPS complète, avec son port, sans chemin ni identifiants.") }
+    guard let c = URLComponents(string: raw.trimmingCharacters(in: .whitespacesAndNewlines)), c.scheme == "https", let host = c.host, !host.isEmpty, c.user == nil, c.password == nil, c.query == nil, c.fragment == nil, c.path.isEmpty || c.path == "/", let url = c.url else { throw fail(L("ui_f5addc7b5c24", "Utilisez une adresse HTTPS complète, avec son port, sans chemin ni identifiants.")) }
     return url
 }
 private struct Account: Codable {
@@ -47,7 +47,7 @@ private enum Vault {
         var q = query(profile); q[kSecReturnData as String] = true; q[kSecMatchLimit as String] = kSecMatchLimitOne
         var item: CFTypeRef?; let status = SecItemCopyMatching(q as CFDictionary, &item)
         if status == errSecItemNotFound { return nil }
-        guard status == errSecSuccess, let data = item as? Data else { throw fail("Accès au Trousseau refusé ou verrouillé.") }
+        guard status == errSecSuccess, let data = item as? Data else { throw fail(L("ui_9209362478e0", "Accès au Trousseau refusé ou verrouillé.")) }
         return try JSONDecoder().decode(Account.self, from:data)
     }
     static func write(_ account: Account, _ profile: String) throws {
@@ -55,12 +55,12 @@ private enum Vault {
         let status = SecItemUpdate(q as CFDictionary,[kSecValueData as String:data] as CFDictionary)
         if status == errSecItemNotFound {
             var add = q; add[kSecValueData as String] = data; add[kSecAttrAccessible as String] = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
-            guard SecItemAdd(add as CFDictionary,nil) == errSecSuccess else { throw fail("Impossible d’enregistrer les identifiants dans le Trousseau.") }
-        } else if status != errSecSuccess { throw fail("Impossible de mettre à jour le Trousseau.") }
+            guard SecItemAdd(add as CFDictionary,nil) == errSecSuccess else { throw fail(L("ui_eb583918b61e", "Impossible d’enregistrer les identifiants dans le Trousseau.")) }
+        } else if status != errSecSuccess { throw fail(L("ui_079197b78282", "Impossible de mettre à jour le Trousseau.")) }
     }
     static func remove(_ profile: String) throws {
         let s = SecItemDelete(query(profile) as CFDictionary)
-        guard s == errSecSuccess || s == errSecItemNotFound else { throw fail("Suppression du compte impossible.") }
+        guard s == errSecSuccess || s == errSecItemNotFound else { throw fail(L("ui_b77404083cf4", "Suppression du compte impossible.")) }
     }
 }
 // A probe sends no password/token. Subsequent connections must match the approved certificate.
@@ -116,67 +116,67 @@ private final class Transport {
         completionHandler(.useCredential,URLCredential(trust:trust))
     }
     func webView(_ webView:WKWebView,decidePolicyFor navigationAction:WKNavigationAction,decisionHandler:@escaping(WKNavigationActionPolicy)->Void) {
-        guard navigationAction.request.url==request.url else {decisionHandler(.cancel);finish(.failure(fail("Redirection NAS refusée.")));return}
+        guard navigationAction.request.url==request.url else {decisionHandler(.cancel);finish(.failure(fail(L("ui_b52ac257e9d5", "Redirection NAS refusée."))));return}
         decisionHandler(.allow)
     }
     func webView(_ webView:WKWebView,didReceiveServerRedirectForProvisionalNavigation navigation:WKNavigation!) {
-        finish(.failure(fail("Redirection NAS refusée.")))
+        finish(.failure(fail(L("ui_b52ac257e9d5", "Redirection NAS refusée."))))
     }
     func webView(_ webView:WKWebView,decidePolicyFor navigationResponse:WKNavigationResponse,decisionHandler:@escaping(WKNavigationResponsePolicy)->Void) {
         guard let http=navigationResponse.response as? HTTPURLResponse,http.url==request.url,
               !(300..<400).contains(http.statusCode),http.expectedContentLength<4*1024*1024,
               ["application/json","text/plain"].contains(http.mimeType ?? "") else {
-            decisionHandler(.cancel);finish(.failure(fail("Réponse API NAS invalide ou redirection refusée.")));return
+            decisionHandler(.cancel);finish(.failure(fail(L("ui_f51ec28c3af6", "Réponse API NAS invalide ou redirection refusée."))));return
         }
         response=http;decisionHandler(.allow)
     }
     func webView(_ webView:WKWebView,didFinish navigation:WKNavigation!) {
-        guard let response=response else {finish(.failure(fail("Réponse NAS absente.")));return}
+        guard let response=response else {finish(.failure(fail(L("ui_ff1507c53259", "Réponse NAS absente."))));return}
         // The private content world reads JSON text; page JavaScript remains disabled.
         webView.evaluateJavaScript("document.body.textContent",in:nil,in:.defaultClient) { result in
             switch result {
             case .success(let value):
-                guard let text=value as? String,let data=text.data(using:.utf8),data.count<4*1024*1024 else {self.finish(.failure(fail("Réponse NAS trop volumineuse.")));return}
+                guard let text=value as? String,let data=text.data(using:.utf8),data.count<4*1024*1024 else {self.finish(.failure(fail(L("ui_d6ce26cae65c", "Réponse NAS trop volumineuse."))));return}
                 self.finish(.success((data,response,self.observed)))
-            case .failure: self.finish(.failure(fail("Lecture de la réponse NAS impossible.")))
+            case .failure: self.finish(.failure(fail(L("ui_ae437aff49ba", "Lecture de la réponse NAS impossible."))))
             }
         }
     }
     func webView(_ webView:WKWebView,didFailProvisionalNavigation navigation:WKNavigation!,withError error:Error) {finish(.failure(error))}
     func webView(_ webView:WKWebView,didFail navigation:WKNavigation!,withError error:Error) {finish(.failure(error))}
-    func webViewWebContentProcessDidTerminate(_ webView:WKWebView) {finish(.failure(fail("Connexion NAS interrompue.")))}
+    func webViewWebContentProcessDidTerminate(_ webView:WKWebView) {finish(.failure(fail(L("ui_a974c8e3f389", "Connexion NAS interrompue."))))}
 }
 private func rsaKey(_ raw: String) throws -> SecKey {
     var text=raw.trimmingCharacters(in:.whitespacesAndNewlines)
     if let decoded=Data(base64Encoded:text), let pem=String(data:decoded,encoding:.utf8),pem.contains("BEGIN") {text=pem}
     let content=text.components(separatedBy:.newlines).filter{!$0.contains("-----")}.joined()
-    guard let data=Data(base64Encoded:content,options:.ignoreUnknownCharacters) else {throw fail("Clé de connexion NAS invalide.")}
+    guard let data=Data(base64Encoded:content,options:.ignoreUnknownCharacters) else {throw fail(L("ui_b044999d35ab", "Clé de connexion NAS invalide."))}
     let attributes:[String:Any]=[kSecAttrKeyType as String:kSecAttrKeyTypeRSA,kSecAttrKeyClass as String:kSecAttrKeyClassPublic]
     if let key=SecKeyCreateWithData(data as CFData,attributes as CFDictionary,nil) {return key}
     // Unwrap SubjectPublicKeyInfo into PKCS#1, without assuming fixed DER lengths.
     func field(_ d:Data,_ index:inout Int) throws -> (UInt8,Data) {
-        let bytes=Array(d);guard index+2<=bytes.count else {throw fail("DER invalide.")}
+        let bytes=Array(d);guard index+2<=bytes.count else {throw fail(L("ui_428d624126cb", "DER invalide."))}
         let tag=bytes[index];index+=1;let first=Int(bytes[index]);index+=1;var length=first
-        if first&128 != 0 {let count=first&127;guard count>0 && count<=4 && index+count<=bytes.count else {throw fail("DER invalide.")};length=0;for _ in 0..<count {length=(length<<8)|Int(bytes[index]);index+=1}}
-        guard length>=0 && length<=bytes.count-index else {throw fail("DER invalide.")}
+        if first&128 != 0 {let count=first&127;guard count>0 && count<=4 && index+count<=bytes.count else {throw fail(L("ui_428d624126cb", "DER invalide."))};length=0;for _ in 0..<count {length=(length<<8)|Int(bytes[index]);index+=1}}
+        guard length>=0 && length<=bytes.count-index else {throw fail(L("ui_428d624126cb", "DER invalide."))}
         let result=Data(bytes[index..<index+length]);index+=length;return(tag,result)
     }
-    var i=0;let outer=try field(data,&i);guard outer.0==0x30 else {throw fail("Clé RSA invalide.")}
+    var i=0;let outer=try field(data,&i);guard outer.0==0x30 else {throw fail(L("ui_7b80438ec983", "Clé RSA invalide."))}
     i=0;_ = try field(outer.1,&i);let bits=try field(outer.1,&i)
-    guard bits.0==3,bits.1.first==0,let key=SecKeyCreateWithData(bits.1.dropFirst() as CFData,attributes as CFDictionary,nil) else {throw fail("Clé RSA non prise en charge.")}
+    guard bits.0==3,bits.1.first==0,let key=SecKeyCreateWithData(bits.1.dropFirst() as CFData,attributes as CFDictionary,nil) else {throw fail(L("ui_dbb5f4df5427", "Clé RSA non prise en charge."))}
     return key
 }
 private func encryptPassword(_ password:String,key:SecKey) throws -> String {
-    guard let data=SecKeyCreateEncryptedData(key,.rsaEncryptionPKCS1,Data(password.utf8) as CFData,nil) else {throw fail("Chiffrement du mot de passe impossible.")}
+    guard let data=SecKeyCreateEncryptedData(key,.rsaEncryptionPKCS1,Data(password.utf8) as CFData,nil) else {throw fail(L("ui_e7bd42ba90b0", "Chiffrement du mot de passe impossible."))}
     return (data as Data).base64EncodedString()
 }
 private func link(_ raw:String) throws -> String {
-    guard raw.utf8.count<=65536,!raw.contains(where:{$0.isNewline || $0=="\0"}), let u=URLComponents(string:raw),u.user==nil,u.password==nil else {throw fail("Lien invalide.")}
+    guard raw.utf8.count<=65536,!raw.contains(where:{$0.isNewline || $0=="\0"}), let u=URLComponents(string:raw),u.user==nil,u.password==nil else {throw fail(L("ui_6658df9c38ab", "Lien invalide."))}
     if u.scheme?.lowercased()=="magnet" {
         let values=u.queryItems?.filter{$0.name=="xt"}.compactMap{$0.value} ?? []
         let pattern="^urn:(btih:([a-f0-9]{40}|[a-z2-7]{32})|btmh:1220[a-f0-9]{64})$"
-        guard values.contains(where:{$0.range(of:pattern,options:[.regularExpression,.caseInsensitive]) != nil}) else {throw fail("Identifiant magnet invalide.")}
-    } else {guard ["https","http"].contains(u.scheme?.lowercased() ?? ""),u.host != nil,u.path.lowercased().hasSuffix(".torrent") else {throw fail("URL torrent invalide.")}}
+        guard values.contains(where:{$0.range(of:pattern,options:[.regularExpression,.caseInsensitive]) != nil}) else {throw fail(L("ui_f3cdccb5402b", "Identifiant magnet invalide."))}
+    } else {guard ["https","http"].contains(u.scheme?.lowercased() ?? ""),u.host != nil,u.path.lowercased().hasSuffix(".torrent") else {throw fail(L("ui_cb5b339795b7", "URL torrent invalide."))}}
     return raw
 }
 // Context-menu/manual downloads accept any remote file type, independently of the torrent interceptor.
@@ -185,41 +185,41 @@ private func downloadLink(_ raw:String) throws -> String {
     guard raw.utf8.count<=65536,!raw.contains(where:{$0.isNewline || $0=="\0"}),
           let c=URLComponents(string:raw),["http","https"].contains(c.scheme?.lowercased() ?? ""),
           let host=c.host,!host.isEmpty,c.user==nil,c.password==nil,c.url != nil else {
-        throw fail("Utilisez un lien HTTP ou HTTPS direct vers le fichier, sans identifiants intégrés.")
+        throw fail(L("ui_cd3dac3e4a2a", "Utilisez un lien HTTP ou HTTPS direct vers le fichier, sans identifiants intégrés."))
     }
     return raw
 }
 private func torrentData(_ raw:String) throws -> Data {
-    guard raw.utf8.count<=699052,let data=Data(base64Encoded:raw),data.count<=524288,!data.isEmpty else {throw fail("Torrent invalide ou supérieur à 512 Ko.")}
+    guard raw.utf8.count<=699052,let data=Data(base64Encoded:raw),data.count<=524288,!data.isEmpty else {throw fail(L("ui_3716aaf78bec", "Torrent invalide ou supérieur à 512 Ko."))}
     let bytes=Array(data);var index=0;var nodes=0;var hasInfo=false
     func parse(_ depth:Int,_ root:Bool=false) throws {
-        nodes+=1;guard depth<=32,nodes<=100000,index<bytes.count else {throw fail("Structure torrent invalide.")}
+        nodes+=1;guard depth<=32,nodes<=100000,index<bytes.count else {throw fail(L("ui_912d2e061225", "Structure torrent invalide."))}
         let marker=bytes[index]
         if marker>=48 && marker<=57 {
             var length=0;var digits=0
-            while index<bytes.count,bytes[index]>=48,bytes[index]<=57 {digits+=1;guard digits<=7 else {throw fail("Longueur torrent invalide.")};length=length*10+Int(bytes[index]-48);index+=1}
-            guard index<bytes.count,bytes[index]==58,length<=bytes.count-index-1 else {throw fail("Chaîne torrent invalide.")};index+=1+length
+            while index<bytes.count,bytes[index]>=48,bytes[index]<=57 {digits+=1;guard digits<=7 else {throw fail(L("ui_3326f8e02c15", "Longueur torrent invalide."))};length=length*10+Int(bytes[index]-48);index+=1}
+            guard index<bytes.count,bytes[index]==58,length<=bytes.count-index-1 else {throw fail(L("ui_a74be4e6d377", "Chaîne torrent invalide."))};index+=1+length
         } else if marker==105 {
             index+=1;if index<bytes.count,bytes[index]==45 {index+=1}
             let start=index;while index<bytes.count,bytes[index]>=48,bytes[index]<=57 {index+=1}
-            guard index>start,index<bytes.count,bytes[index]==101 else {throw fail("Entier torrent invalide.")};index+=1
+            guard index>start,index<bytes.count,bytes[index]==101 else {throw fail(L("ui_8402366c958d", "Entier torrent invalide."))};index+=1
         } else if marker==108 || marker==100 {
             index+=1
             while index<bytes.count,bytes[index] != 101 {
                 if marker==100 {
-                    guard bytes[index]>=48,bytes[index]<=57 else {throw fail("Clé torrent invalide.")}
+                    guard bytes[index]>=48,bytes[index]<=57 else {throw fail(L("ui_2d34af66a278", "Clé torrent invalide."))}
                     let start=index;try parse(depth+1)
                     let isInfo=root && Array(bytes[start..<index])==Array("4:info".utf8)
-                    if isInfo {guard index<bytes.count,bytes[index]==100,!hasInfo else {throw fail("Dictionnaire info invalide.")};hasInfo=true}
+                    if isInfo {guard index<bytes.count,bytes[index]==100,!hasInfo else {throw fail(L("ui_82813a88c223", "Dictionnaire info invalide."))};hasInfo=true}
                     try parse(depth+1)
                 } else {try parse(depth+1)}
             }
-            guard index<bytes.count else {throw fail("Torrent incomplet.")};index+=1
-        } else {throw fail("Contenu reçu non torrent.")}
+            guard index<bytes.count else {throw fail(L("ui_b88378cc7549", "Torrent incomplet."))};index+=1
+        } else {throw fail(L("ui_4024b2fc5907", "Contenu reçu non torrent."))}
     }
-    guard bytes.first==100 else {throw fail("Le contenu reçu n’est pas un torrent.")}
+    guard bytes.first==100 else {throw fail(L("ui_75f70ed3140a", "Le contenu reçu n’est pas un torrent."))}
     try parse(0,true)
-    guard index==bytes.count,hasInfo else {throw fail("Métadonnées torrent absentes ou invalides.")}
+    guard index==bytes.count,hasInfo else {throw fail(L("ui_4a8e63360f63", "Métadonnées torrent absentes ou invalides."))}
     return data
 }
 private func nasSaveDirectory(_ path:String) -> String {
@@ -233,7 +233,7 @@ private func resourceImport(_ parsed:[String:Any]) throws -> [String:Any]? {
     guard let roots=parsed["files"] as? [[String:Any]],!roots.isEmpty else {return nil}
     var leaves:[[String:Any]]=[]
     func walk(_ nodes:[[String:Any]],depth:Int) throws {
-        guard depth<=32,leaves.count<=100000 else {throw fail("Arborescence du torrent trop volumineuse.")}
+        guard depth<=32,leaves.count<=100000 else {throw fail(L("ui_90c67be91210", "Arborescence du torrent trop volumineuse."))}
         for node in nodes {
             let children=node["files"] as? [[String:Any]] ?? []
             let folder=(node["type"] as? NSNumber)?.boolValue == true || !children.isEmpty
@@ -242,14 +242,14 @@ private func resourceImport(_ parsed:[String:Any]) throws -> [String:Any]? {
         }
     }
     try walk(roots,depth:0)
-    guard !leaves.isEmpty else {throw fail("Le NAS n’a identifié aucun fichier à télécharger.")}
+    guard !leaves.isEmpty else {throw fail(L("ui_8eb203ba941d", "Le NAS n’a identifié aucun fichier à télécharger."))}
     let first=leaves[0]
     var name=leaves.count==1 ? first["name"] as? String : roots.first?["name"] as? String
     if name == nil || name=="/" || name?.isEmpty==true {name=parsed["task_name"] as? String}
-    guard let raw=name,!raw.isEmpty,raw != "/" else {throw fail("Le NAS n’a pas identifié le nom du torrent. Aucune tâche n’a été confirmée.")}
+    guard let raw=name,!raw.isEmpty,raw != "/" else {throw fail(L("ui_137e68b05223", "Le NAS n’a pas identifié le nom du torrent. Aucune tâche n’a été confirmée."))}
     // Use the NAS's filename restrictions while preserving the extension.
     let cleaned=raw.components(separatedBy:CharacterSet(charactersIn:"\\/:*?\"<>|\r\n\0")).joined(separator:" ").trimmingCharacters(in:.whitespacesAndNewlines)
-    guard !cleaned.isEmpty,cleaned.count<=255,!cleaned.hasPrefix("."),!cleaned.hasPrefix(":") else {throw fail("Nom de tâche refusé par le NAS.")}
+    guard !cleaned.isEmpty,cleaned.count<=255,!cleaned.hasPrefix("."),!cleaned.hasPrefix(":") else {throw fail(L("ui_5ebaf4042fab", "Nom de tâche refusé par le NAS."))}
     var result:[String:Any]=["task_name":cleaned,"resource_files":leaves,"force":false]
     for key in ["save_dir","link_type","download_url","resource_path"] {if let value=parsed[key] {result[key]=value}}
     return result
@@ -260,7 +260,7 @@ private func downloadBatch(_ data:[String:Any]) throws -> [[String:Any]] {
         let count=(data["total"] as? NSNumber)?.intValue ?? Int(data["total"] as? String ?? "")
         if count == nil || count == 0 {return []}
     }
-    throw fail("Liste des téléchargements reçue dans un format inattendu.")
+    throw fail(L("ui_409c39d465ec", "Liste des téléchargements reçue dans un format inattendu."))
 }
 // A full page without a total is not evidence that the list ends here.
 private func downloadTotal(_ data:[String:Any])->Int? {
@@ -274,9 +274,9 @@ private func downloadPageFinished(_ data:[String:Any],batchCount:Int,receivedCou
 private func downloadEvent(previous:Int?,current:Int) -> String? {
     guard let previous=previous,previous != current else {return nil}
     switch current {
-    case 3:return "Téléchargement terminé"
-    case 4:return "Téléchargement stoppé"
-    case 5:return "Téléchargement en erreur"
+    case 3:return L("ui_19356d0fa0b7", "Téléchargement terminé")
+    case 4:return L("ui_f01c5b082925", "Téléchargement stoppé")
+    case 5:return L("ui_8a9821880139", "Téléchargement en erreur")
     default:return nil
     }
 }
@@ -290,10 +290,10 @@ private func newDownloadEvents(previous:[[String:Any]]?,current:[[String:Any]],k
         guard let state=task["state"] as? Int else {return nil}
         let title:String?
         if let old=before[id] {title=downloadEvent(previous:old,current:state)}
-        else if state==3 {title=knownCompleted.map{!$0.contains(id) ? "Téléchargement terminé" : nil} ?? nil}
+        else if state==3 {title=knownCompleted.map{!$0.contains(id) ? L("ui_19356d0fa0b7", "Téléchargement terminé") : nil} ?? nil}
         else {title=downloadEvent(previous:0,current:state)}
         guard let title=title else {return nil}
-        return ["title":title,"name":task["name"] ?? "Téléchargement"]
+        return ["title":title,"name":task["name"] ?? L("ui_38858cd588e0", "Téléchargement")]
     }
 }
 private func downloadRows(_ rows:[[String:Any]]) -> [[String:Any]] {
@@ -315,7 +315,7 @@ private final class DiscoveryRedirectPolicy:NSObject,URLSessionTaskDelegate,@unc
     func urlSession(_ session:URLSession,task:URLSessionTask,willPerformHTTPRedirection response:HTTPURLResponse,newRequest request:URLRequest,completionHandler:@escaping(URLRequest?)->Void){completionHandler(nil)}
 }
 private func discoveredNAS(_ data:Data) throws -> [[String:String]] {
-    guard data.count<=1_048_576,let root=try JSONSerialization.jsonObject(with:data) as? [String:Any],root["code"] as? Int == 200,let body=root["data"] as? [String:Any],let rows=body["deviceMatchs"] as? [[String:Any]] else {throw fail("Réponse du service de recherche UGREEN inattendue.")}
+    guard data.count<=1_048_576,let root=try JSONSerialization.jsonObject(with:data) as? [String:Any],root["code"] as? Int == 200,let body=root["data"] as? [String:Any],let rows=body["deviceMatchs"] as? [[String:Any]] else {throw fail(L("ui_5dffb3ac450b", "Réponse du service de recherche UGREEN inattendue."))}
     var results:[[String:String]]=[];var seen=Set<String>()
     for row in rows.prefix(100) {
         guard let ext=row["ext"] as? [String:Any],let port=ext["httpsPort"] as? Int,(1...65535).contains(port) else {continue}
@@ -337,7 +337,7 @@ private func discoverNAS() async throws -> [[String:String]] {
     let session=URLSession(configuration:config,delegate:DiscoveryRedirectPolicy(),delegateQueue:nil);defer{session.invalidateAndCancel()}
     var request=URLRequest(url:URL(string:"https://api.ugnas.com/api/device/v1/ua/network/match")!);request.httpMethod="POST";request.httpBody=Data("{}".utf8);request.setValue("application/json",forHTTPHeaderField:"Content-Type")
     let (data,response)=try await session.data(for:request)
-    guard let http=response as? HTTPURLResponse,http.statusCode==200 else {throw fail("Le service de recherche UGREEN est indisponible.")}
+    guard let http=response as? HTTPURLResponse,http.statusCode==200 else {throw fail(L("ui_6772a23b59ca", "Le service de recherche UGREEN est indisponible."))}
     return try discoveredNAS(data)
 }
 
@@ -478,7 +478,7 @@ private actor NAS {
             UserDefaults.standard.set(false,forKey:"ugreen.notificationsEnabled."+profile)
             return ["ok":true]
         }
-        guard !busy else {return ["ok":false,"busy":true,"error":"Une opération NAS est déjà en cours."]}
+        guard !busy else {return ["ok":false,"busy":true,"error":L("ui_89450dc3c8e2", "Une opération NAS est déjà en cours.")]}
         busy=true;defer{busy=false}
         do {
             switch m["command"] as? String {
@@ -492,23 +492,23 @@ private actor NAS {
                 let transport=Transport(host:u.host!,pin:nil)
                 var request=URLRequest(url:u.appendingPathComponent("ugreen/v1/verify/check"));request.httpMethod="POST";request.httpBody=Data("{}".utf8);request.setValue("application/json",forHTTPHeaderField:"Content-Type")
                 _ = try await transport.perform(request)
-                guard let pin=transport.observed else {throw fail("Certificat NAS indisponible.")}
+                guard let pin=transport.observed else {throw fail(L("ui_03bfba1ab6f4", "Certificat NAS indisponible."))}
                 let id=UUID().uuidString
                 UserDefaults.standard.set(["id":id,"address":u.absoluteString,"pin":pin,"date":Date()],forKey:pendingPrefix+profile)
                 return ["ok":true,"candidate":id,"fingerprint":pin]
             case "configure":
                 let u=try endpoint(m["address"] as? String ?? "")
-                guard let id=m["candidate"] as? String,let candidate=UserDefaults.standard.dictionary(forKey:pendingPrefix+profile),candidate["id"] as? String==id,candidate["address"] as? String==u.absoluteString,let pin=candidate["pin"] as? String,let date=candidate["date"] as? Date,Date().timeIntervalSince(date)<300 else {throw fail("Vérifiez de nouveau le certificat avant d’enregistrer le compte.")}
+                guard let id=m["candidate"] as? String,let candidate=UserDefaults.standard.dictionary(forKey:pendingPrefix+profile),candidate["id"] as? String==id,candidate["address"] as? String==u.absoluteString,let pin=candidate["pin"] as? String,let date=candidate["date"] as? Date,Date().timeIntervalSince(date)<300 else {throw fail(L("ui_094557fca057", "Vérifiez de nouveau le certificat avant d’enregistrer le compte."))}
                 UserDefaults.standard.removeObject(forKey:pendingPrefix+profile)
                 let user=(m["username"] as? String ?? "").trimmingCharacters(in:.whitespacesAndNewlines)
                 let old=try Vault.read(profile)
                 var password=m["password"] as? String ?? ""
                 if password.isEmpty,let old=old,old.address==u.absoluteString,old.username==user {password=old.password}
                 let dir=m["saveDir"] as? String ?? ""
-                guard !user.isEmpty,!password.isEmpty,dir.hasPrefix("/"),dir.count<2048,!dir.contains(where:{$0.isNewline || $0=="\0"}) else {throw fail("Identifiants ou dossier de destination incomplets.")}
+                guard !user.isEmpty,!password.isEmpty,dir.hasPrefix("/"),dir.count<2048,!dir.contains(where:{$0.isNewline || $0=="\0"}) else {throw fail(L("ui_7143f9a88e8f", "Identifiants ou dossier de destination incomplets."))}
                 var a=Account(address:u.absoluteString,username:user,password:password,fingerprint:pin,saveDir:dir,clientID:old?.clientID ?? UUID().uuidString,token:nil,authType:nil)
                 try await login(&a,profile:profile,otp:m["otp"] as? String ?? "",trustDevice:m["trustDevice"] as? Bool ?? false);try Vault.write(a,profile)
-                return ["ok":true,"message":"Connexion réussie. Identifiants et session enregistrés dans le Trousseau."]
+                return ["ok":true,"message":L("ui_d82863a8cab7", "Connexion réussie. Identifiants et session enregistrés dans le Trousseau.")]
             case "forget":if let a=try Vault.read(profile){UserDefaults.standard.removeObject(forKey:labelKey(a,profile:profile))};try Vault.remove(profile);return ["ok":true]
             case "labelDownloads":
                 guard var a=try Vault.read(profile),!readLabelJobs(a,profile:profile).isEmpty else{return ["ok":true]}
@@ -517,7 +517,7 @@ private actor NAS {
                 return ["ok":true]
             case "heartbeat":
                 guard let a=try Vault.read(profile),a.token != nil else {return ["ok":true]}
-                do {_ = try await request(a,"GET","ugreen/v1/verify/heartbeat");return ["ok":true]} catch {return ["ok":false,"error":"Session à renouveler lors du prochain envoi."]}
+                do {_ = try await request(a,"GET","ugreen/v1/verify/heartbeat");return ["ok":true]} catch {return ["ok":false,"error":L("ui_4bb0c308d018", "Session à renouveler lors du prochain envoi.")]}
             case "enableNotifications":
                 let allowed=try await UNUserNotificationCenter.current().requestAuthorization(options:[.alert,.sound])
                 if allowed {UserDefaults.standard.set(true,forKey:"ugreen.notificationsEnabled."+profile)}
@@ -528,12 +528,12 @@ private actor NAS {
                     UserDefaults.standard.removeObject(forKey:snapshot+".pending")
                     UserDefaults.standard.removeObject(forKey:snapshot+".completed")
                 }
-                return ["ok":allowed,"error":allowed ? "" : "Autorisez les notifications dans Réglages Système → Notifications."]
+                return ["ok":allowed,"error":allowed ? "" : L("ui_6b7a96d5703e", "Autorisez les notifications dans Réglages Système → Notifications.")]
             case "testNotification":
                 try await DownloadNotifications.send(id:"ugreen-notification-test",title:"Notification de test",body:"Les notifications de UGREEN NAS Download fonctionnent sur ce Mac.")
                 return ["ok":true]
             case "downloads","monitorDownloads":
-                guard var a=try Vault.read(profile) else {return ["ok":false,"needsSetup":true,"error":"Configurez votre NAS dans les réglages."]}
+                guard var a=try Vault.read(profile) else {return ["ok":false,"needsSetup":true,"error":L("ui_207aa6d45769", "Configurez votre NAS dans les réglages.")]}
                 if a.token == nil {try await login(&a,profile:profile)}
                 var rows:[[String:Any]]=[]
                 var page=1;var total=0
@@ -542,7 +542,7 @@ private actor NAS {
                     var response:[String:Any]
                     do {response=try await request(a,"GET",path)}
                     catch ClientError.expired {try await recover(&a,profile:profile);response=try await request(a,"GET",path)}
-                    guard let data=response["data"] as? [String:Any] else {throw fail("Liste des téléchargements reçue dans un format inattendu.")}
+                    guard let data=response["data"] as? [String:Any] else {throw fail(L("ui_409c39d465ec", "Liste des téléchargements reçue dans un format inattendu."))}
                     let batch=try downloadBatch(data)
                     total=downloadTotal(data) ?? rows.count+batch.count+(batch.count==50 ? 1:0)
                     rows.append(contentsOf:batch)
@@ -579,12 +579,12 @@ private actor NAS {
                         let response:[String:Any]
                         do{response=try await request(a,"GET","ugreen/v1/downloadCenter/complete/getListV2?page=\(completePage)&page_size=50")}
                         catch ClientError.expired{try await recover(&a,profile:profile);response=try await request(a,"GET","ugreen/v1/downloadCenter/complete/getListV2?page=\(completePage)&page_size=50")}
-                        guard let data=response["data"] as? [String:Any] else{throw fail("Liste des fichiers terminés indisponible.")}
+                        guard let data=response["data"] as? [String:Any] else{throw fail(L("ui_e15ebf8c3f20", "Liste des fichiers terminés indisponible."))}
                         let batch=try downloadBatch(data);completeRows.append(contentsOf:batch)
                         if downloadPageFinished(data,batchCount:batch.count,receivedCount:completeRows.count){break}
                         completePage+=1
                     }
-                    guard completePage<=200 else{throw fail("Trop de fichiers terminés pour assurer un suivi complet des notifications.")}
+                    guard completePage<=200 else{throw fail(L("ui_ce120d12a24d", "Trop de fichiers terminés pour assurer un suivi complet des notifications."))}
                     let completed=downloadRows(completeRows.map{row in var row=row;row["task_status"]=2;return row}).map{row in var row=row;row["state"]=3;return row}
                     var current=tasks+completed
                     var pending=UserDefaults.standard.array(forKey:key+".pending") as? [[String:Any]] ?? []
@@ -594,11 +594,11 @@ private actor NAS {
                         if rows.count>=total,id.range(of:"^[a-zA-Z0-9_-]+$",options:.regularExpression) != nil,
                            let detail=try? await request(a,"GET","ugreen/v1/downloadCenter/complete/getTaskInfo?id=\(id)"),
                            let data=detail["data"] as? [String:Any], let state=(data["task_status"] as? NSNumber) ?? (((data["download_completed_time"] as? NSNumber)?.doubleValue ?? 0)>0 ? NSNumber(value:3) : nil),state.intValue==3 {
-                            current.append(["id":id,"name":old["name"] ?? "Téléchargement","state":3])
+                            current.append(["id":id,"name":old["name"] ?? L("ui_38858cd588e0", "Téléchargement"),"state":3])
                         }
                     }
                     for event in newDownloadEvents(previous:previous,current:current,knownCompleted:knownCompleted) {
-                        pending.append(["id":UUID().uuidString,"title":event["title"] ?? "Téléchargement","name":String((event["name"] as? String ?? "Téléchargement").prefix(1024))])
+                        pending.append(["id":UUID().uuidString,"title":event["title"] ?? L("ui_38858cd588e0", "Téléchargement"),"name":String((event["name"] as? String ?? L("ui_38858cd588e0", "Téléchargement")).prefix(1024))])
                     }
                     let completedIDs=Set(completed.compactMap{$0["id"] as? String})
                     UserDefaults.standard.set(Array((knownCompleted ?? []).union(completedIDs)).sorted().suffix(10000).map{$0},forKey:completedKey)
@@ -609,7 +609,7 @@ private actor NAS {
                         if UserDefaults.standard.object(forKey:"ugreen.notificationsEnabled."+profile) as? Bool == false {
                             UserDefaults.standard.removeObject(forKey:key+".pending");break
                         }
-                        try await DownloadNotifications.send(id:"ugreen-"+(event["id"] as? String ?? "event"),title:event["title"] as? String ?? "Téléchargement",body:event["name"] as? String ?? "Torrent")
+                        try await DownloadNotifications.send(id:"ugreen-"+(event["id"] as? String ?? "event"),title:event["title"] as? String ?? L("ui_38858cd588e0", "Téléchargement"),body:event["name"] as? String ?? "Torrent")
                         pending.removeFirst();UserDefaults.standard.set(pending,forKey:key+".pending")
                     }
                 }
@@ -618,7 +618,7 @@ private actor NAS {
                 let isFile=m["command"] as? String=="sendTorrent"
                 let file=isFile ? try torrentData(m["data"] as? String ?? "") : nil
                 let value=isFile ? "" : try (m["command"] as? String == "sendDownload" ? downloadLink(m["link"] as? String ?? "") : link(m["link"] as? String ?? ""))
-                guard var a=try Vault.read(profile) else {return ["ok":false,"needsSetup":true,"error":"Configurez votre NAS dans les options de l’extension." ]}
+                guard var a=try Vault.read(profile) else {return ["ok":false,"needsSetup":true,"error":L("ui_ffe11a4deea9", "Configurez votre NAS dans les options de l’extension.") ]}
                 if a.token == nil {try await login(&a,profile:profile)}
                 else {
                     do {_ = try await request(a,"GET","ugreen/v1/verify/is_login")}
@@ -647,7 +647,7 @@ private actor NAS {
                 catch ClientError.expired {try await recover(&a,profile:profile);response=try await request(a,"POST",path,body:body,contentType:"multipart/form-data; boundary=\(boundary)")}
                 // Retry only an explicit authentication rejection, never a timeout or ambiguous response.
                 let data=response["data"] as? [String:Any] ?? [:]
-                guard (data["status"] as? Int ?? (isFile ? data["result"] as? Int : nil))==0 else {let code=data["status"] as? Int ?? -1;throw fail("Tâche non confirmée par le NAS (état \(code)). Vérifiez Téléchargements avant de réessayer.")}
+                guard (data["status"] as? Int ?? (isFile ? data["result"] as? Int : nil))==0 else {let code=data["status"] as? Int ?? -1;throw fail(L("ui_85d198010d47", "Tâche non confirmée par le NAS (état %d). Vérifiez Téléchargements avant de réessayer.", code))}
                 if var selected=try resourceImport(data) {
                     selected["save_dir"]=saveDir
                     let payload=try JSONSerialization.data(withJSONObject:selected)
@@ -656,36 +656,36 @@ private actor NAS {
                     do {confirmation=try await request(a,"POST",commitPath,body:payload,contentType:"application/json")}
                     catch ClientError.expired {try await recover(&a,profile:profile);confirmation=try await request(a,"POST",commitPath,body:payload,contentType:"application/json")}
                     let result=confirmation["data"] as? [String:Any] ?? [:]
-                    if let status=result["status"] as? Int ?? result["result"] as? Int,status != 0 {throw fail("Le NAS n’a pas confirmé les fichiers (état \(status)). Vérifiez Téléchargements avant de réessayer.")}
+                    if let status=result["status"] as? Int ?? result["result"] as? Int,status != 0 {throw fail(L("ui_353a6a7f7fa5", "Le NAS n’a pas confirmé les fichiers (état %d). Vérifiez Téléchargements avant de réessayer.", status))}
                 } else if isFile {
-                    throw fail("Le NAS n’a retourné aucun fichier à confirmer. Vérifiez Téléchargements avant de réessayer.")
+                    throw fail(L("ui_bcdcbe57a1af", "Le NAS n’a retourné aucun fichier à confirmer. Vérifiez Téléchargements avant de réessayer."))
                 }
                 if let labelJob {
                     var jobs=readLabelJobs(a,profile:profile);jobs.append(labelJob);saveLabelJobs(jobs,a,profile:profile)
                     try? await repairLabels(&a,profile:profile)
                 }
-                return ["ok":true,"message":"Tâche acceptée par Téléchargements du NAS."+(labelAllowed && label.ext==nil && ((URL(string:value)?.lastPathComponent ?? "") as NSString).pathExtension.isEmpty ? " Type non identifié : le nom d’origine sera conservé." : "")]
+                return ["ok":true,"message":L("ui_ecf3d342b3b1", "Tâche acceptée par Téléchargements du NAS.")+(labelAllowed && label.ext==nil && ((URL(string:value)?.lastPathComponent ?? "") as NSString).pathExtension.isEmpty ? L("ui_8534c1e85d41", " Type non identifié : le nom d’origine sera conservé.") : "")]
 
-            default:throw fail("Commande non prise en charge.")
+            default:throw fail(L("ui_ee8668932e6f", "Commande non prise en charge."))
             }
         } catch ClientError.message(let message) {return ["ok":false,"error":message]}
-        catch ClientError.expired {return ["ok":false,"error":"Session refusée. Vérifiez les identifiants dans les options."]}
+        catch ClientError.expired {return ["ok":false,"error":L("ui_b67e827b8e82", "Session refusée. Vérifiez les identifiants dans les options.")]}
         catch {
             let e=error as NSError
             if e.domain==NSURLErrorDomain {
                 switch e.code {
                 case NSURLErrorCannotFindHost,NSURLErrorDNSLookupFailed:
-                    return ["ok":false,"error":"Nom du NAS introuvable (DNS). Ouvrez l’application UGREEN NAS Download et autorisez le réseau local, puis réessayez. Vous pouvez aussi vérifier l’adresse IP du NAS dans les options."]
+                    return ["ok":false,"error":L("ui_5ecb5bf8600a", "Nom du NAS introuvable (DNS). Ouvrez l’application UGREEN NAS Download et autorisez le réseau local, puis réessayez. Vous pouvez aussi vérifier l’adresse IP du NAS dans les options.")]
                 case NSURLErrorNotConnectedToInternet,NSURLErrorCannotConnectToHost:
-                    return ["ok":false,"error":"Connexion locale refusée ou NAS inaccessible. Dans l’application Mac, utilisez Autoriser la connexion au réseau local, puis vérifiez l’adresse et le port."]
+                    return ["ok":false,"error":L("ui_7a3c2b255cb4", "Connexion locale refusée ou NAS inaccessible. Dans l’application Mac, utilisez Autoriser la connexion au réseau local, puis vérifiez l’adresse et le port.")]
                 case NSURLErrorSecureConnectionFailed,NSURLErrorServerCertificateUntrusted,NSURLErrorServerCertificateHasBadDate:
-                    return ["ok":false,"error":"Connexion TLS ou certificat refusé. Vérifiez le certificat et son empreinte dans les options avant de réessayer."]
+                    return ["ok":false,"error":L("ui_8872b03932e1", "Connexion TLS ou certificat refusé. Vérifiez le certificat et son empreinte dans les options avant de réessayer.")]
                 case NSURLErrorTimedOut:
-                    return ["ok":false,"error":"Délai de connexion au NAS dépassé. Vérifiez le réseau et les tâches avant un nouvel envoi."]
+                    return ["ok":false,"error":L("ui_eb93e7cae9e6", "Délai de connexion au NAS dépassé. Vérifiez le réseau et les tâches avant un nouvel envoi.")]
                 default:break
                 }
             }
-            return ["ok":false,"error":"Connexion NAS non confirmée (code technique \(e.code)). Vérifiez les tâches avant de réessayer."]
+            return ["ok":false,"error":L("ui_6efc97ce913e", "Connexion NAS non confirmée (code technique %d). Vérifiez les tâches avant de réessayer.", e.code)]
         }
     }
 
@@ -701,12 +701,12 @@ private actor NAS {
             var page=1
             while page<=200 {
                 let r=try await request(a,"GET","ugreen/v1/downloadCenter/\(endpoint)?page=\(page)&page_size=50")
-                guard let d=r["data"] as? [String:Any] else{throw fail("Liste indisponible pour identifier le fichier.")}
+                guard let d=r["data"] as? [String:Any] else{throw fail(L("ui_d8dc23336417", "Liste indisponible pour identifier le fichier."))}
                 let batch=try downloadBatch(d)
                 rows.append(contentsOf:batch.map{var row=$0;row["_complete"]=endpoint.hasPrefix("complete/");return row})
                 if downloadPageFinished(d,batchCount:batch.count,receivedCount:page*50){break};page+=1
             }
-            guard page<=200 else{throw fail("Trop de tâches pour identifier sûrement le fichier.")}
+            guard page<=200 else{throw fail(L("ui_51e3ca1fd3aa", "Trop de tâches pour identifier sûrement le fichier."))}
         }
         return rows
     }
@@ -723,7 +723,7 @@ private actor NAS {
             guard row["_complete"] as? Bool == true else{pending.append(job);continue}
             guard let raw=row["download_file_name"] as? String,let renamed=labelledName(raw,job.label),let path=labelPath(directory:job.directory,name:raw),let destination=labelPath(directory:job.directory,name:renamed) else{
                 pending.append(job)
-                if firstError==nil{firstError=fail("Le NAS n’a pas fourni un nom de fichier utilisable. Le renommage reste en attente.")}
+                if firstError==nil{firstError=fail(L("ui_3638a59bd40e", "Le NAS n’a pas fourni un nom de fichier utilisable. Le renommage reste en attente."))}
                 continue
             }
             if raw==renamed{continue}
@@ -740,10 +740,10 @@ private actor NAS {
                     }
                     let exists=try await request(a,"POST","ugreen/v1/filemgr/pathExist",body:JSONSerialization.data(withJSONObject:["path":target]),contentType:"application/json")
                     let data=exists["data"] as? [String:Any] ?? [:]
-                    guard let present=(data["exist"] ?? data["exists"] ?? data["result"]) as? Bool else{throw fail("Le NAS ne confirme pas si le nom de destination est libre.")}
+                    guard let present=(data["exist"] ?? data["exists"] ?? data["result"]) as? Bool else{throw fail(L("ui_eb63290d0d8b", "Le NAS ne confirme pas si le nom de destination est libre."))}
                     if !present{free=true;break}
                 }
-                guard free else{throw fail("Aucun nom de fichier libre. Aucun fichier n’a été remplacé.")}
+                guard free else{throw fail(L("ui_201901522851", "Aucun nom de fichier libre. Aucun fichier n’a été remplacé."))}
                 _ = try await request(a,"POST","ugreen/v2/filemgr/rename",body:JSONSerialization.data(withJSONObject:["path":path,"new_name":chosen]),contentType:"application/json")
             }catch {pending.append(job);if firstError==nil{firstError=error}}
         }
@@ -752,7 +752,7 @@ private actor NAS {
     }
     private func request(_ a:Account,_ method:String,_ path:String,body:Data?=nil,contentType:String?=nil,authenticated:Bool=true) async throws -> [String:Any] {
         let base=try endpoint(a.address)
-        guard let relative=URLComponents(string:path),let relativePath=relative.path.removingPercentEncoding else {throw fail("Chemin API invalide.")}
+        guard let relative=URLComponents(string:path),let relativePath=relative.path.removingPercentEncoding else {throw fail(L("ui_32a1a240c4e6", "Chemin API invalide."))}
         var components=URLComponents(url:base.appendingPathComponent(relativePath),resolvingAgainstBaseURL:false)!
         components.queryItems=relative.queryItems
         if authenticated,let token=a.token {var items=components.queryItems ?? [];items.append(URLQueryItem(name:"token",value:token));components.queryItems=items}
@@ -764,34 +764,34 @@ private actor NAS {
         if authenticated,let token=a.token {r.setValue(token,forHTTPHeaderField:"X-Ugreen-Token")}
         let (data,http)=try await Transport(host:base.host!,pin:a.fingerprint).perform(r)
         if http.statusCode==401 {throw ClientError.expired}
-        guard http.statusCode==200,let payload=try JSONSerialization.jsonObject(with:data) as? [String:Any] else {throw fail("Réponse HTTP NAS inattendue.")}
+        guard http.statusCode==200,let payload=try JSONSerialization.jsonObject(with:data) as? [String:Any] else {throw fail(L("ui_ab3b50f251b3", "Réponse HTTP NAS inattendue."))}
         let code=payload["code"] as? Int ?? -1
         if [401,1024].contains(code) {throw ClientError.expired}
-        if code==9406 {throw fail("Le NAS refuse les paramètres de connexion de ce client (code 9406). Vérifiez la version et le protocole de connexion.")}
+        if code==9406 {throw fail(L("ui_8493662e7e41", "Le NAS refuse les paramètres de connexion de ce client (code 9406). Vérifiez la version et le protocole de connexion."))}
         guard code==200 else {
             var message=String((payload["msg"] as? String ?? "").prefix(180))
             for secret in [a.password,a.token ?? ""] where !secret.isEmpty {message=message.replacingOccurrences(of:secret,with:"[masqué]")}
-            throw fail("Le NAS refuse \(path) (code \(code)). \(message)")
+            throw fail(L("ui_e7bdf09e336a", "Le NAS refuse {path} (code %d). {message}", code).replacingOccurrences(of: "{path}", with: path).replacingOccurrences(of: "{message}", with: message))
         }
         var result=payload
         if let key=http.value(forHTTPHeaderField:"x-rsa-token") {result["_rsa"]=key}
         return result
     }
     private func login(_ a:inout Account,profile:String,otp:String="",trustDevice:Bool=false) async throws {
-        guard otp.isEmpty || otp.range(of:"^[0-9]{6,8}$",options:.regularExpression) != nil else {throw fail("Le code temporaire doit contenir 6 à 8 chiffres.")}
-        if let last=lastFailedLogin[profile],Date().timeIntervalSince(last)<60 {throw fail("Connexion récemment refusée. Vérifiez les options puis attendez une minute.")}
+        guard otp.isEmpty || otp.range(of:"^[0-9]{6,8}$",options:.regularExpression) != nil else {throw fail(L("ui_00127e31a7b9", "Le code temporaire doit contenir 6 à 8 chiffres."))}
+        if let last=lastFailedLogin[profile],Date().timeIntervalSince(last)<60 {throw fail(L("ui_a8d1da72b360", "Connexion récemment refusée. Vérifiez les options puis attendez une minute."))}
         do {
             let check=try await request(a,"POST","ugreen/v1/verify/check",body:JSONSerialization.data(withJSONObject:["username":a.username]),contentType:"application/json",authenticated:false)
-            guard let raw=(check["_rsa"] ?? check["xRsaToken"]) as? String else {throw fail("Le NAS n’a pas fourni sa clé RSA de connexion.")}
+            guard let raw=(check["_rsa"] ?? check["xRsaToken"]) as? String else {throw fail(L("ui_df225b598a79", "Le NAS n’a pas fourni sa clé RSA de connexion."))}
             let encrypted=try encryptPassword(a.password,key:rsaKey(raw))
             let payload=try await request(a,"POST","ugreen/v1/verify/login",body:JSONSerialization.data(withJSONObject:["username":a.username,"password":encrypted,"keepalive":true,"otp":true,"is_simple":true]),contentType:"application/json",authenticated:false)
             var data=payload["data"] as? [String:Any] ?? [:]
             if (data["token"] as? String)?.isEmpty != false, data["enable_otp"] as? Bool == true || data["token_id"] != nil {
-                guard !otp.isEmpty,let tokenID=data["token_id"] else {throw fail("Double authentification requise. Saisissez un code temporaire dans les options puis recommencez.")}
+                guard !otp.isEmpty,let tokenID=data["token_id"] else {throw fail(L("ui_1e5497bce01d", "Double authentification requise. Saisissez un code temporaire dans les options puis recommencez."))}
                 let verification=try await request(a,"POST","ugreen/v1/verify/code/login",body:JSONSerialization.data(withJSONObject:["code":otp,"type":1,"token_id":tokenID,"trust":trustDevice,"trust_info":["client_type":"pc","system":"macOS","dev_name":"UGREEN NAS Download"]]),contentType:"application/json",authenticated:false)
                 data=verification["data"] as? [String:Any] ?? [:]
             }
-            guard let token=data["token"] as? String,!token.isEmpty else {throw fail("Connexion incomplète : validation supplémentaire demandée par le NAS.")}
+            guard let token=data["token"] as? String,!token.isEmpty else {throw fail(L("ui_2432f5f3cac4", "Connexion incomplète : validation supplémentaire demandée par le NAS."))}
             a.token=token;a.authType=data["auth_type"] as? String ?? "header"
             lastFailedLogin[profile]=nil;try Vault.write(a,profile)
         } catch {lastFailedLogin[profile]=Date();throw error}
@@ -806,7 +806,7 @@ private actor NAS {
 }
 class SafariWebExtensionHandler: NSObject,NSExtensionRequestHandling {
     func beginRequest(with context:NSExtensionContext) {
-        guard let item=context.inputItems.first as? NSExtensionItem,let message=item.userInfo?[SFExtensionMessageKey] as? [String:Any] else {context.cancelRequest(withError:fail("Message invalide."));return}
+        guard let item=context.inputItems.first as? NSExtensionItem,let message=item.userInfo?[SFExtensionMessageKey] as? [String:Any] else {context.cancelRequest(withError:fail(L("ui_86d4edf3510b", "Message invalide.")));return}
         let profile: String
         if #available(macOS 14.0, *) { profile=(item.userInfo?[SFExtensionProfileKey] as? UUID)?.uuidString ?? "default" } else {profile="default"}
         Task {

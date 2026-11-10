@@ -20,3 +20,14 @@
 #filename-status{font-size:11px;color:var(--danger);overflow-wrap:anywhere;margin-bottom:12px}#filename-status:empty{display:none}
 
 .brand>picture,.settings>header>picture{display:block;flex-shrink:0}.brand>picture img,.settings>header>picture img{display:block;border-radius:10px}
+
+/* Keep localized text readable at popup width and mirror directional spacing. */
+.popover{width:344px;min-width:0;max-width:100vw}
+.popover,.settings{overflow-wrap:anywhere}
+.automation label,.section-heading h2,.brand>div{min-width:0}
+.settings button{max-width:100%;white-space:normal}
+.download-task{height:auto;min-height:112px}
+.send-row .input-wrap>svg{left:auto;inset-inline-start:11px}
+.send-row .input-wrap>input{padding-left:11px;padding-right:11px;padding-inline:34px 46px}
+.send-row .primary{right:auto;inset-inline-end:6px}
+input[type=url],#link,#fingerprint{direction:ltr;text-align:start}

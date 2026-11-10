@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Lataa tiedostoon NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Ei käyttökelpoisia latauslinkkejä."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Virheellinen latauslinkki."
+  },
+  "ui_eb7039127a09": {
+    "message": "Tämä tiedosto on luotu muodossa Safari tai suojattu. NAS tarvitsee suoraan käytettävissä olevan HTTP- tai HTTPS-linkin."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "Käyttäjätunnuksen tai salasanan sisältäviä linkkejä ei hyväksytä."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Vahvistamaton lähetys."
+  },
+  "ui_43ed82d682c5": {
+    "message": "Lähetys on jo käynnissä. Yritä uudelleen hetken kuluttua."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Ei vahvistusta NAS:lle. Tarkista sen tehtävät ennen kuin yrität uudelleen."
+  },
+  "ui_0868c445da94": {
+    "message": "Vahvistamaton lähetys. Tarkista NAS-tehtävät."
+  },
+  "ui_9810a954e3f7": {
+    "message": "Latausten seuranta ei ole käytettävissä."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "Muutosta ei vahvistettu."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "Lähetys on jo käynnissä."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Sieppaus poistettu käytöstä."
+  },
+  "ui_28042909c3c2": {
+    "message": "Luvaton torrent tai alkuperä."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Virheellinen linkki."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Ei vahvistusta NAS:lle. Tarkista tehtävät ennen kuin yrität uudelleen."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Lähetä numeroon NAS…"
+  },
+  "ui_df615a99851a": {
+    "message": "Tarkista NAS ennen kuin yrität uudelleen."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Ei vahvistusta. Tarkista NAS ennen kuin yrität uudelleen."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "Lataa tämä sivu uudelleen aktivoidaksesi laajennuksen"
+  },
+  "ui_d143da43aff6": {
+    "message": "Automaattinen lähetys pois käytöstä"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Luvaton pääsy tälle sivustolle tai sivulle uudelleenlatausta varten"
+  },
+  "ui_38858cd588e0": {
+    "message": "Lataa"
+  },
+  "ui_239c064e0d40": {
+    "message": "Tauolla"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Vahvistus"
+  },
+  "ui_797f5dcd0217": {
+    "message": "Käynnissä"
+  },
+  "ui_01f19353c67f": {
+    "message": " saanut"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "NAS käsittelee toisen toiminnon…"
+  },
+  "ui_e43026bf1415": {
+    "message": "Vastaus käyttäjältä NAS ei saatavilla."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "Latausten luettelo ei ole saatavilla."
+  },
+  "ui_dcc71329139f": {
+    "message": "Osittainen luettelo: NAS sisältää yli 10 000 tehtävää."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Ei latausta käynnissä."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Päivitetty "
+  },
+  "ui_cca90e72b30f": {
+    "message": "Päivitys keskeytetty. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS ei saavuteta."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Tarkistettavan tiedoston nimi: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Tili määritetty. Avainnippuun tallennettu istunto ja tunnisteet."
+  },
+  "ui_26d832931702": {
+    "message": "Avaa Mac-sovellus ja yritä uudelleen."
+  },
+  "ui_ab13d42df210": {
+    "message": "Luetaan varmennetta ilman tunnisteiden lähettämistä…"
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Tarkista sormenjälki ja vahvista sitten NAS."
+  },
+  "ui_4122652cdf72": {
+    "message": "Kytkentätesti malliin NAS…"
+  },
+  "ui_03000c00b0b7": {
+    "message": "Vahvistamaton yhteys."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Vahvistamaton yhteys. Tarkista NAS ja yritä uudelleen."
+  },
+  "ui_b7356b338117": {
+    "message": "Unohtunut tili."
+  },
+  "ui_b791d0fcafae": {
+    "message": "Asetus ei ole käytettävissä. Lataa tämä sivu uudelleen."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "Salli UGREEN NAS Download-bannerit kohdassa Järjestelmäasetukset → Ilmoitukset."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Viimeksi tarkastetut lataukset: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Testiilmoitus lähetetty. Jos se ei näy, tarkista tarkennustila ja ilmoitusasetukset."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "Testaus ei ole käytettävissä."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "Etsitään NAS…"
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Odottamaton haku vastaus."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Valitse NAS ja tarkista sen sertifikaatti."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "NAS:ta ei löytynyt. Tarkista verkkosi tai anna sen osoite manuaalisesti."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Osoite annettu. Tarkista varmenne ennen yhteyden muodostamista."
+  },
+  "ui_4fd15b694321": {
+    "message": " Voit syöttää osoitteen manuaalisesti."
+  },
+  "ui_450dc649eed7": {
+    "message": "Safari:sta NAS:hen"
+  },
+  "ui_abe5338595d8": {
+    "message": "Automaattinen lähetys"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrentit ja magneettilinkit"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Lataukset"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Yhdistetään laitteeseen NAS…"
+  },
+  "ui_84d1987114e2": {
+    "message": "Lähetä linkki"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Lataa linkki tai magneetti"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Tarkistetaan tätä sivua…"
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Yhteysasetukset"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Sieppaa torrent- ja magneettilinkit"
+  },
+  "ui_53107f6482b8": {
+    "message": "Päivitä lataukset"
+  },
+  "ui_b76a016a207d": {
+    "message": "Lataukset käynnissä"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "Tiedoston tai magneettilinkin URL"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Lähetä numeroon NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "Liitäntä NAS UGREENiin"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Yhdistäminen: NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Luo tilisi kerran. Tulevat toimitukset tehdään suoraan Safari:lta."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Etsi minun NAS"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Hae UGREEN-verkkopalvelun kautta. Käyttäjätunnusta tai salasanaa ei välitetä hänelle. Internet-yhteys vaaditaan."
+  },
+  "ui_d40941f301ba": {
+    "message": "Osoite HTTPS / NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Salasana"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Kaksinkertainen todennuskoodi (jos käytössä)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Rekisteröi tämä laajennus luotetuksi laitteeksi NAS:ssa, jotta voit muodostaa yhteyden uudelleen ilman uutta koodia."
+  },
+  "ui_354c180feac5": {
+    "message": "Tämä lupa voidaan peruuttaa NAS:n luotetussa laitehallinnassa. Ilman sitä uusi koodi voidaan vaatia istunnon päättyessä."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Kohdekansio NAS:ssa"
+  },
+  "ui_059b656d6323": {
+    "message": "Ensimmäinen yhteys: Avaa Mac-sovellus UGREEN NAS Download ja valitse ”Salli paikallinen verkkoyhteys”. Alla oleva laatikko on käytettävissä varmenteen noudon jälkeen."
+  },
+  "ui_373ca63c9193": {
+    "message": "Tarkista NAS:n sertifikaatti"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Tunnistan tämän NAS:n ja vahvistan tämän sertifikaatin painatuksen."
+  },
+  "ui_e2583fb31345": {
+    "message": "Tallenna ja testaa yhteys"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Unohda tämä tili"
+  },
+  "ui_352e0513f977": {
+    "message": "Tarkista SHA-256-sormenjälki luotettavasta lähteestä ennen ensimmäistä kirjautumista. Salasanoja ja tunnuksia ei koskaan tallenneta laajennuksen verkkotallennustilaan."
+  },
+  "ui_dd750a280438": {
+    "message": "Lataa ilmoitukset"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Valmis, pysähtynyt tai virheellinen"
+  },
+  "ui_e44412dc793d": {
+    "message": "Testaa ilmoitusta"
+  },
+  "ui_984e864f3451": {
+    "message": "Säilytetty avaimenperässä macOS"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Väliaikainen koodi, ei koskaan tallennettu"
+  },
+  "ui_08987f40bc10": {
+    "message": "Lataa tiedostoja, torrentteja ja magneettilinkkejä NAS UGREEN -laitteeseen suoraan Safari:sta."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Salli paikallinen verkko, jos macOS pyytää sinua tekemään niin."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "Tarkistetaan laajennusta…"
+  },
+  "ui_b556373f5802": {
+    "message": "Napsauta Safari:ssa tiedostoa hiiren kakkospainikkeella,\nvalitse sitten \"Lataa kohteeseen NAS\"."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Laajennusasetukset mallissa Safari…"
+  },
+  "ui_9db119b9906f": {
+    "message": "Salli pääsy kohteeseen NAS…"
+  },
+  "ui_c5d406ecc207": {
+    "message": "Laajennus käytössä Safari:ssa"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "Laajennus aktivoitavaksi Safari-asetuksissa"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Tarkista laajennus avaamalla Safari."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Avaa Safari → Asetukset → Laajennukset."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Yhdistetään laitteeseen NAS… Salli paikallinen verkko, jos macOS pyytää sitä."
+  },
+  "ui_dfe810da2890": {
+    "message": "Paikallinen verkkoyhteys käytettävissä. Määritä sitten NAS:ksi Safari."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Salli pääsy kohdassa Järjestelmäasetukset → Tietosuoja ja suojaus → Paikallinen verkko."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "NAS ei ole käytettävissä. Tarkista yhteys ja paikallisverkkoyhteys."
+  },
+  "ui_b6104af839b2": {
+    "message": "NAS ei vastaa. Tarkista yhteys ja yritä sitten uudelleen."
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS ei hyväksynyt ilmoitusta. Tarkista sovelluksen ilmoitusasetukset."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Käytä täyttä HTTPS-osoitetta portin kanssa ilman polkua tai tunnisteita."
+  },
+  "ui_9209362478e0": {
+    "message": "Pääsy Keychainiin estetty tai lukittu."
+  },
+  "ui_eb583918b61e": {
+    "message": "Tunnuksia ei voi tallentaa avainnippuun."
+  },
+  "ui_079197b78282": {
+    "message": "Avainnipun päivittäminen epäonnistui."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "NAS-uudelleenohjaus evätty."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "NAS API-vastaus on virheellinen tai uudelleenohjaus evätty."
+  },
+  "ui_ff1507c53259": {
+    "message": "NAS-vastaus puuttuu."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "NAS-vaste liian suuri."
+  },
+  "ui_ae437aff49ba": {
+    "message": "Ei voida lukea vastausta NAS."
+  },
+  "ui_b044999d35ab": {
+    "message": "Virheellinen NAS-kirjautumisavain."
+  },
+  "ui_7b80438ec983": {
+    "message": "Virheellinen RSA-avain."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "RSA-avainta ei tueta."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Käytä suoraa HTTP- tai HTTPS-linkkiä tiedostoon ilman upotettuja tunnisteita."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Virheellinen torrent tai suurempi kuin 512 kt."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Virheellinen torrent-kanava."
+  },
+  "ui_2d34af66a278": {
+    "message": "Virheellinen torrent-avain."
+  },
+  "ui_4024b2fc5907": {
+    "message": "Sisältö vastaanotettu ilman torrentia."
+  },
+  "ui_75f70ed3140a": {
+    "message": "Vastaanotettu sisältö ei ole torrentia."
+  },
+  "ui_4a8e63360f63": {
+    "message": "Torrentin metatiedot puuttuvat tai ovat virheellisiä."
+  },
+  "ui_8eb203ba941d": {
+    "message": "NAS ei ole tunnistanut ladattavia tiedostoja."
+  },
+  "ui_137e68b05223": {
+    "message": "NAS ei tunnistanut torrentin nimeä. Tehtäviä ei ole vahvistettu."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "NAS hylkäsi tehtävän nimen."
+  },
+  "ui_409c39d465ec": {
+    "message": "Luettelo odottamattomassa muodossa vastaanotetuista latauksista."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Lataus valmis"
+  },
+  "ui_f01c5b082925": {
+    "message": "Lataus pysähtyi"
+  },
+  "ui_8a9821880139": {
+    "message": "Lataa virhe"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Odottamaton vastaus UGREEN-hakupalvelusta."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "NAS-toiminto on jo käynnissä."
+  },
+  "ui_094557fca057": {
+    "message": "Tarkista varmenne ennen tilin rekisteröintiä."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Yhteys onnistui. Tunnisteet ja istunto tallennettu avainnippuun."
+  },
+  "ui_4bb0c308d018": {
+    "message": "Istunto uusitaan seuraavan lähetyksen yhteydessä."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Salli ilmoitukset kohdassa Järjestelmäasetukset → Ilmoitukset."
+  },
+  "ui_207aa6d45769": {
+    "message": "Määritä NAS asetuksista."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "Valmiiden tiedostojen luettelo ei ole saatavilla."
+  },
+  "ui_ce120d12a24d": {
+    "message": "Liian monta valmiita tiedostoja, jotta ilmoitukset voidaan seurata kokonaan."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Määritä NAS laajennusasetuksista."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "NAS ei palauttanut vahvistusta varten yhtään tiedostoa. Tarkista Lataukset ennen kuin yrität uudelleen."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "NAS Downloads hyväksyi tehtävän."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Tuntematon tyyppi: alkuperäinen nimi säilyy."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Istunto hylätty. Tarkista valtuustiedot vaihtoehdoista."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "NAS nimeä ei löydy (DNS). Avaa UGREEN NAS Download-sovellus ja salli paikallinen verkko ja yritä sitten uudelleen. Voit myös tarkistaa NAS:n IP-osoitteen vaihtoehdoista."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "Paikallinen yhteys estetty tai NAS ei ole käytettävissä. Käytä Mac-sovelluksessa Salli lähiverkkoyhteys -kohtaa ja tarkista sitten osoite ja portti."
+  },
+  "ui_8872b03932e1": {
+    "message": "Yhteys TLS tai varmenne evätty. Tarkista varmenne ja sen peukalonjälki asetuksista ennen kuin yrität uudelleen."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "NAS yhteyden aikakatkaisu. Tarkista verkko ja työt ennen uudelleenlähetystä."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "Liian monta tehtävää tiedoston tunnistamiseen turvallisesti."
+  },
+  "ui_3638a59bd40e": {
+    "message": "NAS ei antanut käyttökelpoista tiedostonimeä. Uudelleennimeäminen on vielä kesken."
+  },
+  "ui_201901522851": {
+    "message": "Ei ilmaisia tiedostonimiä. Tiedostoja ei ole korvattu."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS odottamaton vastaus."
+  },
+  "ui_8493662e7e41": {
+    "message": "NAS hylkää tämän asiakkaan yhteysasetukset (koodi 9406). Tarkista versio ja yhteysprotokolla."
+  },
+  "ui_00127e31a7b9": {
+    "message": "Väliaikaisen koodin tulee sisältää 6-8 numeroa."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Yhteys äskettäin evätty. Tarkista vaihtoehdot ja odota hetki."
+  },
+  "ui_df225b598a79": {
+    "message": "NAS ei toimittanut RSA-liitäntäavainta."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Epätäydellinen yhteys: NAS pyytää lisätarkistusta."
+  },
+  "ui_85d198010d47": {
+    "message": "Tehtävää ei vahvistanut NAS (tila %d). Tarkista Lataukset ennen kuin yrität uudelleen."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "NAS ei ole vahvistanut tiedostoja (tila %d). Tarkista Lataukset ennen kuin yrität uudelleen."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Vahvistamaton NAS-liitäntä (tekninen koodi %d). Tarkista tehtävät ennen kuin yrität uudelleen."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "NAS kieltäytyy {path}:sta (koodi %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "Laajennus ei ole saatavilla tällä sivulla"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "Odottaa"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Viimeksi lähetetty oikealla napsautuksella: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "Yhteys NAS:hen ei ole käytettävissä oikealle nimelle."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Yhteys ilmoituksiin ei ole käytettävissä."
+  },
+  "ui_161cd02a787c": {
+    "message": "Ilmoituksia ei voi muokata."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Ilmoitukset eivät ole käytettävissä."
+  },
+  "ui_d396daf24272": {
+    "message": "Yhteys NAS:hen ei ole käytettävissä."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Ei voida muodostaa yhteyttä Mac-moduuliin."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Muutos mahdotonta."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "Haku ei ole käytettävissä."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Alustus…"
+  },
+  "ui_1052b279ffe6": {
+    "message": "Komentosarja ladattu"
+  },
+  "ui_62611dbedb70": {
+    "message": "Injektio kieltäytyi"
+  },
+  "ui_f963644d9839": {
+    "message": "Safari-moduuli ei ole saatavilla"
+  },
+  "ui_98c28c423cc5": {
+    "message": "Suojatun torrentin on oltava käytettävissä tältä sivustolta. Evästeitä ei siirretä toiselle sivustolle."
+  },
+  "ui_c847f62838fd": {
+    "message": "Sivusto kieltää pääsyn torrentiin. Tarkista yhteytesi sivustoon."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent liian suuri (raja 512 kt)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "Sivusto ei palauttanut kelvollista torrent-tiedostoa."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Ei vahvistusta. Tarkista NAS-tehtävät ennen kuin yrität uudelleen."
+  },
+  "ui_82e766fc3000": {
+    "message": "Sivusto ei toimittanut torrentia 20 sekunnin kuluessa. Voit yrittää uudelleen."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Vahvistamaton lähetys. Tarkista NAS-tehtävät ennen kuin yrität uudelleen."
+  },
+  "ui_b77404083cf4": {
+    "message": "Tiliä ei voi poistaa."
+  },
+  "ui_a974c8e3f389": {
+    "message": "NAS-yhteys katkesi."
+  },
+  "ui_428d624126cb": {
+    "message": "DER virheellinen."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "Salasanan salaus ei ole mahdollista."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Virheellinen magneettitunniste."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL virheellinen torrent."
+  },
+  "ui_912d2e061225": {
+    "message": "Virheellinen torrent-rakenne."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Virheellinen torrentin pituus."
+  },
+  "ui_8402366c958d": {
+    "message": "Virheellinen koko torrent."
+  },
+  "ui_82813a88c223": {
+    "message": "Virheellinen tietosanakirja."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrent epätäydellinen."
+  },
+  "ui_90c67be91210": {
+    "message": "Torrent-puu liian suuri."
+  },
+  "ui_6772a23b59ca": {
+    "message": "UGREEN-hakupalvelu ei ole käytettävissä."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "Sertifikaatti NAS ei saatavilla."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Puutteelliset tunnisteet tai kohdekansio."
+  },
+  "ui_ee8668932e6f": {
+    "message": "Komentoa ei tueta."
+  },
+  "ui_d8dc23336417": {
+    "message": "Luettelo ei ole käytettävissä tiedoston tunnistamiseksi."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "NAS ei vahvista, onko kohteen nimi vapaa."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Virheellinen API-polku."
+  },
+  "ui_1e5497bce01d": {
+    "message": "Kaksinkertainen todennus vaaditaan. Syötä väliaikainen koodi vaihtoehtoihin ja aloita uudelleen."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Virheellinen viesti."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "Laajennus aktiivinen tällä sivustolla"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Aktiivinen laajennus · suorat linkit"
+  },
+  "ui_e62e17c13421": {
+    "message": "Lähteiden löytäminen"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "Jätä tyhjäksi, jos haluat säilyttää nykyisen salasanan"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "Poistetaanko tämän profiilin avaimenperän kirjautumistunnukset ja istunto Safari?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Ei voi poistaa."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "Valvonta jatkuu automaattisesti."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Kiinteä nimi odottaa."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "{name} edistyminen"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} numerossa {total}"
+  }
+}

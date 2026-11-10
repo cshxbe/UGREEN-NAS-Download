@@ -9,8 +9,8 @@ class ViewController: NSViewController {
     // Keep the storyboard connection while replacing its web content with native controls.
     @IBOutlet var webView: WKWebView!
     private var networkProbe: NWConnection?
-    private let connectionLabel=NSTextField(wrappingLabelWithString:"Autorisez le réseau local si macOS vous le demande.")
-    private let extensionLabel=NSTextField(labelWithString:"Vérification de l’extension…")
+    private let connectionLabel=NSTextField(wrappingLabelWithString:L("ui_4551356cc3d9", "Autorisez le réseau local si macOS vous le demande."))
+    private let extensionLabel=NSTextField(wrappingLabelWithString:L("ui_0a99e9bf1c84", "Vérification de l’extension…"))
     private var activationObserver:NSObjectProtocol?
 
     override func viewDidLoad() {
@@ -26,17 +26,20 @@ class ViewController: NSViewController {
         stack.addArrangedSubview(icon)
         let title=NSTextField(labelWithString:"UGREEN NAS Download");title.font = .systemFont(ofSize:22,weight:.semibold);title.alignment = .center
         stack.addArrangedSubview(title)
-        let description=NSTextField(wrappingLabelWithString:"Dans Safari, faites un clic droit sur un fichier,\npuis choisissez « Télécharger sur le NAS ».")
+        let description=NSTextField(wrappingLabelWithString:L("ui_b556373f5802", "Dans Safari, faites un clic droit sur un fichier,\npuis choisissez « Télécharger sur le NAS »."))
         description.font = .systemFont(ofSize:13);description.textColor = .secondaryLabelColor;description.alignment = .center
         stack.addArrangedSubview(description);description.widthAnchor.constraint(equalTo:stack.widthAnchor).isActive=true
         extensionLabel.font = .systemFont(ofSize:12,weight:.medium);extensionLabel.alignment = .center
         stack.addArrangedSubview(extensionLabel)
-        let settings=NSButton(title:"Réglages de l’extension dans Safari…",target:self,action:#selector(openPreferences))
-        let network=NSButton(title:"Autoriser l’accès au NAS…",target:self,action:#selector(allowNetwork))
+        extensionLabel.widthAnchor.constraint(equalTo:stack.widthAnchor).isActive=true
+        let settings=NSButton(title:L("ui_0f924b5d201f", "Réglages de l’extension dans Safari…"),target:self,action:#selector(openPreferences))
+        let network=NSButton(title:L("ui_9db119b9906f", "Autoriser l’accès au NAS…"),target:self,action:#selector(allowNetwork))
         for button in [settings,network] {
             button.bezelStyle = .rounded;button.controlSize = .large;button.font = .systemFont(ofSize:13)
-            button.translatesAutoresizingMaskIntoConstraints=false;button.widthAnchor.constraint(equalToConstant:320).isActive=true
-            button.heightAnchor.constraint(equalToConstant:34).isActive=true;stack.addArrangedSubview(button)
+            button.translatesAutoresizingMaskIntoConstraints=false;stack.addArrangedSubview(button)
+            button.widthAnchor.constraint(equalTo:stack.widthAnchor).isActive=true
+            button.cell?.wraps=true
+            button.heightAnchor.constraint(greaterThanOrEqualToConstant:38).isActive=true
         }
         settings.keyEquivalent="\r"
         connectionLabel.font = .systemFont(ofSize:12);connectionLabel.textColor = .secondaryLabelColor;connectionLabel.alignment = .center
@@ -52,22 +55,22 @@ class ViewController: NSViewController {
             DispatchQueue.main.async {
                 guard let self=self else {return}
                 if let state=state,error==nil {
-                    self.extensionLabel.stringValue=state.isEnabled ? "Extension activée dans Safari" : "Extension à activer dans les réglages Safari"
+                    self.extensionLabel.stringValue=state.isEnabled ? L("ui_c5d406ecc207", "Extension activée dans Safari") : L("ui_3fb17cfc0569", "Extension à activer dans les réglages Safari")
                     self.extensionLabel.textColor=state.isEnabled ? .systemGreen : .secondaryLabelColor
-                } else {self.extensionLabel.stringValue="Ouvrez Safari pour vérifier l’extension.";self.extensionLabel.textColor = .secondaryLabelColor}
+                } else {self.extensionLabel.stringValue=L("ui_f0c18dd9c1a4", "Ouvrez Safari pour vérifier l’extension.");self.extensionLabel.textColor = .secondaryLabelColor}
             }
         }
     }
     @objc private func openPreferences() {
         SFSafariApplication.showPreferencesForExtension(withIdentifier:extensionBundleIdentifier){[weak self] error in
-            if error != nil {DispatchQueue.main.async {self?.networkStatus("Ouvrez Safari → Réglages → Extensions.")}}
+            if error != nil {DispatchQueue.main.async {self?.networkStatus(L("ui_a0974b4c78f7", "Ouvrez Safari → Réglages → Extensions."))}}
         }
     }
     @objc private func allowNetwork(){authorizeNetwork()}
     private func networkStatus(_ text:String){connectionLabel.stringValue=text}
     private func authorizeNetwork() {
         networkProbe?.cancel()
-        networkStatus("Connexion au NAS… Autorisez le réseau local si macOS le demande.")
+        networkStatus(L("ui_28f8ee74ca61", "Connexion au NAS… Autorisez le réseau local si macOS le demande."))
         let probe=NWConnection(host:"ugreen.local",port:9443,using:.tcp)
         networkProbe=probe
         probe.stateUpdateHandler={ [weak self,weak probe] state in
@@ -75,12 +78,12 @@ class ViewController: NSViewController {
                 guard let self=self,let probe=probe,self.networkProbe===probe else {return}
                 switch state {
                 case .ready:
-                    self.networkStatus("Accès au réseau local disponible. Configurez ensuite votre NAS dans Safari.")
+                    self.networkStatus(L("ui_dfe810da2890", "Accès au réseau local disponible. Configurez ensuite votre NAS dans Safari."))
                     probe.cancel();self.networkProbe=nil
                 case .waiting:
-                    self.networkStatus("Autorisez l’accès dans Réglages Système → Confidentialité et sécurité → Réseau local.")
+                    self.networkStatus(L("ui_3d7f52fd8db1", "Autorisez l’accès dans Réglages Système → Confidentialité et sécurité → Réseau local."))
                 case .failed:
-                    self.networkStatus("Le NAS est inaccessible. Vérifiez votre connexion et l’accès au réseau local.")
+                    self.networkStatus(L("ui_d72e6bd1c97b", "Le NAS est inaccessible. Vérifiez votre connexion et l’accès au réseau local."))
                     probe.cancel();self.networkProbe=nil
                 default:break
                 }
@@ -90,7 +93,7 @@ class ViewController: NSViewController {
         DispatchQueue.main.asyncAfter(deadline:.now()+30) { [weak self,weak probe] in
             guard let self=self,let probe=probe,self.networkProbe===probe else {return}
             probe.cancel();self.networkProbe=nil
-            self.networkStatus("Le NAS ne répond pas. Vérifiez votre connexion, puis réessayez.")
+            self.networkStatus(L("ui_b6104af839b2", "Le NAS ne répond pas. Vérifiez votre connexion, puis réessayez."))
         }
     }
 

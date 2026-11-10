@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Letöltés a NAS címre"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Nincsenek használható letöltési linkek."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Érvénytelen letöltési link."
+  },
+  "ui_eb7039127a09": {
+    "message": "Ez a fájl Safari fájlban van előállítva vagy védett. A NAS-hoz közvetlenül elérhető HTTP vagy HTTPS kapcsolat szükséges."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "A felhasználónevet vagy jelszót tartalmazó linkeket nem fogadjuk el."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Meg nem erősített szállítmány."
+  },
+  "ui_43ed82d682c5": {
+    "message": "Egy szállítás már folyamatban van. Próbálja újra néhány pillanat múlva."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Nincs megerősítés a NAS-ról. Mielőtt újra próbálkozna, ellenőrizze a feladatait."
+  },
+  "ui_0868c445da94": {
+    "message": "Meg nem erősített szállítmány. Ellenőrizze a NAS feladatokat."
+  },
+  "ui_9810a954e3f7": {
+    "message": "A letöltés követése nem érhető el."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "A változtatást nem erősítették meg."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "Egy szállítás már folyamatban van."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Lehallgatás letiltva."
+  },
+  "ui_28042909c3c2": {
+    "message": "Jogosulatlan torrent vagy eredet."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Érvénytelen link."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Nincs megerősítés a NAS-ról. Mielőtt újra próbálkozna, ellenőrizze a feladatokat."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Küldés ide: NAS…"
+  },
+  "ui_df615a99851a": {
+    "message": "Mielőtt újra próbálkozna, ellenőrizze a NAS-t."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Nincs megerősítés. Mielőtt újra próbálkozna, ellenőrizze a NAS-t."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "A bővítmény aktiválásához töltse be újra ezt az oldalt"
+  },
+  "ui_d143da43aff6": {
+    "message": "Az automatikus küldés letiltva"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Jogosulatlan hozzáférés ehhez a webhelyhez vagy oldalhoz az újratöltéshez"
+  },
+  "ui_38858cd588e0": {
+    "message": "Letöltés"
+  },
+  "ui_239c064e0d40": {
+    "message": "Szünetben"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Ellenőrzés"
+  },
+  "ui_797f5dcd0217": {
+    "message": "Folyamatban"
+  },
+  "ui_01f19353c67f": {
+    "message": " kapott"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "A NAS egy másik műveletet dolgoz fel…"
+  },
+  "ui_e43026bf1415": {
+    "message": "A NAS válasza nem érhető el."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "A letöltések listája nem érhető el."
+  },
+  "ui_dcc71329139f": {
+    "message": "Részleges lista: A NAS több mint 10 000 feladatot tartalmaz."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Nincs letöltés folyamatban."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Frissítve erre: "
+  },
+  "ui_cca90e72b30f": {
+    "message": "A frissítés megszakadt. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "A NAS nem elérhető."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Az ellenőrizendő fájl neve: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Fiók konfigurálva. A kulcstartóban tárolt munkamenet és azonosítók."
+  },
+  "ui_26d832931702": {
+    "message": "Nyissa meg a Mac alkalmazást, és próbálja újra."
+  },
+  "ui_ab13d42df210": {
+    "message": "Tanúsítvány olvasása azonosítók továbbítása nélkül…"
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Ellenőrizze az ujjlenyomatot, majd erősítse meg a NAS-t."
+  },
+  "ui_4122652cdf72": {
+    "message": "Csatlakozási teszt a NAS-hoz…"
+  },
+  "ui_03000c00b0b7": {
+    "message": "Meg nem erősített kapcsolat."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Meg nem erősített kapcsolat. Ellenőrizze a NAS-t, és próbálja újra."
+  },
+  "ui_b7356b338117": {
+    "message": "Elfelejtett fiók."
+  },
+  "ui_b791d0fcafae": {
+    "message": "A beállítás nem elérhető. Töltse be újra ezt az oldalt."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "A UGREEN NAS Download szalaghirdetések engedélyezése a Rendszerbeállítások → Értesítések menüpontban."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Utoljára ellenőrzött letöltések: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Tesztértesítés elküldve. Ha láthatatlan marad, ellenőrizze a Fókusz módot és az értesítési beállításokat."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "A tesztelés nem érhető el."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "NAS keresése…"
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Váratlan keresési válasz."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Válassza ki a NAS készüléket, majd ellenőrizze a tanúsítványát."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "Nem található NAS. Ellenőrizze a hálózatot, vagy írja be kézzel a címét."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Adott cím. Csatlakoztatás előtt ellenőrizze a tanúsítványt."
+  },
+  "ui_4fd15b694321": {
+    "message": " A címet manuálisan is megadhatja."
+  },
+  "ui_450dc649eed7": {
+    "message": "A Safari-tól a NAS-ig"
+  },
+  "ui_abe5338595d8": {
+    "message": "Automatikus küldés"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrentek és mágneses linkek"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Letöltések"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Csatlakozás a NAS-hoz…"
+  },
+  "ui_84d1987114e2": {
+    "message": "Küldj linket"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Letöltési link vagy mágnes"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Az oldal ellenőrzése…"
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Csatlakozási beállítások"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Elfogja a torrent- és mágneses hivatkozásokat"
+  },
+  "ui_53107f6482b8": {
+    "message": "Letöltések frissítése"
+  },
+  "ui_b76a016a207d": {
+    "message": "Letöltések folyamatban"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "URL fájl vagy mágneses hivatkozás"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Küldje el a NAS címre"
+  },
+  "ui_28e3697540a2": {
+    "message": "Csatlakozás a NAS UGREEN-hez"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Csatlakozás a NAS-hoz"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Állítsa be egyszer a fiókját. A jövőbeli szállítások közvetlenül a Safari-tól fognak történni."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Keresse meg a NAS-mat"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Keressen az UGREEN online szolgáltatáson keresztül. Nem adnak át neki felhasználónevet vagy jelszót. Internet kapcsolat szükséges."
+  },
+  "ui_d40941f301ba": {
+    "message": "Cím: HTTPS/NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Jelszó"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Dupla hitelesítési kód (ha engedélyezve van)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Regisztrálja ezt a bővítményt megbízható eszközként a NAS készüléken, hogy új kód nélkül is újracsatlakozhasson."
+  },
+  "ui_354c180feac5": {
+    "message": "Ez az engedély visszavonható a NAS megbízható eszközkezelésében. Enélkül a munkamenet lejártakor új kódra lehet szükség."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Cél mappa a NAS készüléken"
+  },
+  "ui_059b656d6323": {
+    "message": "Első csatlakozás: Nyissa meg a UGREEN NAS Download Mac alkalmazást, és használja a „Helyi hálózati kapcsolat engedélyezése” lehetőséget. Az alábbi doboz a tanúsítvány lekérése után lesz elérhető."
+  },
+  "ui_373ca63c9193": {
+    "message": "Ellenőrizze a NAS tanúsítványát"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Felismerem ezt a NAS-t, és megerősítem a tanúsítvány lenyomatát."
+  },
+  "ui_e2583fb31345": {
+    "message": "Mentse el és tesztelje a kapcsolatot"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Felejtsd el ezt a fiókot"
+  },
+  "ui_352e0513f977": {
+    "message": "Az első bejelentkezés előtt ellenőrizze a SHA-256 ujjlenyomatát megbízható forrásból. A jelszavakat és a tokeneket a rendszer soha nem tárolja a bővítmény webes tárhelyén."
+  },
+  "ui_dd750a280438": {
+    "message": "Értesítések letöltése"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Befejezett, leállt vagy hibás"
+  },
+  "ui_e44412dc793d": {
+    "message": "Értesítés tesztelése"
+  },
+  "ui_984e864f3451": {
+    "message": "macOS kulcstartóban tárolva"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Ideiglenes kód, soha nem mentve"
+  },
+  "ui_08987f40bc10": {
+    "message": "Töltsön le fájlokat, torrenteket és mágneses hivatkozásokat NAS UGREEN készülékére közvetlenül a Safari-ról."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Engedélyezze a helyi hálózatot, ha a macOS erre kéri."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "A bővítmény ellenőrzése…"
+  },
+  "ui_b556373f5802": {
+    "message": "A Safari alkalmazásban kattintson jobb gombbal egy fájlra,\nmajd válassza a „Letöltés ide: NAS” lehetőséget."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Bővítési beállítások a Safari-ban…"
+  },
+  "ui_9db119b9906f": {
+    "message": "Hozzáférés engedélyezése a NAS…"
+  },
+  "ui_c5d406ecc207": {
+    "message": "A bővítmény engedélyezve van a Safari-ban"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "A Safari beállításokban aktiválható bővítmény"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Nyissa meg a Safari-t a bővítmény ellenőrzéséhez."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Nyissa meg a Safari → Beállítások → Bővítmények menüpontot."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Csatlakozás a NAS-hoz… Engedélyezze a helyi hálózatot, ha a macOS kéri."
+  },
+  "ui_dfe810da2890": {
+    "message": "Helyi hálózati hozzáférés elérhető. Ezután konfigurálja a NAS készüléket a Safari formátumba."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Engedélyezze a hozzáférést a Rendszerbeállítások → Adatvédelem és biztonság → Helyi hálózat menüpontban."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "A NAS nem érhető el. Ellenőrizze a kapcsolatot és a helyi hálózati hozzáférést."
+  },
+  "ui_b6104af839b2": {
+    "message": "A NAS nem válaszol. Ellenőrizze a kapcsolatot, majd próbálja újra."
+  },
+  "ui_b43b586485e3": {
+    "message": "A macOS nem fogadta el az értesítést. Ellenőrizze az alkalmazás értesítési beállításait."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Használjon teljes HTTPS címet a portjával együtt, elérési út vagy azonosítók nélkül."
+  },
+  "ui_9209362478e0": {
+    "message": "A kulcstartóhoz való hozzáférés megtagadva vagy zárolva."
+  },
+  "ui_eb583918b61e": {
+    "message": "Nem sikerült menteni a hitelesítő adatokat a Kulcstartóban."
+  },
+  "ui_079197b78282": {
+    "message": "Nem sikerült frissíteni a kulcstartót."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "A NAS átirányítás elutasítva."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "A NAS API válasz érvénytelen vagy az átirányítás elutasítva."
+  },
+  "ui_ff1507c53259": {
+    "message": "NAS válasz hiányzik."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "A NAS válasz túl nagy."
+  },
+  "ui_ae437aff49ba": {
+    "message": "A NAS válasz nem olvasható."
+  },
+  "ui_b044999d35ab": {
+    "message": "Érvénytelen NAS bejelentkezési kulcs."
+  },
+  "ui_7b80438ec983": {
+    "message": "Érvénytelen RSA kulcs."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "A RSA kulcs nem támogatott."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Használjon közvetlen HTTP vagy HTTPS hivatkozást a fájlhoz, beágyazott azonosítók nélkül."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Érvénytelen torrent vagy nagyobb, mint 512 KB."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Érvénytelen torrentcsatorna."
+  },
+  "ui_2d34af66a278": {
+    "message": "Érvénytelen torrent kulcs."
+  },
+  "ui_4024b2fc5907": {
+    "message": "A tartalom nem torrenten érkezett."
+  },
+  "ui_75f70ed3140a": {
+    "message": "A kapott tartalom nem torrent."
+  },
+  "ui_4a8e63360f63": {
+    "message": "A torrent metaadatai hiányoznak vagy érvénytelenek."
+  },
+  "ui_8eb203ba941d": {
+    "message": "A NAS nem azonosított egyetlen letöltendő fájlt sem."
+  },
+  "ui_137e68b05223": {
+    "message": "A NAS nem azonosította a torrent nevét. Egyetlen feladat sem került megerősítésre."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "A feladat nevét a NAS elutasította."
+  },
+  "ui_409c39d465ec": {
+    "message": "A váratlan formátumban érkezett letöltések listája."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Letöltés befejeződött"
+  },
+  "ui_f01c5b082925": {
+    "message": "A letöltés leállt"
+  },
+  "ui_8a9821880139": {
+    "message": "Letöltés hibásan"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Váratlan válasz az UGREEN keresőszolgáltatástól."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "Egy NAS művelet már folyamatban van."
+  },
+  "ui_094557fca057": {
+    "message": "A fiók regisztrálása előtt ellenőrizze még egyszer a tanúsítványt."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Sikeres csatlakozás. Az azonosítók és a munkamenet a kulcstartóba mentve."
+  },
+  "ui_4bb0c308d018": {
+    "message": "A munkamenet megújítása a következő küldés során."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Az értesítések engedélyezése a Rendszerbeállítások → Értesítések menüpontban."
+  },
+  "ui_207aa6d45769": {
+    "message": "Konfigurálja a NAS készüléket a beállításokban."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "A befejezett fájlok listája nem érhető el."
+  },
+  "ui_ce120d12a24d": {
+    "message": "Túl sok befejezett fájl az értesítések teljes nyomon követéséhez."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Konfigurálja a NAS készüléket a bővítési lehetőségek között."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "A NAS nem adott vissza megerősítésként fájlokat. Mielőtt újra próbálkozna, ellenőrizze a Letöltéseket."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "A feladatot elfogadta a NAS Downloads."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Azonosítatlan típus: az eredeti név megmarad."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Session elutasította. Ellenőrizze a hitelesítő adatokat a lehetőségek között."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "A NAS név nem található (DNS). Nyissa meg a UGREEN NAS Download alkalmazást, engedélyezze a helyi hálózatot, majd próbálja újra. A lehetőségek között ellenőrizheti a NAS IP-címét is."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "A helyi csatlakozás elutasítva, vagy a NAS nem érhető el. A Mac alkalmazásban használja a Helyi kapcsolat engedélyezése lehetőséget, majd ellenőrizze a címet és a portot."
+  },
+  "ui_8872b03932e1": {
+    "message": "A TLS csatlakozás vagy a tanúsítvány elutasítva. Mielőtt újra próbálkozna, ellenőrizze a tanúsítványt és ujjlenyomatát a lehetőségek között."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "NAS csatlakozási időtúllépés. Az újbóli küldés előtt ellenőrizze a hálózatot és a feladatokat."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "Túl sok feladat a fájl biztonságos azonosításához."
+  },
+  "ui_3638a59bd40e": {
+    "message": "A NAS nem adott használható fájlnevet. Az átnevezés függőben marad."
+  },
+  "ui_201901522851": {
+    "message": "Nincsenek ingyenes fájlnevek. Egyetlen fájl sem lett lecserélve."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS váratlan válasz."
+  },
+  "ui_8493662e7e41": {
+    "message": "A NAS megtagadja az ügyfél kapcsolati beállításait (kód: 9406). Ellenőrizze a verziót és a csatlakozási protokollt."
+  },
+  "ui_00127e31a7b9": {
+    "message": "Az ideiglenes kódnak 6-8 számjegyből kell állnia."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Nemrég megtagadták a csatlakozást. Ellenőrizze a lehetőségeket, majd várjon egy percet."
+  },
+  "ui_df225b598a79": {
+    "message": "A NAS nem adta meg a RSA csatlakozási kulcsát."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Hiányos csatlakozás: a NAS további ellenőrzést kér."
+  },
+  "ui_85d198010d47": {
+    "message": "A feladatot nem erősítette meg a NAS (%d állapot). Mielőtt újra próbálkozna, ellenőrizze a Letöltéseket."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "A NAS nem erősítette meg a fájlokat (%d állapot). Mielőtt újra próbálkozna, ellenőrizze a Letöltéseket."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Nem megerősített NAS csatlakozás (műszaki kód: %d). Mielőtt újra próbálkozna, ellenőrizze a feladatokat."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "A NAS visszautasítja a {path}-t (kód: %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "A bővítmény nem érhető el ezen az oldalon"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "Várakozás"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Utoljára jobb kattintással elküldve: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "A NAS kapcsolat nem érhető el a helyes névhez."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Az értesítésekhez való csatlakozás nem érhető el."
+  },
+  "ui_161cd02a787c": {
+    "message": "Az értesítések nem módosíthatók."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Az értesítések nem érhetők el."
+  },
+  "ui_d396daf24272": {
+    "message": "A NAS csatlakozás nem elérhető."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Nem lehet csatlakozni a Mac modulhoz."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Módosítása lehetetlen."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "A keresés nem érhető el."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Inicializálás…"
+  },
+  "ui_1052b279ffe6": {
+    "message": "Szkript betöltve"
+  },
+  "ui_62611dbedb70": {
+    "message": "Az injekciót elutasították"
+  },
+  "ui_f963644d9839": {
+    "message": "A Safari modul nem elérhető"
+  },
+  "ui_98c28c423cc5": {
+    "message": "A védett torrentnek elérhetőnek kell lennie erről a webhelyről. Más oldalra nem kerül továbbításra cookie."
+  },
+  "ui_c847f62838fd": {
+    "message": "Az oldal megtagadja a hozzáférést a torrenthez. Ellenőrizze a kapcsolatot az oldallal."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "A torrent túl nagy (korlát 512 KB)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "A webhely nem adott vissza érvényes torrent fájlt."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Nincs megerősítés. Mielőtt újra próbálkozna, ellenőrizze a NAS feladatokat."
+  },
+  "ui_82e766fc3000": {
+    "message": "Az oldal nem biztosította a torrentet 20 másodpercen belül. Megpróbálhatja újra."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Meg nem erősített szállítmány. Mielőtt újra próbálkozna, ellenőrizze a NAS feladatokat."
+  },
+  "ui_b77404083cf4": {
+    "message": "A fiók nem törölhető."
+  },
+  "ui_a974c8e3f389": {
+    "message": "A NAS kapcsolat megszakadt."
+  },
+  "ui_428d624126cb": {
+    "message": "DER érvénytelen."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "A jelszó titkosítása nem lehetséges."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Érvénytelen mágnesazonosító."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL érvénytelen torrent."
+  },
+  "ui_912d2e061225": {
+    "message": "Érvénytelen torrentstruktúra."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Érvénytelen torrenthossz."
+  },
+  "ui_8402366c958d": {
+    "message": "Érvénytelen a teljes torrent."
+  },
+  "ui_82813a88c223": {
+    "message": "Érvénytelen információs szótár."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrent hiányos."
+  },
+  "ui_90c67be91210": {
+    "message": "Torrent fa túl nagy."
+  },
+  "ui_6772a23b59ca": {
+    "message": "Az UGREEN keresőszolgáltatás nem érhető el."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "A NAS tanúsítvány nem érhető el."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Hiányos azonosítók vagy célmappa."
+  },
+  "ui_ee8668932e6f": {
+    "message": "A parancs nem támogatott."
+  },
+  "ui_d8dc23336417": {
+    "message": "A lista nem érhető el a fájl azonosításához."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "A NAS nem erősíti meg, hogy a rendeltetési hely neve szabad-e."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Érvénytelen API-útvonal."
+  },
+  "ui_1e5497bce01d": {
+    "message": "Kettős hitelesítés szükséges. Adjon meg egy ideiglenes kódot a lehetőségek között, majd kezdje újra."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Érvénytelen üzenet."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "A kiterjesztés aktív ezen az oldalon"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Aktív bővítmény · közvetlen hivatkozások"
+  },
+  "ui_e62e17c13421": {
+    "message": "Források felkutatása"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "Hagyja üresen a jelenlegi jelszó megtartásához"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "Törli a kulcstartó bejelentkezési adatait és munkamenetét ehhez a profilhoz Safari?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Nem lehet törölni."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "A megfigyelés automatikusan folytatódik."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Javított név függőben."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "{name} előrehaladása"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} a {total} számon"
+  }
+}

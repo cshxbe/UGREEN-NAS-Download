@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "UGREEN NAS Download",
-  "version": "0.5.2",
-  "description": "Téléchargez les fichiers, torrents et liens magnet sur votre NAS UGREEN, directement depuis Safari.",
+  "version": "0.6.0",
+  "description": "__MSG_ui_08987f40bc10__",
   "permissions": [
     "storage",
     "nativeMessaging",
@@ -52,5 +52,6 @@
     "96": "icon-96.png",
     "128": "icon-128.png",
     "256": "icon-256.png"
-  }
+  },
+  "default_locale": "en"
 }

@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "下载至NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "没有可用的下载链接。"
+  },
+  "ui_a2ab0e04be85": {
+    "message": "下载链接无效。"
+  },
+  "ui_eb7039127a09": {
+    "message": "该文件在Safari中生成或受保护。 NAS 需要可直接访问的 HTTP 或 HTTPS 链路。"
+  },
+  "ui_2e4551fa5efd": {
+    "message": "不接受包含用户名或密码的链接。"
+  },
+  "ui_a413ef4f1131": {
+    "message": "未确认发货。"
+  },
+  "ui_43ed82d682c5": {
+    "message": "发货已经在进行中。请稍后重试。"
+  },
+  "ui_5bfbbfddefce": {
+    "message": "没有确认NAS。在重试之前检查其任务。"
+  },
+  "ui_0868c445da94": {
+    "message": "未确认发货。检查 NAS 任务。"
+  },
+  "ui_9810a954e3f7": {
+    "message": "下载跟踪不可用。"
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "更改未确认。"
+  },
+  "ui_e7fc6373a2de": {
+    "message": "发货已经在进行中。"
+  },
+  "ui_18a9a37c15a1": {
+    "message": "拦截已禁用。"
+  },
+  "ui_28042909c3c2": {
+    "message": "未经授权的种子或来源。"
+  },
+  "ui_6658df9c38ab": {
+    "message": "链接无效。"
+  },
+  "ui_b2558047a3e8": {
+    "message": "没有确认NAS。在重试之前检查任务。"
+  },
+  "ui_3b732d654b2e": {
+    "message": "发送至 NAS..."
+  },
+  "ui_df615a99851a": {
+    "message": "在重试之前检查 NAS。"
+  },
+  "ui_56e0d2482f10": {
+    "message": "没有确认。在重试之前检查 NAS。"
+  },
+  "ui_cb8d924d14fd": {
+    "message": "重新加载此页面以激活扩展"
+  },
+  "ui_d143da43aff6": {
+    "message": "自动发送已禁用"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "未经授权访问此网站或页面重新加载"
+  },
+  "ui_38858cd588e0": {
+    "message": "下载"
+  },
+  "ui_239c064e0d40": {
+    "message": "暂停时"
+  },
+  "ui_97a4b5570c16": {
+    "message": "验证"
+  },
+  "ui_797f5dcd0217": {
+    "message": "进行中"
+  },
+  "ui_01f19353c67f": {
+    "message": " 收到"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "NAS 处理另一个操作......"
+  },
+  "ui_e43026bf1415": {
+    "message": "NAS 的响应不可用。"
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "下载列表不可用。"
+  },
+  "ui_dcc71329139f": {
+    "message": "部分列表：NAS包含超过10,000个任务。"
+  },
+  "ui_6d5a188afe25": {
+    "message": "没有正在进行下载。"
+  },
+  "ui_fa6ca0863a17": {
+    "message": "更新至 "
+  },
+  "ui_cca90e72b30f": {
+    "message": "更新中断。 "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS 无法访问。"
+  },
+  "ui_0f218cb7d56c": {
+    "message": "要检查的文件名： "
+  },
+  "ui_141de5281f3f": {
+    "message": "帐户已配置。会话和标识符存储在钥匙串中。"
+  },
+  "ui_26d832931702": {
+    "message": "打开 Mac 应用程序并重试。"
+  },
+  "ui_ab13d42df210": {
+    "message": "读取证书，而不传输标识符......"
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "检查指纹，然后确认NAS。"
+  },
+  "ui_4122652cdf72": {
+    "message": "与 NAS 的连接测试..."
+  },
+  "ui_03000c00b0b7": {
+    "message": "未经确认的连接。"
+  },
+  "ui_d8bda67860cd": {
+    "message": "未经确认的连接。检查 NAS 并重试。"
+  },
+  "ui_b7356b338117": {
+    "message": "忘记帐号了。"
+  },
+  "ui_b791d0fcafae": {
+    "message": "设置不可用。重新加载此页面。"
+  },
+  "ui_cdc531eeb77d": {
+    "message": "在“系统设置”→“通知”中允许 UGREEN NAS Download 横幅。"
+  },
+  "ui_aa5f51ab7162": {
+    "message": "上次检查的下载： "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "已发送测试通知。如果它仍然不可见，请检查焦点模式和通知设置。"
+  },
+  "ui_c30bdfb591a9": {
+    "message": "测试不可用。"
+  },
+  "ui_69a73fdd87c7": {
+    "message": "正在寻找 NAS..."
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "意外的搜索响应。"
+  },
+  "ui_5fd0980a2907": {
+    "message": "选择您的NAS，然后检查其证书。"
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "未找到 NAS。检查您的网络或手动输入其地址。"
+  },
+  "ui_71a547ac7d47": {
+    "message": "提供地址。连接前检查证书。"
+  },
+  "ui_4fd15b694321": {
+    "message": " 您可以手动输入地址。"
+  },
+  "ui_450dc649eed7": {
+    "message": "从 Safari 到您的 NAS"
+  },
+  "ui_abe5338595d8": {
+    "message": "自动发送"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "种子和磁力链接"
+  },
+  "ui_9581d056ec2b": {
+    "message": "下载"
+  },
+  "ui_c87d99eda40e": {
+    "message": "正在连接到 NAS..."
+  },
+  "ui_84d1987114e2": {
+    "message": "发送链接"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "下载链接或磁铁"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "检查此页面..."
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "连接设置"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "拦截 torrent 和磁力链接"
+  },
+  "ui_53107f6482b8": {
+    "message": "刷新下载"
+  },
+  "ui_b76a016a207d": {
+    "message": "下载正在进行中"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "文件或磁力链接 URL"
+  },
+  "ui_b0322b8340c7": {
+    "message": "发送至NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "连接至 NAS UGREEN"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "连接至NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "设置您的帐户一次。未来的发货将直接从 Safari 进行。"
+  },
+  "ui_6ab12e9085a8": {
+    "message": "找到我的 NAS"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "通过 UGREEN 在线服务搜索。没有用户名或密码传输给他。需要互联网连接。"
+  },
+  "ui_d40941f301ba": {
+    "message": "NAS 的地址 HTTPS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "密码"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "双重验证码（如果启用）"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "将此扩展注册为 NAS 上的受信任设备，以便无需新代码即可重新连接。"
+  },
+  "ui_354c180feac5": {
+    "message": "该权限可以在NAS的可信设备管理中撤销。如果没有它，会话到期时可能需要新代码。"
+  },
+  "ui_67850d38a7fd": {
+    "message": "NAS 上的目标文件夹"
+  },
+  "ui_059b656d6323": {
+    "message": "首次连接：打开Mac应用程序UGREEN NAS Download并使用“允许本地网络连接”。检索证书后，将出现下面的框。"
+  },
+  "ui_373ca63c9193": {
+    "message": "查看NAS的证书"
+  },
+  "ui_d717e9becb9d": {
+    "message": "我认得这个NAS并确认这个证书印记。"
+  },
+  "ui_e2583fb31345": {
+    "message": "保存并测试连接"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "忘记这个账号"
+  },
+  "ui_352e0513f977": {
+    "message": "首次登录前，请验证来自可信来源的 SHA-256 指纹。密码和令牌永远不会存储在扩展程序的网络存储中。"
+  },
+  "ui_dd750a280438": {
+    "message": "下载通知"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "已完成、已停止或有错误"
+  },
+  "ui_e44412dc793d": {
+    "message": "测试通知"
+  },
+  "ui_984e864f3451": {
+    "message": "保存在钥匙扣 macOS 中"
+  },
+  "ui_a578e17cff5f": {
+    "message": "临时代码，从未保存"
+  },
+  "ui_08987f40bc10": {
+    "message": "直接从 Safari 下载文件、种子和磁力链接到您的 NAS UGREEN。"
+  },
+  "ui_4551356cc3d9": {
+    "message": "如果 macOS 要求您这样做，则允许本地网络。"
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "正在检查扩展名..."
+  },
+  "ui_b556373f5802": {
+    "message": "在Safari中，右键单击一个文件，\n然后选择“下载到NAS”。"
+  },
+  "ui_0f924b5d201f": {
+    "message": "Safari 中的扩展设置..."
+  },
+  "ui_9db119b9906f": {
+    "message": "允许访问 NAS..."
+  },
+  "ui_c5d406ecc207": {
+    "message": "在 Safari 中启用扩展"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "在 Safari 设置中激活的扩展"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "打开Safari查看扩展名。"
+  },
+  "ui_a0974b4c78f7": {
+    "message": "打开 Safari → 设置 → 扩展。"
+  },
+  "ui_28f8ee74ca61": {
+    "message": "正在连接到 NAS...如果 macOS 请求，则允许本地网络。"
+  },
+  "ui_dfe810da2890": {
+    "message": "可以访问本地网络。然后将您的NAS配置为Safari。"
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "在系统设置 → 隐私和安全 → 本地网络中允许访问。"
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "NAS 无法访问。检查您的连接和本地网络访问。"
+  },
+  "ui_b6104af839b2": {
+    "message": "NAS 没有响应。检查您的连接，然后重试。"
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS 未接受通知。检查应用程序的通知设置。"
+  },
+  "ui_f5addc7b5c24": {
+    "message": "使用完整的 HTTPS 地址及其端口，不带路径或标识符。"
+  },
+  "ui_9209362478e0": {
+    "message": "对钥匙串的访问被拒绝或锁定。"
+  },
+  "ui_eb583918b61e": {
+    "message": "无法在钥匙串中保存凭据。"
+  },
+  "ui_079197b78282": {
+    "message": "无法更新钥匙串。"
+  },
+  "ui_b52ac257e9d5": {
+    "message": "NAS 重定向被拒绝。"
+  },
+  "ui_f51ec28c3af6": {
+    "message": "NAS API 响应无效或重定向被拒绝。"
+  },
+  "ui_ff1507c53259": {
+    "message": "NAS 响应缺失。"
+  },
+  "ui_d6ce26cae65c": {
+    "message": "NAS 响应太大。"
+  },
+  "ui_ae437aff49ba": {
+    "message": "无法读取响应 NAS。"
+  },
+  "ui_b044999d35ab": {
+    "message": "NAS 登录密钥无效。"
+  },
+  "ui_7b80438ec983": {
+    "message": "RSA 密钥无效。"
+  },
+  "ui_dbb5f4df5427": {
+    "message": "不支持 RSA 密钥。"
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "使用指向文件的直接 HTTP 或 HTTPS 链接，无需嵌入标识符。"
+  },
+  "ui_3716aaf78bec": {
+    "message": "种子无效或大于 512 KB。"
+  },
+  "ui_a74be4e6d377": {
+    "message": "种子频道无效。"
+  },
+  "ui_2d34af66a278": {
+    "message": "种子密钥无效。"
+  },
+  "ui_4024b2fc5907": {
+    "message": "收到的内容不是 torrent。"
+  },
+  "ui_75f70ed3140a": {
+    "message": "收到的内容不是 torrent。"
+  },
+  "ui_4a8e63360f63": {
+    "message": "Torrent 元数据丢失或无效。"
+  },
+  "ui_8eb203ba941d": {
+    "message": "NAS 尚未识别出任何要下载的文件。"
+  },
+  "ui_137e68b05223": {
+    "message": "NAS 未识别 torrent 名称。尚未确认任何任务。"
+  },
+  "ui_5ebaf4042fab": {
+    "message": "任务名称被 NAS 拒绝。"
+  },
+  "ui_409c39d465ec": {
+    "message": "以意外格式收到的下载列表。"
+  },
+  "ui_19356d0fa0b7": {
+    "message": "下载完成"
+  },
+  "ui_f01c5b082925": {
+    "message": "下载已停止"
+  },
+  "ui_8a9821880139": {
+    "message": "下载错误"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "UGREEN 搜索服务出现意外响应。"
+  },
+  "ui_89450dc3c8e2": {
+    "message": "NAS 操作已在进行中。"
+  },
+  "ui_094557fca057": {
+    "message": "注册帐户之前请仔细检查证书。"
+  },
+  "ui_d82863a8cab7": {
+    "message": "连接成功。标识符和会话保存在钥匙串中。"
+  },
+  "ui_4bb0c308d018": {
+    "message": "会话将在下次发送期间更新。"
+  },
+  "ui_6b7a96d5703e": {
+    "message": "在“系统设置”→“通知”中允许通知。"
+  },
+  "ui_207aa6d45769": {
+    "message": "在设置中配置您的 NAS。"
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "已完成文件列表不可用。"
+  },
+  "ui_ce120d12a24d": {
+    "message": "已完成的文件太多，无法完全跟踪通知。"
+  },
+  "ui_ffe11a4deea9": {
+    "message": "在扩展选项中配置您的 NAS。"
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "NAS没有返回任何文件进行确认。重试之前请检查下载。"
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "NAS 下载接受的任务。"
+  },
+  "ui_8534c1e85d41": {
+    "message": " 未识别型：保留原名称。"
+  },
+  "ui_b67e827b8e82": {
+    "message": "会话拒绝。检查选项中的凭据。"
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "未找到 NAS 名称 (DNS)。打开 UGREEN NAS Download 应用程序并允许本地网络，然后重试。您还可以在选项中查看NAS的IP地址。"
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "本地连接被拒绝或 NAS 无法访问。在 Mac 应用程序中，使用允许本地连接，然后检查地址和端口。"
+  },
+  "ui_8872b03932e1": {
+    "message": "连接 TLS 或证书被拒绝。在重试之前，请检查选项中的证书及其指纹。"
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "NAS 连接超时。再次发送之前请检查网络和作业。"
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "任务太多，无法安全识别文件。"
+  },
+  "ui_3638a59bd40e": {
+    "message": "NAS 未提供可用的文件名。更名事宜仍悬而未决。"
+  },
+  "ui_201901522851": {
+    "message": "没有免费的文件名。没有文件被替换。"
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS 意外响应。"
+  },
+  "ui_8493662e7e41": {
+    "message": "NAS 拒绝该客户端的连接设置（代码 9406）。检查版本和连接协议。"
+  },
+  "ui_00127e31a7b9": {
+    "message": "临时代码必须包含 6 至 8 位数字。"
+  },
+  "ui_a8d1da72b360": {
+    "message": "最近连接被拒绝。检查选项，然后稍等片刻。"
+  },
+  "ui_df225b598a79": {
+    "message": "NAS 未提供其 RSA 连接密钥。"
+  },
+  "ui_2432f5f3cac4": {
+    "message": "连接不完整：NAS 请求额外验证。"
+  },
+  "ui_85d198010d47": {
+    "message": "任务未由 NAS 确认（状态 %d）。重试之前请检查下载。"
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "NAS尚未确认文件（状态%d）。重试之前请检查下载。"
+  },
+  "ui_6efc97ce913e": {
+    "message": "未确认的NAS连接（技术代码%d）。在重试之前检查任务。"
+  },
+  "ui_e7bdf09e336a": {
+    "message": "NAS 拒绝 {path}（代码 %d）。 {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "扩展程序在此页面不可用"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "等待"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "最后通过右键单击发送： "
+  },
+  "ui_fe514dd7780a": {
+    "message": "连接到 NAS 无法正确名称。"
+  },
+  "ui_7bcf7edabd48": {
+    "message": "通知连接不可用。"
+  },
+  "ui_161cd02a787c": {
+    "message": "无法修改通知。"
+  },
+  "ui_f599ca63f18d": {
+    "message": "通知不可用。"
+  },
+  "ui_d396daf24272": {
+    "message": "无法连接到 NAS。"
+  },
+  "ui_50edc0c70deb": {
+    "message": "无法连接到 Mac 模块。"
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256： "
+  },
+  "ui_c1486275c837": {
+    "message": "修改不可能。"
+  },
+  "ui_9e5c694d62ed": {
+    "message": "搜索不可用。"
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "初始化..."
+  },
+  "ui_1052b279ffe6": {
+    "message": "脚本已加载"
+  },
+  "ui_62611dbedb70": {
+    "message": "注射被拒绝"
+  },
+  "ui_f963644d9839": {
+    "message": "Safari模块不可用"
+  },
+  "ui_98c28c423cc5": {
+    "message": "受保护的 torrent 必须可以从此站点访问。不会将 Cookie 传输到其他站点。"
+  },
+  "ui_c847f62838fd": {
+    "message": "该网站拒绝访问该种子。检查您与该站点的连接。"
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent 太大（限制 512 KB）。"
+  },
+  "ui_df84ce2fd25c": {
+    "message": "该网站未返回有效的 torrent 文件。"
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "没有确认。在重试之前检查 NAS 任务。"
+  },
+  "ui_82e766fc3000": {
+    "message": "该网站在 20 秒内没有提供 torrent。你可以再试一次。"
+  },
+  "ui_4b5f254ca06c": {
+    "message": "未确认发货。在重试之前检查 NAS 任务。"
+  },
+  "ui_b77404083cf4": {
+    "message": "无法删除帐户。"
+  },
+  "ui_a974c8e3f389": {
+    "message": "NAS 连接中断。"
+  },
+  "ui_428d624126cb": {
+    "message": "DER 无效。"
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "无法进行密码加密。"
+  },
+  "ui_f3cdccb5402b": {
+    "message": "磁铁标识符无效。"
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL 无效的种子。"
+  },
+  "ui_912d2e061225": {
+    "message": "洪流结构无效。"
+  },
+  "ui_3326f8e02c15": {
+    "message": "种子长度无效。"
+  },
+  "ui_8402366c958d": {
+    "message": "整个 torrent 无效。"
+  },
+  "ui_82813a88c223": {
+    "message": "信息字典无效。"
+  },
+  "ui_b88378cc7549": {
+    "message": "洪流不完整。"
+  },
+  "ui_90c67be91210": {
+    "message": "洪流树太大。"
+  },
+  "ui_6772a23b59ca": {
+    "message": "UGREEN 搜索服务不可用。"
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "证书 NAS 不可用。"
+  },
+  "ui_7143f9a88e8f": {
+    "message": "标识符或目标文件夹不完整。"
+  },
+  "ui_ee8668932e6f": {
+    "message": "不支持命令。"
+  },
+  "ui_d8dc23336417": {
+    "message": "列表无法识别该文件。"
+  },
+  "ui_eb63290d0d8b": {
+    "message": "NAS不确认目的名称是否空闲。"
+  },
+  "ui_32a1a240c4e6": {
+    "message": "API 路径无效。"
+  },
+  "ui_1e5497bce01d": {
+    "message": "需要双重身份验证。在选项中输入临时代码，然后重新开始。"
+  },
+  "ui_86d4edf3510b": {
+    "message": "无效消息。"
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "该网站上的扩展程序处于活动状态"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "主动延伸·直接链接"
+  },
+  "ui_e62e17c13421": {
+    "message": "寻找来源"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "留空以保留当前密码"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "删除此配置文件Safari的钥匙串登录和会话？"
+  },
+  "ui_29871f14bdb5": {
+    "message": "无法删除。"
+  },
+  "ui_bc8a610a15ef": {
+    "message": "监控自动恢复。"
+  },
+  "ui_de2d2f9089c7": {
+    "message": "固定名称待定。"
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "{name}的进度"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} 于 {total}"
+  }
+}

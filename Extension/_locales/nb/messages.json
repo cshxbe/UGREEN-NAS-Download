@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Last ned til NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Ingen brukbare nedlastingslenker."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Ugyldig nedlastingslenke."
+  },
+  "ui_eb7039127a09": {
+    "message": "Denne filen er generert i Safari eller beskyttet. NAS trenger en direkte tilgjengelig HTTP- eller HTTPS-kobling."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "Lenker som inneholder brukernavn eller passord aksepteres ikke."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Ubekreftet forsendelse."
+  },
+  "ui_43ed82d682c5": {
+    "message": "En forsendelse er allerede i gang. Prøv igjen om noen få øyeblikk."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Ingen bekreftelse av NAS. Sjekk oppgavene før du prøver igjen."
+  },
+  "ui_0868c445da94": {
+    "message": "Ubekreftet forsendelse. Sjekk NAS-oppgavene."
+  },
+  "ui_9810a954e3f7": {
+    "message": "Nedlastingssporing er utilgjengelig."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "Endring ikke bekreftet."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "En forsendelse er allerede i gang."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Avlytting deaktivert."
+  },
+  "ui_28042909c3c2": {
+    "message": "Uautorisert torrent eller opprinnelse."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Ugyldig link."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Ingen bekreftelse av NAS. Sjekk oppgavene før du prøver igjen."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Send til NAS..."
+  },
+  "ui_df615a99851a": {
+    "message": "Sjekk NAS før du prøver igjen."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Ingen bekreftelse. Sjekk NAS før du prøver igjen."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "Last inn denne siden på nytt for å aktivere utvidelsen"
+  },
+  "ui_d143da43aff6": {
+    "message": "Automatisk sending er deaktivert"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Uautorisert tilgang til denne siden eller siden for å laste inn på nytt"
+  },
+  "ui_38858cd588e0": {
+    "message": "Last ned"
+  },
+  "ui_239c064e0d40": {
+    "message": "På pause"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Verifikasjon"
+  },
+  "ui_797f5dcd0217": {
+    "message": "Pågår"
+  },
+  "ui_01f19353c67f": {
+    "message": " mottatt"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "NAS behandler en annen operasjon..."
+  },
+  "ui_e43026bf1415": {
+    "message": "Svar fra NAS utilgjengelig."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "Liste over nedlastinger utilgjengelig."
+  },
+  "ui_dcc71329139f": {
+    "message": "Delvis liste: NAS inneholder mer enn 10 000 oppgaver."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Ingen nedlasting pågår."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Oppdatert til "
+  },
+  "ui_cca90e72b30f": {
+    "message": "Oppdatering avbrutt. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS utilgjengelig."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Navn på fil som skal sjekkes: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Konto konfigurert. Økt og identifikatorer lagret i nøkkelringen."
+  },
+  "ui_26d832931702": {
+    "message": "Åpne Mac-appen og prøv igjen."
+  },
+  "ui_ab13d42df210": {
+    "message": "Leser sertifikatet, uten å overføre identifikatorer..."
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Sjekk fingeravtrykket, og bekreft deretter NAS."
+  },
+  "ui_4122652cdf72": {
+    "message": "Tilkoblingstest til NAS..."
+  },
+  "ui_03000c00b0b7": {
+    "message": "Ubekreftet tilkobling."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Ubekreftet tilkobling. Sjekk NAS og prøv igjen."
+  },
+  "ui_b7356b338117": {
+    "message": "Glemt konto."
+  },
+  "ui_b791d0fcafae": {
+    "message": "Innstillingen er utilgjengelig. Last denne siden på nytt."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "Tillat UGREEN NAS Download-bannere i Systeminnstillinger → Varsler."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Siste nedlastinger sjekket: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Testvarsel sendt. Hvis den forblir usynlig, kontrollerer du fokusmodus og varslingsinnstillinger."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "Testing er ikke tilgjengelig."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "Søker etter NAS..."
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Uventet søkesvar."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Velg din NAS, og sjekk deretter sertifikatet."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "Ingen NAS funnet. Sjekk nettverket ditt eller skriv inn adressen manuelt."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Oppgitt adresse. Sjekk sertifikatet før du kobler til."
+  },
+  "ui_4fd15b694321": {
+    "message": " Du kan legge inn adressen manuelt."
+  },
+  "ui_450dc649eed7": {
+    "message": "Fra Safari til din NAS"
+  },
+  "ui_abe5338595d8": {
+    "message": "Automatisk sending"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrenter og magnetkoblinger"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Nedlastinger"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Kobler til NAS..."
+  },
+  "ui_84d1987114e2": {
+    "message": "Send en lenke"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Last ned lenke eller magnet"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Sjekker denne siden …"
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Tilkoblingsinnstillinger"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Skjær opp torrent- og magnetlenker"
+  },
+  "ui_53107f6482b8": {
+    "message": "Oppdater nedlastinger"
+  },
+  "ui_b76a016a207d": {
+    "message": "Nedlastinger pågår"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "URL av fil eller magnetlenke"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Send til NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "Tilkobling til NAS UGREEN"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Kobler til NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Sett opp kontoen din én gang. Fremtidige forsendelser vil bli gjort direkte fra Safari."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Finn min NAS"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Søk via UGREEN netttjeneste. Ingen brukernavn eller passord blir overført til ham. En Internett-tilkobling kreves."
+  },
+  "ui_d40941f301ba": {
+    "message": "Adresse HTTPS til NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Passord"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Dobbel autentiseringskode (hvis aktivert)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Registrer denne utvidelsen som en pålitelig enhet på NAS for å tillate gjentilkoblinger uten ny kode."
+  },
+  "ui_354c180feac5": {
+    "message": "Denne tillatelsen kan tilbakekalles i den pålitelige enhetsadministrasjonen til NAS. Uten den kan det være nødvendig med en ny kode når økten utløper."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Destinasjonsmappe på NAS"
+  },
+  "ui_059b656d6323": {
+    "message": "Første tilkobling: Åpne Mac-applikasjonen UGREEN NAS Download og bruk \"Tillat lokal nettverkstilkobling\". Boksen nedenfor vil være tilgjengelig etter henting av sertifikatet."
+  },
+  "ui_373ca63c9193": {
+    "message": "Sjekk sertifikatet til NAS"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Jeg gjenkjenner denne NAS og bekrefter dette sertifikatavtrykket."
+  },
+  "ui_e2583fb31345": {
+    "message": "Lagre og test tilkoblingen"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Glem denne kontoen"
+  },
+  "ui_352e0513f977": {
+    "message": "Bekreft SHA-256-fingeravtrykket fra en pålitelig kilde før første pålogging. Passord og tokens lagres aldri i utvidelsens nettlagring."
+  },
+  "ui_dd750a280438": {
+    "message": "Last ned varsler"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Fullført, stoppet eller feil"
+  },
+  "ui_e44412dc793d": {
+    "message": "Test et varsel"
+  },
+  "ui_984e864f3451": {
+    "message": "Oppbevart i nøkkelring macOS"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Midlertidig kode, aldri lagret"
+  },
+  "ui_08987f40bc10": {
+    "message": "Last ned filer, torrenter og magnetlenker til din NAS UGREEN, direkte fra Safari."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Tillat lokalt nettverk hvis macOS ber deg om det."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "Sjekker utvidelsen …"
+  },
+  "ui_b556373f5802": {
+    "message": "I Safari, høyreklikk på en fil,\nvelg deretter \"Last ned til NAS\"."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Utvidelsesinnstillinger i Safari..."
+  },
+  "ui_9db119b9906f": {
+    "message": "Gi tilgang til NAS..."
+  },
+  "ui_c5d406ecc207": {
+    "message": "Utvidelse aktivert i Safari"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "Utvidelse for å aktiveres i Safari-innstillinger"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Åpne Safari for å sjekke utvidelsen."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Åpne Safari → Innstillinger → Utvidelser."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Kobler til NAS... Tillat lokalt nettverk hvis macOS ber om det."
+  },
+  "ui_dfe810da2890": {
+    "message": "Lokal nettverkstilgang tilgjengelig. Konfigurer deretter din NAS til Safari."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Tillat tilgang i Systeminnstillinger → Personvern og sikkerhet → Lokalt nettverk."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "NAS er utilgjengelig. Sjekk tilkoblingen og lokal nettverkstilgang."
+  },
+  "ui_b6104af839b2": {
+    "message": "NAS svarer ikke. Sjekk tilkoblingen, og prøv på nytt."
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS godtok ikke varselet. Sjekk appens varslingsinnstillinger."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Bruk en fullstendig HTTPS-adresse, med porten, uten bane eller identifikatorer."
+  },
+  "ui_9209362478e0": {
+    "message": "Tilgang til nøkkelring nektet eller låst."
+  },
+  "ui_eb583918b61e": {
+    "message": "Kan ikke lagre legitimasjon i nøkkelring."
+  },
+  "ui_079197b78282": {
+    "message": "Kan ikke oppdatere nøkkelring."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "NAS omdirigering avvist."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "NAS API-svar ugyldig eller omdirigering avvist."
+  },
+  "ui_ff1507c53259": {
+    "message": "NAS-svar mangler."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "NAS-responsen er for stor."
+  },
+  "ui_ae437aff49ba": {
+    "message": "Kan ikke lese svar NAS."
+  },
+  "ui_b044999d35ab": {
+    "message": "Ugyldig NAS påloggingsnøkkel."
+  },
+  "ui_7b80438ec983": {
+    "message": "Ugyldig RSA-nøkkel."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "RSA-nøkkel støttes ikke."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Bruk en direkte HTTP- eller HTTPS-kobling til filen, uten innebygde identifikatorer."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Ugyldig torrent eller større enn 512 KB."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Ugyldig torrent-kanal."
+  },
+  "ui_2d34af66a278": {
+    "message": "Ugyldig torrentnøkkel."
+  },
+  "ui_4024b2fc5907": {
+    "message": "Innhold mottatt uten torrent."
+  },
+  "ui_75f70ed3140a": {
+    "message": "Innholdet som mottas er ikke en torrent."
+  },
+  "ui_4a8e63360f63": {
+    "message": "Torrent-metadata mangler eller er ugyldig."
+  },
+  "ui_8eb203ba941d": {
+    "message": "NAS har ikke identifisert noen filer å laste ned."
+  },
+  "ui_137e68b05223": {
+    "message": "NAS identifiserte ikke torrentnavnet. Ingen oppgaver er bekreftet."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "Oppgavenavn nektet av NAS."
+  },
+  "ui_409c39d465ec": {
+    "message": "Liste over nedlastinger mottatt i et uventet format."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Nedlasting fullført"
+  },
+  "ui_f01c5b082925": {
+    "message": "Nedlasting stoppet"
+  },
+  "ui_8a9821880139": {
+    "message": "Last ned feil"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Uventet svar fra UGREEN søketjeneste."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "En NAS-operasjon er allerede i gang."
+  },
+  "ui_094557fca057": {
+    "message": "Dobbeltsjekk sertifikatet før du registrerer kontoen."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Tilkoblingen var vellykket. Identifikatorer og økt lagret i nøkkelringen."
+  },
+  "ui_4bb0c308d018": {
+    "message": "Økten skal fornyes ved neste sending."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Tillat varsler i Systeminnstillinger → Varsler."
+  },
+  "ui_207aa6d45769": {
+    "message": "Konfigurer din NAS i innstillingene."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "Liste over fullførte filer er utilgjengelig."
+  },
+  "ui_ce120d12a24d": {
+    "message": "For mange fullførte filer til å holde oversikt over varsler helt."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Konfigurer din NAS i utvidelsesalternativene."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "NAS returnerte ingen filer for å bekrefte. Sjekk Nedlastinger før du prøver igjen."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "Oppgave akseptert av NAS Nedlastinger."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Uidentifisert type: det opprinnelige navnet beholdes."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Sesjon avvist. Sjekk legitimasjonen i alternativene."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "NAS navn ikke funnet (DNS). Åpne UGREEN NAS Download-appen og tillat lokalt nettverk, og prøv igjen. Du kan også sjekke IP-adressen til NAS i alternativene."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "Lokal tilkobling nektet eller NAS utilgjengelig. I Mac-appen bruker du Tillat lokal tilkobling, og kontroller deretter adressen og porten."
+  },
+  "ui_8872b03932e1": {
+    "message": "Tilkobling TLS eller sertifikat nektet. Sjekk sertifikatet og dets tommelfingeravtrykk i alternativene før du prøver igjen."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "NAS tidsavbrudd for tilkobling. Sjekk nettverket og jobbene før du sender igjen."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "For mange oppgaver til å identifisere filen på en sikker måte."
+  },
+  "ui_3638a59bd40e": {
+    "message": "NAS ga ikke et brukbart filnavn. Gi nytt navn forblir påvente."
+  },
+  "ui_201901522851": {
+    "message": "Ingen gratis filnavn. Ingen filer er erstattet."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS uventet respons."
+  },
+  "ui_8493662e7e41": {
+    "message": "NAS nekter denne klientens tilkoblingsinnstillinger (kode 9406). Sjekk versjonen og tilkoblingsprotokollen."
+  },
+  "ui_00127e31a7b9": {
+    "message": "Den midlertidige koden må inneholde 6 til 8 sifre."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Tilkoblingen ble nylig nektet. Sjekk alternativene og vent et minutt."
+  },
+  "ui_df225b598a79": {
+    "message": "NAS ga ikke RSA-tilkoblingsnøkkelen."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Ufullstendig tilkobling: ytterligere validering forespurt av NAS."
+  },
+  "ui_85d198010d47": {
+    "message": "Oppgaven er ikke bekreftet av NAS (oppgi %d). Sjekk Nedlastinger før du prøver igjen."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "NAS har ikke bekreftet filene (oppgi %d). Sjekk Nedlastinger før du prøver igjen."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Ubekreftet NAS-tilkobling (teknisk kode %d). Sjekk oppgavene før du prøver igjen."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "NAS nekter {path} (kode %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "Utvidelsen er ikke tilgjengelig på denne siden"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "Venter"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Sist sendt med høyreklikk: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "Tilkobling til NAS utilgjengelig for å korrigere navn."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Tilkobling til varsler utilgjengelig."
+  },
+  "ui_161cd02a787c": {
+    "message": "Kan ikke endre varsler."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Varsler er utilgjengelige."
+  },
+  "ui_d396daf24272": {
+    "message": "Tilkobling til NAS utilgjengelig."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Kan ikke koble til Mac-modulen."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Modifikasjon umulig."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "Søk utilgjengelig."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Initialisering..."
+  },
+  "ui_1052b279ffe6": {
+    "message": "Skriptet er lastet"
+  },
+  "ui_62611dbedb70": {
+    "message": "Injeksjon nektet"
+  },
+  "ui_f963644d9839": {
+    "message": "Safari-modulen er ikke tilgjengelig"
+  },
+  "ui_98c28c423cc5": {
+    "message": "Den beskyttede torrenten må være tilgjengelig fra denne siden. Ingen informasjonskapsler overføres til et annet nettsted."
+  },
+  "ui_c847f62838fd": {
+    "message": "Nettstedet nekter tilgang til torrenten. Sjekk tilkoblingen til nettstedet."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent for stor (grense 512 KB)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "Nettstedet returnerte ikke en gyldig torrentfil."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Ingen bekreftelse. Sjekk NAS-oppgavene før du prøver igjen."
+  },
+  "ui_82e766fc3000": {
+    "message": "Nettstedet ga ikke torrenten innen 20 sekunder. Du kan prøve igjen."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Ubekreftet forsendelse. Sjekk NAS-oppgavene før du prøver igjen."
+  },
+  "ui_b77404083cf4": {
+    "message": "Kan ikke slette kontoen."
+  },
+  "ui_a974c8e3f389": {
+    "message": "NAS-tilkoblingen ble avbrutt."
+  },
+  "ui_428d624126cb": {
+    "message": "DER ugyldig."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "Passordkryptering ikke mulig."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Ugyldig magnetidentifikator."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL ugyldig torrent."
+  },
+  "ui_912d2e061225": {
+    "message": "Ugyldig torrentstruktur."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Ugyldig torrentlengde."
+  },
+  "ui_8402366c958d": {
+    "message": "Hele torrenten er ugyldig."
+  },
+  "ui_82813a88c223": {
+    "message": "Ugyldig infoordbok."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrent ufullstendig."
+  },
+  "ui_90c67be91210": {
+    "message": "Torrent-treet er for stort."
+  },
+  "ui_6772a23b59ca": {
+    "message": "UGREEN-søketjenesten er utilgjengelig."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "Sertifikatet NAS utilgjengelig."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Ufullstendige identifikatorer eller målmappe."
+  },
+  "ui_ee8668932e6f": {
+    "message": "Kommandoen støttes ikke."
+  },
+  "ui_d8dc23336417": {
+    "message": "Listen er utilgjengelig for å identifisere filen."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "NAS bekrefter ikke om destinasjonsnavnet er ledig."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Ugyldig API-bane."
+  },
+  "ui_1e5497bce01d": {
+    "message": "Dobbel autentisering kreves. Skriv inn en midlertidig kode i alternativene og start på nytt."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Ugyldig melding."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "Utvidelse aktiv på denne siden"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Aktiv utvidelse · direkte lenker"
+  },
+  "ui_e62e17c13421": {
+    "message": "Finne kilder"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "La stå tomt for å beholde gjeldende passord"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "Slette nøkkelringpåloggingene og økten for denne profilen Safari?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Kan ikke slette."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "Overvåkingen gjenopptas automatisk."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Fast navn venter."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "Fremgang på {name}"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} på {total}"
+  }
+}

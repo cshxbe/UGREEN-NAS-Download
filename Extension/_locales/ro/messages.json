@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Descărcați pe NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Nu există linkuri de descărcare utilizabile."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Link de descărcare nevalid."
+  },
+  "ui_eb7039127a09": {
+    "message": "Acest fișier este generat în Safari sau protejat. NAS are nevoie de o legătură HTTP sau HTTPS direct accesibilă."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "Link-urile care conțin un nume de utilizator sau o parolă nu sunt acceptate."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Livrare neconfirmată."
+  },
+  "ui_43ed82d682c5": {
+    "message": "O expediere este deja în curs. Încercați din nou peste câteva momente."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Nicio confirmare pentru NAS. Verificați sarcinile sale înainte de a încerca din nou."
+  },
+  "ui_0868c445da94": {
+    "message": "Livrare neconfirmată. Verificați sarcinile NAS."
+  },
+  "ui_9810a954e3f7": {
+    "message": "Urmărirea descărcării nu este disponibilă."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "Modificarea nu a fost confirmată."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "O expediere este deja în curs."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Interceptarea dezactivată."
+  },
+  "ui_28042909c3c2": {
+    "message": "Torrent sau origine neautorizat."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Link nevalid."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Nicio confirmare pentru NAS. Verificați sarcinile înainte de a încerca din nou."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Trimite la NAS..."
+  },
+  "ui_df615a99851a": {
+    "message": "Verificați NAS înainte de a încerca din nou."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Nicio confirmare. Verificați NAS înainte de a încerca din nou."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "Reîncărcați această pagină pentru a activa extensia"
+  },
+  "ui_d143da43aff6": {
+    "message": "Trimiterea automată a fost dezactivată"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Acces neautorizat la acest site sau pagină pentru reîncărcare"
+  },
+  "ui_38858cd588e0": {
+    "message": "Descărcați"
+  },
+  "ui_239c064e0d40": {
+    "message": "În pauză"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Verificare"
+  },
+  "ui_797f5dcd0217": {
+    "message": "În curs"
+  },
+  "ui_01f19353c67f": {
+    "message": " primit"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "NAS procesează o altă operație..."
+  },
+  "ui_e43026bf1415": {
+    "message": "Răspunsul de la NAS nu este disponibil."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "Lista descărcărilor nu este disponibilă."
+  },
+  "ui_dcc71329139f": {
+    "message": "Lista parțială: NAS conține mai mult de 10.000 de sarcini."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Nicio descărcare în curs."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Actualizat la "
+  },
+  "ui_cca90e72b30f": {
+    "message": "Actualizare întreruptă. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS inaccesibil."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Numele fișierului de verificat: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Cont configurat. Sesiunea și identificatorii stocați în Keychain."
+  },
+  "ui_26d832931702": {
+    "message": "Deschide aplicația Mac și încearcă din nou."
+  },
+  "ui_ab13d42df210": {
+    "message": "Citirea certificatului, fără a transmite identificatori..."
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Verificați amprenta, apoi confirmați NAS."
+  },
+  "ui_4122652cdf72": {
+    "message": "Test de conectare la NAS..."
+  },
+  "ui_03000c00b0b7": {
+    "message": "Conexiune neconfirmată."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Conexiune neconfirmată. Verificați NAS și încercați din nou."
+  },
+  "ui_b7356b338117": {
+    "message": "Cont uitat."
+  },
+  "ui_b791d0fcafae": {
+    "message": "Setare indisponibilă. Reîncărcați această pagină."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "Permiteți bannere UGREEN NAS Download în Setări sistem → Notificări."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Ultimele descărcări verificate: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Notificare de testare trimisă. Dacă rămâne invizibil, verificați modul de focalizare și setările de notificare."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "Testarea nu este disponibilă."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "Se caută NAS…"
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Răspuns neașteptat de căutare."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Alegeți NAS, apoi verificați-i certificatul."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "Nu s-a găsit NAS. Verificați-vă rețeaua sau introduceți manual adresa acesteia."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Adresa furnizata. Verificați certificatul înainte de a vă conecta."
+  },
+  "ui_4fd15b694321": {
+    "message": " Puteți introduce adresa manual."
+  },
+  "ui_450dc649eed7": {
+    "message": "De la Safari la NAS"
+  },
+  "ui_abe5338595d8": {
+    "message": "Trimitere automată"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrente și legături magnetice"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Descărcări"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Se conectează la NAS..."
+  },
+  "ui_84d1987114e2": {
+    "message": "Trimiteți un link"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Link de descărcare sau magnet"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Se verifică această pagină..."
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Setări de conexiune"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Interceptați link-uri torrent și magnet"
+  },
+  "ui_53107f6482b8": {
+    "message": "Actualizează descărcările"
+  },
+  "ui_b76a016a207d": {
+    "message": "Descărcări în curs"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "URL fișier sau link magnetic"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Trimiteți către NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "Conexiune la NAS UGREEN"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Se conectează la NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Configurați-vă contul o dată. Livrările viitoare se vor face direct de la Safari."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Găsiți-mi NAS"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Căutați prin serviciul online UGREEN. Nu i se transmite niciun nume de utilizator sau parolă. Este necesară o conexiune la internet."
+  },
+  "ui_d40941f301ba": {
+    "message": "Adresa HTTPS a lui NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Parolă"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Cod de autentificare dublă (dacă este activat)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Înregistrați această extensie ca dispozitiv de încredere pe NAS pentru a permite reconectari fără un cod nou."
+  },
+  "ui_354c180feac5": {
+    "message": "Această permisiune poate fi revocată în gestionarea dispozitivelor de încredere a NAS. Fără acesta, poate fi necesar un nou cod la expirarea sesiunii."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Dosarul de destinație pe NAS"
+  },
+  "ui_059b656d6323": {
+    "message": "Prima conexiune: Deschideți aplicația Mac UGREEN NAS Download și utilizați „Permiteți conexiunea la rețea locală”. Caseta de mai jos va fi disponibilă după preluarea certificatului."
+  },
+  "ui_373ca63c9193": {
+    "message": "Verificați certificatul NAS"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Recunosc acest NAS și confirm amprenta acestui certificat."
+  },
+  "ui_e2583fb31345": {
+    "message": "Salvați și testați conexiunea"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Uitați acest cont"
+  },
+  "ui_352e0513f977": {
+    "message": "Verificați amprenta SHA-256 dintr-o sursă de încredere înainte de prima conectare. Parolele și jetoanele nu sunt niciodată stocate în stocarea web a extensiei."
+  },
+  "ui_dd750a280438": {
+    "message": "Descărcați notificări"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Finalizat, oprit sau în eroare"
+  },
+  "ui_e44412dc793d": {
+    "message": "Testați o notificare"
+  },
+  "ui_984e864f3451": {
+    "message": "Păstrată în breloc macOS"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Cod temporar, niciodată salvat"
+  },
+  "ui_08987f40bc10": {
+    "message": "Descărcați fișiere, torrente și link-uri magnet către NAS UGREEN, direct de la Safari."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Permiteți rețeaua locală dacă macOS vă solicită acest lucru."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "Se verifică extensia..."
+  },
+  "ui_b556373f5802": {
+    "message": "În Safari, faceți clic dreapta pe un fișier,\napoi alegeți „Descărcați pe NAS”."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Setările extensiei în Safari..."
+  },
+  "ui_9db119b9906f": {
+    "message": "Permiteți accesul la NAS…"
+  },
+  "ui_c5d406ecc207": {
+    "message": "Extensia activată în Safari"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "Extensie de activat în setările Safari"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Deschideți Safari pentru a verifica extensia."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Deschideți Safari → Setări → Extensii."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Se conectează la NAS... Permiteți rețeaua locală dacă macOS o solicită."
+  },
+  "ui_dfe810da2890": {
+    "message": "Acces la rețeaua locală disponibil. Apoi configurați NAS în Safari."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Permiteți accesul în Setări sistem → Confidențialitate și securitate → Rețea locală."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "NAS este inaccesibil. Verificați conexiunea și accesul la rețeaua locală."
+  },
+  "ui_b6104af839b2": {
+    "message": "NAS nu răspunde. Verificați conexiunea, apoi încercați din nou."
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS nu a acceptat notificarea. Verificați setările de notificare ale aplicației."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Utilizați o adresă HTTPS completă, cu portul său, fără cale sau identificatori."
+  },
+  "ui_9209362478e0": {
+    "message": "Accesul la Breloc a fost refuzat sau blocat."
+  },
+  "ui_eb583918b61e": {
+    "message": "Nu se pot salva acreditările în Keychain."
+  },
+  "ui_079197b78282": {
+    "message": "Nu se poate actualiza Brelocul."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "Redirecționarea NAS a fost refuzată."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "Răspunsul API NAS nevalid sau redirecționare refuzată."
+  },
+  "ui_ff1507c53259": {
+    "message": "Lipsește răspunsul NAS."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "Răspunsul NAS este prea mare."
+  },
+  "ui_ae437aff49ba": {
+    "message": "Nu se poate citi răspunsul NAS."
+  },
+  "ui_b044999d35ab": {
+    "message": "Cheie de conectare NAS nevalidă."
+  },
+  "ui_7b80438ec983": {
+    "message": "Cheie RSA nevalidă."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "Cheia RSA nu este acceptată."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Utilizați un link direct HTTP sau HTTPS către fișier, fără identificatori încorporați."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Torrent nevalid sau mai mare de 512 KB."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Canal torrent nevalid."
+  },
+  "ui_2d34af66a278": {
+    "message": "Cheie torrent nevalidă."
+  },
+  "ui_4024b2fc5907": {
+    "message": "Conținut primit non-torrent."
+  },
+  "ui_75f70ed3140a": {
+    "message": "Conținutul primit nu este un torrent."
+  },
+  "ui_4a8e63360f63": {
+    "message": "Metadatele torrentului lipsesc sau sunt nevalide."
+  },
+  "ui_8eb203ba941d": {
+    "message": "NAS nu a identificat niciun fișier de descărcat."
+  },
+  "ui_137e68b05223": {
+    "message": "NAS nu a identificat numele torrentului. Nu au fost confirmate sarcini."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "Numele sarcinii a fost refuzat de NAS."
+  },
+  "ui_409c39d465ec": {
+    "message": "Lista descărcărilor primite într-un format neașteptat."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Descărcarea finalizată"
+  },
+  "ui_f01c5b082925": {
+    "message": "Descărcarea s-a oprit"
+  },
+  "ui_8a9821880139": {
+    "message": "Descărcați din greșeală"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Răspuns neașteptat din partea serviciului de căutare UGREEN."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "O operațiune NAS este deja în curs."
+  },
+  "ui_094557fca057": {
+    "message": "Verificați certificatul înainte de a înregistra contul."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Conexiune reușită. Identificatori și sesiune salvate în Keychain."
+  },
+  "ui_4bb0c308d018": {
+    "message": "Sesiunea va fi reînnoită la următoarea expediere."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Permite notificări în Setări sistem → Notificări."
+  },
+  "ui_207aa6d45769": {
+    "message": "Configurați-vă NAS în setări."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "Lista fișierelor finalizate nu este disponibilă."
+  },
+  "ui_ce120d12a24d": {
+    "message": "Prea multe fișiere finalizate pentru a urmări complet notificările."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Configurați-vă NAS în opțiunile de extensie."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "NAS nu a returnat niciun fișier pentru confirmare. Verificați Descărcări înainte de a încerca din nou."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "Sarcină acceptată de NAS Descărcări."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Tip neidentificat: numele original va fi păstrat."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Sesiune refuzată. Verificați acreditările în opțiuni."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "Numele NAS nu a fost găsit (DNS). Deschideți aplicația UGREEN NAS Download și permiteți rețeaua locală, apoi încercați din nou. De asemenea, puteți verifica adresa IP a NAS în opțiuni."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "Conexiune locală refuzată sau NAS inaccesibil. În aplicația pentru Mac, utilizați Permiteți conexiunea la zona locală, apoi verificați adresa și portul."
+  },
+  "ui_8872b03932e1": {
+    "message": "Conexiune TLS sau certificat refuzat. Verificați certificatul și amprenta sa în opțiuni înainte de a încerca din nou."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "Timp de conexiune NAS. Verificați rețeaua și lucrările înainte de a trimite din nou."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "Prea multe sarcini pentru a identifica fișierul în siguranță."
+  },
+  "ui_3638a59bd40e": {
+    "message": "NAS nu a furnizat un nume de fișier utilizabil. Redenumirea rămâne în așteptare."
+  },
+  "ui_201901522851": {
+    "message": "Nu există nume de fișiere gratuite. Niciun fișier nu a fost înlocuit."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS răspuns neașteptat."
+  },
+  "ui_8493662e7e41": {
+    "message": "NAS refuză setările de conectare ale acestui client (cod 9406). Verificați versiunea și protocolul de conectare."
+  },
+  "ui_00127e31a7b9": {
+    "message": "Codul temporar trebuie să conțină 6 până la 8 cifre."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Conexiune a fost recent refuzată. Verificați opțiunile, apoi așteptați un minut."
+  },
+  "ui_df225b598a79": {
+    "message": "NAS nu a furnizat cheia de conectare RSA."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Conexiune incompletă: validare suplimentară solicitată de NAS."
+  },
+  "ui_85d198010d47": {
+    "message": "Sarcina nu a fost confirmată de NAS (state %d). Verificați Descărcări înainte de a încerca din nou."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "NAS nu a confirmat fișierele (stat %d). Verificați Descărcări înainte de a încerca din nou."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Conexiune NAS neconfirmată (cod tehnic %d). Verificați sarcinile înainte de a încerca din nou."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "NAS îl refuză pe {path} (cod %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "Extensia nu este disponibilă pe această pagină"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "în aşteptare"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Ultima trimitere prin clic dreapta: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "Conexiunea la NAS nu este disponibilă pentru a corecta numele."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Conexiune la notificări indisponibilă."
+  },
+  "ui_161cd02a787c": {
+    "message": "Nu se pot modifica notificările."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Notificări indisponibile."
+  },
+  "ui_d396daf24272": {
+    "message": "Conexiunea la NAS indisponibilă."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Nu se poate conecta la modulul Mac."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Modificare imposibilă."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "Căutare indisponibilă."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Inițializare…"
+  },
+  "ui_1052b279ffe6": {
+    "message": "Scriptul a fost încărcat"
+  },
+  "ui_62611dbedb70": {
+    "message": "Injecția refuzată"
+  },
+  "ui_f963644d9839": {
+    "message": "Modulul Safari indisponibil"
+  },
+  "ui_98c28c423cc5": {
+    "message": "Torentul protejat trebuie să fie accesibil de pe acest site. Niciun cookie nu este transmis către un alt site."
+  },
+  "ui_c847f62838fd": {
+    "message": "Site-ul refuză accesul la torrent. Verificați-vă conexiunea la site."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent prea mare (limită 512 KB)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "Site-ul nu a returnat un fișier torrent valid."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Nicio confirmare. Verificați sarcinile NAS înainte de a încerca din nou."
+  },
+  "ui_82e766fc3000": {
+    "message": "Site-ul nu a furnizat torrentul în 20 de secunde. Puteți încerca din nou."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Livrare neconfirmată. Verificați sarcinile NAS înainte de a încerca din nou."
+  },
+  "ui_b77404083cf4": {
+    "message": "Nu se poate șterge contul."
+  },
+  "ui_a974c8e3f389": {
+    "message": "Conexiunea NAS a fost întreruptă."
+  },
+  "ui_428d624126cb": {
+    "message": "DER invalid."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "Criptarea parolei nu este posibilă."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Identificator de magnet nevalid."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL torrent nevalid."
+  },
+  "ui_912d2e061225": {
+    "message": "Structură torrent nevalidă."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Lungimea torrentului nevalidă."
+  },
+  "ui_8402366c958d": {
+    "message": "Întregul torrent este invalid."
+  },
+  "ui_82813a88c223": {
+    "message": "Dicționar de informații nevalid."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrent incomplet."
+  },
+  "ui_90c67be91210": {
+    "message": "Arborele torrentului este prea mare."
+  },
+  "ui_6772a23b59ca": {
+    "message": "Serviciul de căutare UGREEN nu este disponibil."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "Certificatul NAS indisponibil."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Identificatori incompleti sau folder de destinație."
+  },
+  "ui_ee8668932e6f": {
+    "message": "Comanda nu este acceptată."
+  },
+  "ui_d8dc23336417": {
+    "message": "Lista indisponibilă pentru a identifica fișierul."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "NAS nu confirmă dacă numele destinației este liber."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Cale API nevalidă."
+  },
+  "ui_1e5497bce01d": {
+    "message": "Este necesară autentificare dublă. Introduceți un cod temporar în opțiuni, apoi începeți din nou."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Mesaj nevalid."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "Extensie activă pe acest site"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Extensie activă · legături directe"
+  },
+  "ui_e62e17c13421": {
+    "message": "Găsirea surselor"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "Lăsați necompletat pentru a păstra parola curentă"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "Ștergeți autentificarea brelocului și sesiunea pentru acest profil Safari?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Nu se poate șterge."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "Monitorizarea se reia automat."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Nume fix în așteptare."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "Progres de {name}"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} pe {total}"
+  }
+}

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0600000000000000000011 = {isa = PBXBuildFile; fileRef = FA0600000000000000000001; };
+		FA0600000000000000000012 = {isa = PBXBuildFile; fileRef = FA0600000000000000000001; };
+		FA0600000000000000000013 = {isa = PBXBuildFile; fileRef = FA0600000000000000000002; };
+		FA0600000000000000000014 = {isa = PBXBuildFile; fileRef = FA0600000000000000000002; };
+		FA0600000000000000000015 = {isa = PBXBuildFile; fileRef = FA0600000000000000000003; };
 		DD0520000000000000000006 /* icon-dark-256.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000006; };
 		DD0520000000000000000005 /* icon-dark-128.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000005; };
 		DD0520000000000000000004 /* icon-dark-96.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0520000000000000000004; };
@@ -71,6 +76,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA0600000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Shared/Localization.swift"; sourceTree = SOURCE_ROOT; };
+		FA0600000000000000000002 = {isa = PBXFileReference; lastKnownFileType = folder; path = "../../Extension/_locales"; sourceTree = SOURCE_ROOT; };
+		FA0600000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "../../Extension/localize.js"; sourceTree = SOURCE_ROOT; };
 		DE0520000000000000000006 /* icon-dark-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-256.png"; sourceTree = SOURCE_ROOT; };
 		DE0520000000000000000005 /* icon-dark-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-128.png"; sourceTree = SOURCE_ROOT; };
 		DE0520000000000000000004 /* icon-dark-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../Extension/icon-dark-96.png"; sourceTree = SOURCE_ROOT; };
@@ -297,6 +305,7 @@
 		8378F0D7309358C80089605E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				FA0600000000000000000013,
 				8378F0E3309358C80089605E /* Icon.png in Resources */,
 				8378F0EC309358C80089605E /* Main.storyboard in Resources */,
 				8378F0E7309358C80089605E /* Script.js in Resources */,
@@ -309,6 +318,8 @@
 		8378F0F2309358C90089605E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				FA0600000000000000000014,
+				FA0600000000000000000015,
 				DD0520000000000000000000 /* icon-dark-16.png in Resources */,
 				DD0520000000000000000001 /* icon-dark-32.png in Resources */,
 				DD0520000000000000000002 /* icon-dark-48.png in Resources */,
@@ -345,6 +356,7 @@
 		8378F0D5309358C80089605E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				FA0600000000000000000011,
 				8378F0E9309358C80089605E /* ViewController.swift in Sources */,
 				8378F0DD309358C80089605E /* AppDelegate.swift in Sources */,
 			);
@@ -352,6 +364,7 @@
 		8378F0F0309358C90089605E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				FA0600000000000000000012,
 				8378F0FA309358C90089605E /* SafariWebExtensionHandler.swift in Sources */,
 			);
 		};
@@ -508,7 +521,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				CURRENT_PROJECT_VERSION = 51;
+				CURRENT_PROJECT_VERSION = 60;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -524,7 +537,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 0.5.2;
+				MARKETING_VERSION = 0.6.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -545,7 +558,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				CURRENT_PROJECT_VERSION = 51;
+				CURRENT_PROJECT_VERSION = 60;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -561,7 +574,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 0.5.2;
+				MARKETING_VERSION = 0.6.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -584,7 +597,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 51;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -602,7 +615,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.5.2;
+				MARKETING_VERSION = 0.6.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -628,7 +641,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 51;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -646,7 +659,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.5.2;
+				MARKETING_VERSION = 0.6.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,

@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Downloaden naar NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Geen bruikbare downloadlinks."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Ongeldige downloadlink."
+  },
+  "ui_eb7039127a09": {
+    "message": "Dit bestand wordt gegenereerd in Safari of beveiligd. De NAS heeft een direct toegankelijke HTTP- of HTTPS-link nodig."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "Links met een gebruikersnaam of wachtwoord worden niet geaccepteerd."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Onbevestigde verzending."
+  },
+  "ui_43ed82d682c5": {
+    "message": "Er is al een verzending onderweg. Probeer het over enkele ogenblikken opnieuw."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Geen bevestiging van NAS. Controleer de taken voordat u het opnieuw probeert."
+  },
+  "ui_0868c445da94": {
+    "message": "Onbevestigde verzending. Controleer de NAS-taken."
+  },
+  "ui_9810a954e3f7": {
+    "message": "Downloadtracking niet beschikbaar."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "Wijziging niet bevestigd."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "Er is al een verzending onderweg."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Onderschepping uitgeschakeld."
+  },
+  "ui_28042909c3c2": {
+    "message": "Ongeautoriseerde torrent of oorsprong."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Ongeldige link."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Geen bevestiging van NAS. Controleer de taken voordat u het opnieuw probeert."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Verzenden naar NAS…"
+  },
+  "ui_df615a99851a": {
+    "message": "Controleer de NAS voordat u het opnieuw probeert."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Geen bevestiging. Controleer de NAS voordat u het opnieuw probeert."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "Laad deze pagina opnieuw om de extensie te activeren"
+  },
+  "ui_d143da43aff6": {
+    "message": "Automatisch verzenden uitgeschakeld"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Ongeautoriseerde toegang tot deze site of pagina om opnieuw te laden"
+  },
+  "ui_38858cd588e0": {
+    "message": "Downloaden"
+  },
+  "ui_239c064e0d40": {
+    "message": "Op pauze"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Verificatie"
+  },
+  "ui_797f5dcd0217": {
+    "message": "In uitvoering"
+  },
+  "ui_01f19353c67f": {
+    "message": " ontvangen"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "De NAS verwerkt nog een bewerking..."
+  },
+  "ui_e43026bf1415": {
+    "message": "Reactie van NAS niet beschikbaar."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "Lijst met niet-beschikbare downloads."
+  },
+  "ui_dcc71329139f": {
+    "message": "Gedeeltelijke lijst: De NAS bevat meer dan 10.000 taken."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Er wordt geen download uitgevoerd."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Bijgewerkt naar "
+  },
+  "ui_cca90e72b30f": {
+    "message": "Update onderbroken. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS ontoegankelijk."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Naam van het te controleren bestand: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Account geconfigureerd. Sessie en identificatiegegevens opgeslagen in de sleutelhanger."
+  },
+  "ui_26d832931702": {
+    "message": "Open de Mac-app en probeer het opnieuw."
+  },
+  "ui_ab13d42df210": {
+    "message": "Het certificaat lezen, zonder identificatiegegevens door te geven..."
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Controleer de vingerafdruk en bevestig vervolgens de NAS."
+  },
+  "ui_4122652cdf72": {
+    "message": "Verbindingstest met NAS…"
+  },
+  "ui_03000c00b0b7": {
+    "message": "Onbevestigde verbinding."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Onbevestigde verbinding. Controleer de NAS en probeer het opnieuw."
+  },
+  "ui_b7356b338117": {
+    "message": "Account vergeten."
+  },
+  "ui_b791d0fcafae": {
+    "message": "Instelling niet beschikbaar. Laad deze pagina opnieuw."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "Sta UGREEN NAS Download-banners toe in Systeeminstellingen → Meldingen."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Laatste downloads gecontroleerd: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Testmelding verzonden. Als het onzichtbaar blijft, controleer dan de focusmodus en meldingsinstellingen."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "Testen niet beschikbaar."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "Zoeken naar NAS..."
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Onverwachte zoekreactie."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Kies uw NAS en controleer vervolgens het certificaat."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "Geen NAS gevonden. Controleer uw netwerk of voer het adres handmatig in."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Adres opgegeven. Controleer het certificaat voordat u verbinding maakt."
+  },
+  "ui_4fd15b694321": {
+    "message": " U kunt het adres handmatig invoeren."
+  },
+  "ui_450dc649eed7": {
+    "message": "Van Safari tot uw NAS"
+  },
+  "ui_abe5338595d8": {
+    "message": "Automatisch verzenden"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrents en magneetlinks"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Downloads"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Verbinding maken met NAS…"
+  },
+  "ui_84d1987114e2": {
+    "message": "Stuur een link"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Downloadlink of magneet"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Deze pagina controleren…"
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Verbindingsinstellingen"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Onderschep torrent- en magneetlinks"
+  },
+  "ui_53107f6482b8": {
+    "message": "Downloads vernieuwen"
+  },
+  "ui_b76a016a207d": {
+    "message": "Downloads worden uitgevoerd"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "URL van bestands- of magneetlink"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Verzenden naar NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "Verbinding met NAS UGREEN"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Verbinding maken met NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Stel uw account eenmalig in. Toekomstige verzendingen zullen rechtstreeks vanuit Safari plaatsvinden."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Vind mijn NAS"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Zoek via de onlinedienst UGREEN. Er wordt geen gebruikersnaam of wachtwoord naar hem verzonden. Er is een internetverbinding vereist."
+  },
+  "ui_d40941f301ba": {
+    "message": "Adres HTTPS van NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Wachtwoord"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Dubbele authenticatiecode (indien ingeschakeld)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Registreer deze extensie als een vertrouwd apparaat op de NAS om herverbindingen mogelijk te maken zonder een nieuwe code."
+  },
+  "ui_354c180feac5": {
+    "message": "Deze toestemming kan worden ingetrokken in het vertrouwde apparaatbeheer van NAS. Zonder deze code is mogelijk een nieuwe code vereist wanneer de sessie verloopt."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Doelmap op de NAS"
+  },
+  "ui_059b656d6323": {
+    "message": "Eerste verbinding: Open de Mac-applicatie UGREEN NAS Download en gebruik \"Lokale netwerkverbinding toestaan\". Het onderstaande vak zal beschikbaar zijn na het ophalen van het certificaat."
+  },
+  "ui_373ca63c9193": {
+    "message": "Controleer het certificaat van NAS"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Ik herken deze NAS en bevestig deze certificaatafdruk."
+  },
+  "ui_e2583fb31345": {
+    "message": "Bewaar en test de verbinding"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Vergeet deze rekening"
+  },
+  "ui_352e0513f977": {
+    "message": "Verifieer de SHA-256-vingerafdruk van een vertrouwde bron voordat u zich voor de eerste keer aanmeldt. Wachtwoorden en tokens worden nooit opgeslagen in de webopslag van de extensie."
+  },
+  "ui_dd750a280438": {
+    "message": "Meldingen downloaden"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Voltooid, gestopt of foutief"
+  },
+  "ui_e44412dc793d": {
+    "message": "Test een melding"
+  },
+  "ui_984e864f3451": {
+    "message": "Bewaard in sleutelhanger macOS"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Tijdelijke code, nooit opgeslagen"
+  },
+  "ui_08987f40bc10": {
+    "message": "Download bestanden, torrents en magneetlinks naar uw NAS UGREEN, rechtstreeks vanuit Safari."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Sta lokaal netwerk toe als macOS u daarom vraagt."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "De extensie controleren..."
+  },
+  "ui_b556373f5802": {
+    "message": "In Safari klikt u met de rechtermuisknop op een bestand,\nkies vervolgens “Downloaden naar NAS”."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Extensie-instellingen in Safari…"
+  },
+  "ui_9db119b9906f": {
+    "message": "Toegang toestaan tot NAS…"
+  },
+  "ui_c5d406ecc207": {
+    "message": "Extensie ingeschakeld in Safari"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "Extensie die moet worden geactiveerd in de Safari-instellingen"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Open Safari om de extensie te controleren."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Open Safari → Instellingen → Extensies."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Verbinding maken met NAS... Lokaal netwerk toestaan als macOS daarom vraagt."
+  },
+  "ui_dfe810da2890": {
+    "message": "Lokale netwerktoegang beschikbaar. Configureer vervolgens uw NAS in Safari."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Sta toegang toe in Systeeminstellingen → Privacy en beveiliging → Lokaal netwerk."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "De NAS is niet toegankelijk. Controleer uw verbinding en lokale netwerktoegang."
+  },
+  "ui_b6104af839b2": {
+    "message": "De NAS reageert niet. Controleer uw verbinding en probeer het opnieuw."
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS heeft de melding niet geaccepteerd. Controleer de meldingsinstellingen van de app."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Gebruik een volledig HTTPS-adres, met de poort, zonder pad of identificatiegegevens."
+  },
+  "ui_9209362478e0": {
+    "message": "Toegang tot sleutelhanger geweigerd of vergrendeld."
+  },
+  "ui_eb583918b61e": {
+    "message": "Kan inloggegevens niet opslaan in sleutelhanger."
+  },
+  "ui_079197b78282": {
+    "message": "Kan sleutelhanger niet updaten."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "NAS-omleiding geweigerd."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "NAS API-antwoord ongeldig of omleiding geweigerd."
+  },
+  "ui_ff1507c53259": {
+    "message": "NAS-antwoord ontbreekt."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "NAS-respons te groot."
+  },
+  "ui_ae437aff49ba": {
+    "message": "Kan antwoord NAS niet lezen."
+  },
+  "ui_b044999d35ab": {
+    "message": "Ongeldige NAS-inlogsleutel."
+  },
+  "ui_7b80438ec983": {
+    "message": "Invalid RSA key."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "RSA-sleutel niet ondersteund."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Gebruik een directe HTTP- of HTTPS-link naar het bestand, zonder ingesloten ID's."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Ongeldige torrent of groter dan 512 KB."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Invalid torrent channel."
+  },
+  "ui_2d34af66a278": {
+    "message": "Invalid torrent key."
+  },
+  "ui_4024b2fc5907": {
+    "message": "Inhoud ontvangen niet-torrent."
+  },
+  "ui_75f70ed3140a": {
+    "message": "De ontvangen inhoud is geen torrent."
+  },
+  "ui_4a8e63360f63": {
+    "message": "Torrent-metagegevens ontbreken of zijn ongeldig."
+  },
+  "ui_8eb203ba941d": {
+    "message": "De NAS heeft geen bestanden geïdentificeerd om te downloaden."
+  },
+  "ui_137e68b05223": {
+    "message": "NAS heeft de torrent-naam niet geïdentificeerd. Er zijn geen taken bevestigd."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "Taaknaam geweigerd door NAS."
+  },
+  "ui_409c39d465ec": {
+    "message": "Lijst met downloads ontvangen in een onverwacht formaat."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Download completed"
+  },
+  "ui_f01c5b082925": {
+    "message": "Download stopped"
+  },
+  "ui_8a9821880139": {
+    "message": "Download in error"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Onverwachte reactie van de UGREEN-zoekservice."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "Er wordt al een NAS-bewerking uitgevoerd."
+  },
+  "ui_094557fca057": {
+    "message": "Controleer het certificaat nogmaals voordat u het account registreert."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Verbinding succesvol. Identificatiegegevens en sessie opgeslagen in de sleutelhanger."
+  },
+  "ui_4bb0c308d018": {
+    "message": "Sessie wordt vernieuwd tijdens de volgende verzending."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Sta meldingen toe in Systeeminstellingen → Meldingen."
+  },
+  "ui_207aa6d45769": {
+    "message": "Configureer je NAS in de instellingen."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "Lijst met voltooide bestanden is niet beschikbaar."
+  },
+  "ui_ce120d12a24d": {
+    "message": "Te veel voltooide bestanden om meldingen volledig bij te houden."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Configureer jouw NAS in de uitbreidingsopties."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "De NAS heeft geen bestanden geretourneerd ter bevestiging. Controleer Downloads voordat u het opnieuw probeert."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "Taak geaccepteerd door NAS Downloads."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Ongeïdentificeerd type: de originele naam blijft behouden."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Sessie geweigerd. Controleer de inloggegevens in de opties."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "NAS-naam niet gevonden (DNS). Open de UGREEN NAS Download-app en sta het lokale netwerk toe. Probeer het vervolgens opnieuw. Je kunt ook het IP-adres van de NAS controleren in de opties."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "Lokale verbinding geweigerd of NAS ontoegankelijk. Gebruik in de Mac-app 'Sta LAN-verbinding toe' en controleer vervolgens het adres en de poort."
+  },
+  "ui_8872b03932e1": {
+    "message": "Verbinding TLS of certificaat geweigerd. Controleer het certificaat en de vingerafdruk in de opties voordat u het opnieuw probeert."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "NAS time-out voor verbinding. Controleer het netwerk en de taken voordat u opnieuw verzendt."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "Te veel taken om het bestand veilig te identificeren."
+  },
+  "ui_3638a59bd40e": {
+    "message": "De NAS heeft geen bruikbare bestandsnaam opgegeven. De naamswijziging blijft in behandeling."
+  },
+  "ui_201901522851": {
+    "message": "Geen gratis bestandsnamen. Er zijn geen bestanden vervangen."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS onverwachte reactie."
+  },
+  "ui_8493662e7e41": {
+    "message": "De NAS weigert de verbindingsinstellingen van deze client (code 9406). Controleer de versie en het verbindingsprotocol."
+  },
+  "ui_00127e31a7b9": {
+    "message": "De tijdelijke code moet 6 tot 8 cijfers bevatten."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Verbinding onlangs geweigerd. Controleer de opties en wacht vervolgens een minuut."
+  },
+  "ui_df225b598a79": {
+    "message": "De NAS heeft de RSA-verbindingssleutel niet verstrekt."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Onvolledige verbinding: aanvullende validatie aangevraagd door de NAS."
+  },
+  "ui_85d198010d47": {
+    "message": "Taak niet bevestigd door NAS (staat %d). Controleer Downloads voordat u het opnieuw probeert."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "De NAS heeft de bestanden niet bevestigd (staat %d). Controleer Downloads voordat u het opnieuw probeert."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Onbevestigde NAS-verbinding (technische code %d). Controleer de taken voordat u het opnieuw probeert."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "De NAS weigert {path} (code %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "Extensie niet beschikbaar op deze pagina"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "Wachten"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Laatst verzonden door met de rechtermuisknop te klikken: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "Verbinding met NAS niet beschikbaar om de naam te corrigeren."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Verbinding met meldingen niet beschikbaar."
+  },
+  "ui_161cd02a787c": {
+    "message": "Kan meldingen niet wijzigen."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Meldingen niet beschikbaar."
+  },
+  "ui_d396daf24272": {
+    "message": "Verbinding met NAS niet beschikbaar."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Kan geen verbinding maken met de Mac-module."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Wijziging onmogelijk."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "Zoeken niet beschikbaar."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Initialisatie…"
+  },
+  "ui_1052b279ffe6": {
+    "message": "Script geladen"
+  },
+  "ui_62611dbedb70": {
+    "message": "Injectie geweigerd"
+  },
+  "ui_f963644d9839": {
+    "message": "Safari-module niet beschikbaar"
+  },
+  "ui_98c28c423cc5": {
+    "message": "De beschermde torrent moet toegankelijk zijn vanaf deze site. Er worden geen cookies naar een andere site verzonden."
+  },
+  "ui_c847f62838fd": {
+    "message": "De site weigert toegang tot de torrent. Controleer uw verbinding met de site."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent te groot (limiet 512 KB)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "De site heeft geen geldig torrent-bestand geretourneerd."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Geen bevestiging. Controleer de NAS-taken voordat u het opnieuw probeert."
+  },
+  "ui_82e766fc3000": {
+    "message": "De site leverde de torrent niet binnen 20 seconden. Je kunt het opnieuw proberen."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Onbevestigde verzending. Controleer de NAS-taken voordat u het opnieuw probeert."
+  },
+  "ui_b77404083cf4": {
+    "message": "Kan account niet verwijderen."
+  },
+  "ui_a974c8e3f389": {
+    "message": "NAS-verbinding onderbroken."
+  },
+  "ui_428d624126cb": {
+    "message": "DER ongeldig."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "Wachtwoordversleuteling niet mogelijk."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Ongeldige magneet-ID."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL ongeldige torrent."
+  },
+  "ui_912d2e061225": {
+    "message": "Ongeldige torrent-structuur."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Ongeldige torrent-lengte."
+  },
+  "ui_8402366c958d": {
+    "message": "Ongeldige hele torrent."
+  },
+  "ui_82813a88c223": {
+    "message": "Ongeldig infowoordenboek."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrent onvolledig."
+  },
+  "ui_90c67be91210": {
+    "message": "Torrent-boom te groot."
+  },
+  "ui_6772a23b59ca": {
+    "message": "De UGREEN-zoekservice is niet beschikbaar."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "Certificaat NAS niet beschikbaar."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Onvolledige ID's of doelmap."
+  },
+  "ui_ee8668932e6f": {
+    "message": "Commando niet ondersteund."
+  },
+  "ui_d8dc23336417": {
+    "message": "Lijst niet beschikbaar om het bestand te identificeren."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "De NAS bevestigt niet of de bestemmingsnaam vrij is."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Ongeldig API-pad."
+  },
+  "ui_1e5497bce01d": {
+    "message": "Dubbele authenticatie vereist. Voer een tijdelijke code in de opties in en begin opnieuw."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Ongeldig bericht."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "Extensie actief op deze site"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Actieve extensie · directe links"
+  },
+  "ui_e62e17c13421": {
+    "message": "Bronnen vinden"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "Laat dit leeg om het huidige wachtwoord te behouden"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "De sleutelhangeraanmeldingen en sessie voor dit profiel Safari verwijderen?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Kan niet verwijderen."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "De monitoring wordt automatisch hervat."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Vaste naam in behandeling."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "Voortgang van {name}"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} op {total}"
+  }
+}

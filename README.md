@@ -1,52 +1,56 @@
 # UGREEN NAS Download
 
-Une application macOS et une extension Safari pour envoyer des téléchargements à l’application **Téléchargements** d’un NAS UGREEN sous UGOS Pro, sans garder la page du NAS ouverte.
+[Français](docs/README.fr.md) · [🌐 34 languages](docs/LANGUAGES.md)
 
-Version des sources : **0.5.2**. Projet communautaire indépendant, non affilié à UGREEN ou Apple.
+A macOS application and a Safari extension to send downloads to the **Downloads** application of a UGREEN NAS running UGOS Pro, without keeping the NAS page open.
+
+Source and DMG version: **0.6.0**. Independent community project, not affiliated with UGREEN or Apple.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="Extension/icon-dark-128.png">
   <img src="Extension/icon-128.png" width="96" height="96" alt="UGREEN NAS Download">
 </picture>
 
-## Fonctionnalités
+The app and extension are available in 34 languages. They use the preferred language when available and fall back to English. The translated documentation and interface strings are machine-translated and have been checked for layout and missing entries.
 
-- Interception des liens `.torrent` et `magnet:` sur les sites autorisés dans Safari.
-- Action **Télécharger sur le NAS** par clic droit sur un lien, une image, une vidéo ou un élément audio directement accessible.
-- Envoi manuel d’une URL depuis le menu de l’extension.
-- Compte et session dans le Trousseau macOS ; prise en charge de la double authentification et de la confiance d’appareil.
-- Recherche facultative du NAS par le service en ligne UGREEN, ou adresse HTTPS manuelle.
-- Liste des téléchargements, progression et vitesse ; notifications facultatives de fin, d’arrêt et d’erreur.
-- Identification des noms et types de fichiers HTTP, avec correction du nom après téléchargement lorsque le fichier est identifié sans ambiguïté.
-- Icônes natives claire et sombre, et logos Safari adaptés au thème système.
+## Features
 
-## Compatibilité
+- Interception of `.torrent` and `magnet:` links on sites authorized in Safari.
+- Action **Download to the NAS** by right-clicking on a directly accessible link, image, video or audio element.
+- Manual sending of a URL from the extension menu.
+- Account and session in Keychain macOS; Support for two-factor authentication and device trust.
+- Optional search for NAS by UGREEN online service, or manual HTTPS address.
+- List of downloads, progress and speed; optional completion, shutdown, and error notifications.
+- Identification of HTTP file names and types, with name correction after download when the file is unambiguously identified.
+- Native light and dark icons, and Safari logos adapted to the system theme.
 
-Le projet est configuré pour **macOS 27 ou ultérieur** et a été compilé avec **Xcode 27.1**, pour Apple Silicon. Les essais NAS ont été réalisés avec un **DXP2800**, **UGOS Pro 1.20.0.0142** et **Téléchargements 1.19.1.0004**. Les autres versions ne sont pas garanties : l’intégration repose sur des API observées, sans contrat public stable d’UGREEN.
+## Compatibility
 
-## Installer depuis le DMG
+The project is configured for **macOS 27 or later** and was compiled with **Xcode 27.1**, for Apple Silicon. NAS tests were performed with a **DXP2800**, **UGOS Pro 1.20.0.0142** and **Downloads 1.19.1.0004**. Other versions are not guaranteed: integration is based on observed APIs, without a stable UGREEN public contract.
 
-[Télécharger UGREEN NAS Download 0.5.2 pour Mac Apple Silicon](../../releases/tag/v0.5.2).
+## Install from DMG
 
-1. Ouvrir le DMG, glisser **UGREEN NAS Download** dans **Applications**, puis ouvrir l’app.
-2. Dans **Safari → Réglages → Avancés**, activer les fonctionnalités pour les développeurs web. Dans **Développeur**, activer **Autoriser les extensions non signées**, puis activer **UGREEN NAS Download** dans **Extensions**.
-3. Configurer le NAS dans les réglages de l’extension.
+[Download UGREEN NAS Download 0.6.0 for Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
 
-Ce paquet public est signé localement (ad hoc) et non notarié. macOS peut bloquer son ouverture initiale. Safari peut demander de réactiver l’autorisation des extensions non signées après avoir quitté le navigateur.
+1. Open the DMG, drag **UGREEN NAS Download** into **Applications**, then open the app.
+2. In **Safari → Settings → Advanced**, enable features for web developers. In **Developer**, enable **Allow unsigned extensions**, then enable **UGREEN NAS Download** in **Extensions**.
+3. Configure the NAS in the extension settings.
 
-## Compiler depuis les sources
+This public package is signed locally (ad hoc) and not notarized. macOS may block its initial opening. Safari may ask to re-enable permission for unsigned extensions after exiting the browser.
 
-1. Cloner ce dépôt et ouvrir `Xcode/UGREEN NAS Download/UGREEN NAS Download.xcodeproj`.
-2. Dans **Signing & Capabilities**, choisir votre propre équipe Apple pour les deux cibles : l’application et son extension. Aucune équipe personnelle n’est renseignée dans le dépôt.
-3. Choisir le schéma **UGREEN NAS Download**, destination **My Mac**, puis compiler et lancer avec Xcode.
-4. Activer l’extension dans **Safari → Réglages → Extensions**, puis autoriser les sites souhaités.
-5. Ouvrir les réglages de l’extension et configurer votre NAS comme décrit ci-dessous.
+## Compile from source
 
-Les identifiants de bundle d’exemple sont `com.example.UGREENNASDownload` et `com.example.UGREENNASDownload.Extension`. Si vous devez les personnaliser pour votre signature, modifier les identifiants du projet Xcode **et** les constantes correspondantes dans `Extension/background.js` et `ViewController.swift` : les valeurs doivent rester cohérentes.
+1. Clone this repository and open `Xcode/UGREEN NAS Download/UGREEN NAS Download.xcodeproj`.
+2. In **Signing & Capabilities**, choose your own Apple team for the two targets: the application and its extension. No personal team is entered in the repository.
+3. Choose the schema **UGREEN NAS Download**, destination **My Mac**, then compile and launch with Xcode.
+4. Activate the extension in **Safari → Settings → Extensions**, then authorize the desired sites.
+5. Open the extension settings and configure your NAS as described below.
 
-Cette édition publique utilise des identifiants et un espace Trousseau distincts de l’application personnelle de développement. Elle exige sa propre configuration du NAS. La signature de développement ne constitue pas une distribution notariée et l’activation peut demander les réglages de développement Safari adaptés à votre signature.
+The example bundle IDs are `com.example.UGREENNASDownload` and `com.example.UGREENNASDownload.Extension`. If you need to customize them for your signature, modify the project identifiers Xcode **and** the corresponding constants in `Extension/background.js` and `ViewController.swift`: the values ​​must remain consistent.
 
-Pour vérifier une compilation sans signature, depuis la racine du dépôt :
+This public edition uses identifiers and a Keychain space separate from the personal development application. It requires its own configuration of the NAS. The development signature does not constitute a notarized distribution and activation may require the Safari development settings appropriate for your signature.
+
+To check a compilation without signature, from the root of the repository:
 
 ```sh
 xcodebuild \
@@ -56,56 +60,56 @@ xcodebuild \
   -derivedDataPath ./build CODE_SIGNING_ALLOWED=NO build
 ```
 
-Ce contrôle produit une application non signée ; utilisez votre équipe Apple pour une installation de développement utilisable dans Safari. Conserver l’arborescence du dépôt : les références Xcode vers `Extension` et `Design` sont relatives.
+This check produces an unsigned application; use your Apple team for a usable development installation in Safari. Keep the repository tree: the references Xcode to `Extension` and `Design` are relative.
 
-## Configurer le NAS
+## Configure the NAS
 
-1. Saisir l’adresse HTTPS du NAS avec son port, votre identifiant et le chemin absolu de destination sur le NAS. Les champs personnels sont vides par défaut.
-2. Cliquer **Vérifier le certificat du NAS**. Comparer l’empreinte SHA-256 avec une source de confiance avant de confirmer le certificat.
-3. Saisir le mot de passe et, si nécessaire, un code de double authentification. La confiance de l’appareil est facultative ; sans elle, un nouveau code peut être nécessaire à l’expiration de la session.
-4. Cliquer **Enregistrer et tester la connexion**. Autoriser l’accès au réseau local lorsque macOS le demande.
-5. Activer l’interception automatique des torrents et magnets si souhaité. Le clic droit et l’envoi manuel restent indépendants de cet interrupteur.
+1. Enter the HTTPS address of the NAS with its port, your identifier and the absolute destination path on the NAS. Personal fields are empty by default.
+2. Click **Check NAS certificate**. Compare the SHA-256 fingerprint with a trusted source before confirming the certificate.
+3. Enter the password and, if necessary, a double authentication code. Trusting the device is optional; without it, a new code may be required when the session expires.
+4. Click **Save and test connection**. Allow access to the local network when requested by macOS.
+5. Enable automatic interception of torrents and magnets if desired. Right-clicking and manual sending remain independent of this switch.
 
-L’adresse, le compte et le dossier restent modifiables dans les réglages. **Oublier ce compte** efface le compte et sa session du Trousseau pour le profil Safari courant.
+The address, account and folder can still be modified in the settings. **Forgetting this account** deletes the account and its Keychain session for the current Safari profile.
 
-## Sécurité et fonctionnement
+## Safety and Operation
 
-Les pages web ne peuvent pas configurer le compte ou approuver un certificat. L’extension communique avec son module Swift par messagerie native. Les requêtes NAS passent par un moteur WebKit isolé avec stockage éphémère et scripts de page désactivés ; le certificat doit correspondre à l’empreinte approuvée. Les redirections NAS sont refusées. Le mot de passe est chiffré avec la clé RSA fournie par le NAS, sur HTTPS.
+Web pages cannot configure the account or trust a certificate. The extension communicates with its Swift module via native messaging. NAS requests go through an isolated WebKit engine with ephemeral storage and page scripting disabled; the certificate must match the approved fingerprint. NAS redirects are refused. The password is encrypted with the RSA key provided by the NAS, to HTTPS.
 
-Le mot de passe, le jeton et les informations de connexion sont conservés dans le Trousseau, pas dans le stockage web ni ce dépôt. Le code temporaire est effacé après utilisation. Les cookies et identifiants des sites Safari ne sont jamais transmis au NAS. Pour certains torrents du même site, le petit fichier est récupéré en mémoire avec la session Safari, puis transmis au NAS sans sauvegarde locale ni SMB ; sa taille est limitée à 512 Kio.
+The password, token, and login information are stored in Keychain, not in web storage or this repository. The temporary code is erased after use. Cookies and identifiers from Safari sites are never transmitted to NAS. For some torrents from the same site, the small file is retrieved in memory with the session Safari, then transmitted to the NAS without local saving or SMB; its size is limited to 512 KiB.
 
-La recherche automatique interroge volontairement `api.ugnas.com` : ce service voit l’adresse IP publique de la connexion, mais ne reçoit ni mot de passe ni jeton NAS. La saisie manuelle ne dépend pas de ce service.
+Automatic search voluntarily queries `api.ugnas.com`: this service sees the public IP address of the connection, but does not receive a password or NAS token. Manual entry does not depend on this service.
 
-Aucun nouvel ajout n’est tenté après une réponse ambiguë ou un délai dépassé. Une reconnexion et un nouvel essai ne sont permis qu’après un refus explicite d’authentification. **Une tâche acceptée par le NAS n’est pas une preuve que le téléchargement est terminé.**
+No new additions are attempted after an ambiguous response or a deadline has passed. A reconnection and a new attempt are only permitted after an explicit refusal of authentication. **A task accepted by the NAS is not proof that the download is complete.**
 
-## Limites
+## Limits
 
-- Safari ne permet pas de remplacer universellement tous ses téléchargements. L’interception automatique couvre les liens et mécanismes torrent reconnus ; le clic droit et la saisie manuelle complètent ce fonctionnement.
-- Un lien HTTP doit être accessible directement par le NAS. Les contenus protégés par la session du site, les URL expirées, les vidéos protégées et les fichiers ordinaires générés en `blob:` ou `data:` ne sont pas convertis en liens publics.
-- Le suivi du menu attend environ 3,5 secondes après chaque réponse ; les notifications et corrections de noms sont vérifiées environ toutes les 30 secondes. Safari fermé, suspendu ou un Mac en veille peut retarder ces opérations.
-- Les formats inconnus ne reçoivent pas d’extension inventée. Le renommage intervient après la fin du téléchargement ; le fichier réel est corrigé, tandis que l’historique de Téléchargements peut garder son nom initial.
-- Les corrections restent limitées aux nouvelles tâches HTTP identifiées sans ambiguïté, sans remplacement forcé, avec 100 opérations en attente au maximum et une conservation de sept jours. Les listes sont limitées à 10 000 tâches par catégorie.
-- Le réglage global macOS des icônes reste prioritaire : **Sombre → Automatique** permet de suivre le thème. L’icône statique de la liste des extensions Safari conserve sa version claire ; les logos du menu et des options suivent le thème.
+- Safari does not universally replace all of its downloads. Automatic interception covers recognized torrent links and mechanisms; right-clicking and manual entry complete this operation.
+- A HTTP link must be accessible directly by the NAS. Site session protected contents, expired URL, protected videos and ordinary files generated in `blob:` or `data:` are not converted into public links.
+- Menu tracking waits approximately 3.5 seconds after each response; notifications and name corrections are checked approximately every 30 seconds. Safari closed, suspended, or a sleeping Mac can delay these operations.
+- Unknown formats do not receive an invented extension. The renaming occurs after the download is complete; the actual file is fixed, while the Download history can keep its original name.
+- Corrections remain limited to new unambiguously identified HTTP tasks, without forced replacement, with a maximum of 100 pending operations and a retention of seven days. Lists are limited to 10,000 tasks per category.
+- The global macOS icon setting remains priority: **Dark → Automatic** allows you to follow the theme. The static icon in the Safari extension list remains in its clear version; the menu and options logos follow the theme.
 
-## Développement et tests
+## Development and testing
 
 ```sh
 node --test Tests/autonomous.test.cjs
 bash Tests/run-native-tests.sh
 ```
 
-Les tests JavaScript nécessitent Node.js ; les tests natifs nécessitent macOS, les outils Xcode, Python 3 et OpenSSL. Ils démarrent un serveur HTTPS local temporaire sur le port 18443 et n’utilisent aucun compte NAS réel. L’audit de la version 0.5.1 comprenait 45 tests JavaScript et 121 contrôles natifs. Voir [le rapport](AUDIT-0.5.1.md).
+JavaScript testing requires Node.js; Native testing requires macOS, Xcode tools, Python 3, and OpenSSL. They start a temporary local HTTPS server on port 18443 and do not use any real NAS accounts. The 0.5.1 audit included 45 JavaScript tests and 121 native controls. See [the report](AUDIT-0.5.1.md).
 
-- `Extension/` : menu, réglages, scripts Safari et icônes.
-- `Xcode/` : application AppKit, module Swift, authentification et transport NAS.
-- `Design/Adaptive/UGREENIcon.icon/` : icône native avec apparences claire et sombre.
-- `Design/generate-icons.swift` : génération des PNG et du logo adaptatif de la fenêtre.
-- `Tests/` : tests de sécurité, validation des données et comportement.
+- `Extension/`: menu, settings, Safari scripts and icons.
+- `Xcode/`: AppKit application, Swift module, authentication and transport NAS.
+- `Design/Adaptive/UGREENIcon.icon/`: Native icon with light and dark appearances.
+- `Design/generate-icons.swift`: generation of PNGs and the adaptive logo of the window.
+- `Tests/`: security testing, data validation and behavior.
 
-## Références
+## References
 
-- [Client communautaire ugnas-api](https://github.com/Fracizz/ugnas-api) : référence de protocole, sans code tiers chargé depuis une page NAS.
-- [Intégration communautaire UGREEN](https://github.com/Tom-Bom-badil/home-assistant_ugreen-nas/blob/main/custom_components/ugreen/api.py) : référence pour la double authentification.
-- [Documentation Apple Safari Web Extensions](https://developer.apple.com/documentation/safariservices/packaging-a-web-extension-for-safari).
+- [ugnas-api](https://github.com/Fracizz/ugnas-api) community client: protocol reference, without third-party code loaded from a NAS page.
+- [Community integration UGREEN](https://github.com/Tom-Bom-badil/home-assistant_ugreen-nas/blob/main/custom_components/ugreen/api.py): reference for double authentication.
+- [Apple Documentation Safari Web Extensions](https://developer.apple.com/documentation/safariservices/packaging-a-web-extension-for-safari).
 
-Pour signaler un problème, ne joindre aucun mot de passe, code temporaire, jeton, URL signée, torrent privé ni export du Trousseau. Utiliser des données fictives dans les exemples.
+To report a problem, do not attach any password, temporary code, token, signed URL, private torrent or Keychain export. Use fictitious data in the examples.

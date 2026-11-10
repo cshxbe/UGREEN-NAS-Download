@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Tải về NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Không có liên kết tải xuống có thể sử dụng."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Liên kết tải xuống không hợp lệ."
+  },
+  "ui_eb7039127a09": {
+    "message": "Tệp này được tạo trong Safari hoặc được bảo vệ. NAS cần có liên kết HTTP hoặc HTTPS có thể truy cập trực tiếp."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "Các liên kết chứa tên người dùng hoặc mật khẩu không được chấp nhận."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Lô hàng chưa được xác nhận."
+  },
+  "ui_43ed82d682c5": {
+    "message": "Một lô hàng đang được tiến hành. Hãy thử lại sau giây lát."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Không có xác nhận về NAS. Kiểm tra nhiệm vụ của nó trước khi thử lại."
+  },
+  "ui_0868c445da94": {
+    "message": "Lô hàng chưa được xác nhận. Kiểm tra các tác vụ NAS."
+  },
+  "ui_9810a954e3f7": {
+    "message": "Theo dõi tải xuống không có sẵn."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "Thay đổi không được xác nhận."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "Một lô hàng đang được tiến hành."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Đánh chặn bị vô hiệu hóa."
+  },
+  "ui_28042909c3c2": {
+    "message": "Torrent hoặc nguồn gốc trái phép."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Liên kết không hợp lệ."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Không có xác nhận về NAS. Kiểm tra các nhiệm vụ trước khi thử lại."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Gửi tới NAS…"
+  },
+  "ui_df615a99851a": {
+    "message": "Hãy kiểm tra NAS trước khi thử lại."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Không có xác nhận. Hãy kiểm tra NAS trước khi thử lại."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "Tải lại trang này để kích hoạt tiện ích mở rộng"
+  },
+  "ui_d143da43aff6": {
+    "message": "Tính năng gửi tự động bị vô hiệu hóa"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Truy cập trái phép vào trang web hoặc trang này để tải lại"
+  },
+  "ui_38858cd588e0": {
+    "message": "Tải xuống"
+  },
+  "ui_239c064e0d40": {
+    "message": "Đang tạm dừng"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Xác minh"
+  },
+  "ui_797f5dcd0217": {
+    "message": "Đang tiến hành"
+  },
+  "ui_01f19353c67f": {
+    "message": " đã nhận được"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "NAS xử lý một thao tác khác…"
+  },
+  "ui_e43026bf1415": {
+    "message": "Không có phản hồi từ NAS."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "Danh sách tải xuống không có sẵn."
+  },
+  "ui_dcc71329139f": {
+    "message": "Danh sách một phần: NAS chứa hơn 10.000 nhiệm vụ."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Không có quá trình tải xuống nào đang diễn ra."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Đã cập nhật thành "
+  },
+  "ui_cca90e72b30f": {
+    "message": "Cập nhật bị gián đoạn. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS không thể truy cập được."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Tên file cần kiểm tra: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Đã cấu hình tài khoản. Phiên và số nhận dạng được lưu trữ trong Chuỗi khóa."
+  },
+  "ui_26d832931702": {
+    "message": "Mở ứng dụng Mac và thử lại."
+  },
+  "ui_ab13d42df210": {
+    "message": "Đọc chứng chỉ mà không truyền số nhận dạng…"
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Kiểm tra dấu vân tay, sau đó xác nhận NAS."
+  },
+  "ui_4122652cdf72": {
+    "message": "Kiểm tra kết nối với NAS…"
+  },
+  "ui_03000c00b0b7": {
+    "message": "Unconfirmed connection."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Kết nối chưa được xác nhận. Hãy kiểm tra NAS và thử lại."
+  },
+  "ui_b7356b338117": {
+    "message": "Forgotten account."
+  },
+  "ui_b791d0fcafae": {
+    "message": "Setting unavailable. Reload this page."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "Cho phép biểu ngữ UGREEN NAS Download trong Cài đặt hệ thống → Thông báo."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Last downloads checked: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Test notification sent. Nếu nó vẫn ẩn, hãy kiểm tra cài đặt Chế độ lấy nét và thông báo."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "Thử nghiệm không có sẵn."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "Đang tìm kiếm NAS…"
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Phản hồi tìm kiếm không mong đợi."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Chọn NAS của bạn, sau đó kiểm tra chứng chỉ của nó."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "Không tìm thấy NAS. Kiểm tra mạng của bạn hoặc nhập địa chỉ của mạng theo cách thủ công."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Address provided. Kiểm tra chứng chỉ trước khi kết nối."
+  },
+  "ui_4fd15b694321": {
+    "message": " Bạn có thể nhập địa chỉ theo cách thủ công."
+  },
+  "ui_450dc649eed7": {
+    "message": "Từ Safari đến NAS của bạn"
+  },
+  "ui_abe5338595d8": {
+    "message": "Tự động gửi"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrent và liên kết nam châm"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Tải xuống"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Đang kết nối với NAS…"
+  },
+  "ui_84d1987114e2": {
+    "message": "Gửi một liên kết"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Liên kết tải xuống hoặc nam châm"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Đang kiểm tra trang này…"
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Cài đặt kết nối"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Chặn các liên kết torrent và nam châm"
+  },
+  "ui_53107f6482b8": {
+    "message": "Refresh downloads"
+  },
+  "ui_b76a016a207d": {
+    "message": "Đang tải xuống"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "URL của tập tin hoặc liên kết nam châm"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Gửi tới NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "Kết nối với NAS UGREEN"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Đang kết nối với NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Thiết lập tài khoản của bạn một lần. Các lô hàng trong tương lai sẽ được thực hiện trực tiếp từ Safari."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Tìm NAS của tôi"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Tìm kiếm thông qua dịch vụ trực tuyến UGREEN. Không có tên người dùng hoặc mật khẩu được truyền cho anh ta. Cần có kết nối Internet."
+  },
+  "ui_d40941f301ba": {
+    "message": "Địa chỉ HTTPS của NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Mật khẩu"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Mã xác thực kép (nếu được bật)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Đăng ký tiện ích mở rộng này làm thiết bị đáng tin cậy trên NAS để cho phép kết nối lại mà không cần mã mới."
+  },
+  "ui_354c180feac5": {
+    "message": "Quyền này có thể bị thu hồi trong phần quản lý thiết bị đáng tin cậy của NAS. Nếu không có nó, mã mới có thể được yêu cầu khi phiên hết hạn."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Thư mục đích trên NAS"
+  },
+  "ui_059b656d6323": {
+    "message": "Kết nối đầu tiên: Mở ứng dụng Mac UGREEN NAS Download và sử dụng “Cho phép kết nối mạng cục bộ”. Hộp bên dưới sẽ có sẵn sau khi lấy chứng chỉ."
+  },
+  "ui_373ca63c9193": {
+    "message": "Kiểm tra chứng chỉ của NAS"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Tôi nhận ra NAS này và xác nhận dấu ấn chứng chỉ này."
+  },
+  "ui_e2583fb31345": {
+    "message": "Lưu và kiểm tra kết nối"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Quên tài khoản này"
+  },
+  "ui_352e0513f977": {
+    "message": "Xác minh dấu vân tay SHA-256 từ một nguồn đáng tin cậy trước khi đăng nhập lần đầu. Mật khẩu và mã thông báo không bao giờ được lưu trữ trong bộ nhớ web của tiện ích mở rộng."
+  },
+  "ui_dd750a280438": {
+    "message": "Tải xuống thông báo"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Đã hoàn thành, đã dừng hoặc có lỗi"
+  },
+  "ui_e44412dc793d": {
+    "message": "Kiểm tra thông báo"
+  },
+  "ui_984e864f3451": {
+    "message": "Được giữ trong Móc khóa macOS"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Mã tạm thời, không bao giờ được lưu"
+  },
+  "ui_08987f40bc10": {
+    "message": "Tải xuống các tệp, torrent và liên kết nam châm về NAS UGREEN của bạn, trực tiếp từ Safari."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Cho phép mạng cục bộ nếu macOS yêu cầu bạn làm như vậy."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "Đang kiểm tra tiện ích mở rộng…"
+  },
+  "ui_b556373f5802": {
+    "message": "Trong Safari, nhấp chuột phải vào tệp,\nsau đó chọn “Tải xuống NAS”."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Cài đặt tiện ích mở rộng trong Safari…"
+  },
+  "ui_9db119b9906f": {
+    "message": "Cho phép truy cập vào NAS…"
+  },
+  "ui_c5d406ecc207": {
+    "message": "Đã bật tiện ích mở rộng trong Safari"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "Tiện ích mở rộng để kích hoạt trong cài đặt Safari"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Mở Safari để kiểm tra tiện ích mở rộng."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Mở Safari → Cài đặt → Tiện ích mở rộng."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Đang kết nối với NAS… Cho phép mạng cục bộ nếu macOS yêu cầu."
+  },
+  "ui_dfe810da2890": {
+    "message": "Truy cập mạng cục bộ có sẵn. Sau đó định cấu hình NAS của bạn thành Safari."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Cho phép truy cập trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Mạng cục bộ."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "NAS không thể truy cập được. Kiểm tra kết nối và truy cập mạng cục bộ của bạn."
+  },
+  "ui_b6104af839b2": {
+    "message": "NAS không phản hồi. Hãy kiểm tra kết nối của bạn rồi thử lại."
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS không chấp nhận thông báo. Kiểm tra cài đặt thông báo của ứng dụng."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Sử dụng địa chỉ HTTPS đầy đủ, có cổng, không có đường dẫn hoặc mã nhận dạng."
+  },
+  "ui_9209362478e0": {
+    "message": "Quyền truy cập vào Chuỗi khóa bị từ chối hoặc bị khóa."
+  },
+  "ui_eb583918b61e": {
+    "message": "Không thể lưu thông tin xác thực trong Chuỗi khóa."
+  },
+  "ui_079197b78282": {
+    "message": "Không thể cập nhật Chuỗi khóa."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "Chuyển hướng NAS bị từ chối."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "Phản hồi API NAS không hợp lệ hoặc chuyển hướng bị từ chối."
+  },
+  "ui_ff1507c53259": {
+    "message": "Thiếu phản hồi NAS."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "Phản hồi NAS quá lớn."
+  },
+  "ui_ae437aff49ba": {
+    "message": "Không thể đọc phản hồi NAS."
+  },
+  "ui_b044999d35ab": {
+    "message": "Khóa đăng nhập NAS không hợp lệ."
+  },
+  "ui_7b80438ec983": {
+    "message": "Khóa RSA không hợp lệ."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "Khóa RSA không được hỗ trợ."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Sử dụng liên kết HTTP hoặc HTTPS trực tiếp tới tệp mà không cần nhúng số nhận dạng."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Torrent không hợp lệ hoặc lớn hơn 512 KB."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Kênh torrent không hợp lệ."
+  },
+  "ui_2d34af66a278": {
+    "message": "Khóa torrent không hợp lệ."
+  },
+  "ui_4024b2fc5907": {
+    "message": "Nội dung nhận được không có torrent."
+  },
+  "ui_75f70ed3140a": {
+    "message": "Nội dung nhận được không phải là torrent."
+  },
+  "ui_4a8e63360f63": {
+    "message": "Siêu dữ liệu torrent bị thiếu hoặc không hợp lệ."
+  },
+  "ui_8eb203ba941d": {
+    "message": "NAS chưa xác định được bất kỳ tệp nào để tải xuống."
+  },
+  "ui_137e68b05223": {
+    "message": "NAS không xác định được tên torrent. Không có nhiệm vụ nào được xác nhận."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "Tên nhiệm vụ bị NAS từ chối."
+  },
+  "ui_409c39d465ec": {
+    "message": "Danh sách tải xuống nhận được ở định dạng không mong muốn."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Tải xuống hoàn tất"
+  },
+  "ui_f01c5b082925": {
+    "message": "Đã dừng tải xuống"
+  },
+  "ui_8a9821880139": {
+    "message": "Tải xuống bị lỗi"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Phản hồi bất ngờ từ dịch vụ tìm kiếm UGREEN."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "Hoạt động NAS đang được tiến hành."
+  },
+  "ui_094557fca057": {
+    "message": "Kiểm tra kỹ chứng chỉ trước khi đăng ký tài khoản."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Kết nối thành công. Mã định danh và phiên được lưu trong Chuỗi khóa."
+  },
+  "ui_4bb0c308d018": {
+    "message": "Phiên sẽ được gia hạn trong lần gửi tiếp theo."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Cho phép thông báo trong Cài đặt hệ thống → Thông báo."
+  },
+  "ui_207aa6d45769": {
+    "message": "Định cấu hình NAS của bạn trong cài đặt."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "Danh sách các tập tin hoàn thành không có sẵn."
+  },
+  "ui_ce120d12a24d": {
+    "message": "Quá nhiều tệp đã hoàn thành để theo dõi đầy đủ các thông báo."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Định cấu hình NAS của bạn trong các tùy chọn tiện ích mở rộng."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "NAS không trả lại bất kỳ tệp nào để xác nhận. Kiểm tra phần tải xuống trước khi thử lại."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "Nhiệm vụ được chấp nhận bởi Tải xuống NAS."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Loại không xác định: tên gốc sẽ được giữ lại."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Phiên từ chối. Kiểm tra thông tin đăng nhập trong các tùy chọn."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "Không tìm thấy tên NAS (DNS). Mở ứng dụng UGREEN NAS Download và cho phép mạng cục bộ, sau đó thử lại. Bạn cũng có thể kiểm tra địa chỉ IP của NAS trong tùy chọn."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "Kết nối cục bộ bị từ chối hoặc NAS không thể truy cập được. Trong ứng dụng Mac, hãy sử dụng Cho phép kết nối khu vực địa phương, sau đó kiểm tra địa chỉ và cổng."
+  },
+  "ui_8872b03932e1": {
+    "message": "Kết nối TLS hoặc chứng chỉ bị từ chối. Kiểm tra chứng chỉ và dấu vân tay của nó trong các tùy chọn trước khi thử lại."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "Hết thời gian kết nối NAS. Kiểm tra mạng và công việc trước khi gửi lại."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "Quá nhiều nhiệm vụ để xác định tệp một cách an toàn."
+  },
+  "ui_3638a59bd40e": {
+    "message": "NAS không cung cấp tên tệp có thể sử dụng được. Việc đổi tên vẫn đang chờ xử lý."
+  },
+  "ui_201901522851": {
+    "message": "Không có tên tập tin miễn phí. Không có tập tin nào được thay thế."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS phản hồi không mong đợi."
+  },
+  "ui_8493662e7e41": {
+    "message": "NAS từ chối cài đặt kết nối của máy khách này (mã 9406). Kiểm tra phiên bản và giao thức kết nối."
+  },
+  "ui_00127e31a7b9": {
+    "message": "Mã tạm thời phải chứa 6 đến 8 chữ số."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Kết nối gần đây đã bị từ chối. Kiểm tra các tùy chọn sau đó chờ một phút."
+  },
+  "ui_df225b598a79": {
+    "message": "NAS không cung cấp khóa kết nối RSA."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Kết nối không đầy đủ: xác thực bổ sung được yêu cầu bởi NAS."
+  },
+  "ui_85d198010d47": {
+    "message": "Nhiệm vụ không được xác nhận bởi NAS (trạng thái %d). Kiểm tra phần tải xuống trước khi thử lại."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "NAS chưa xác nhận các tệp (trạng thái %d). Kiểm tra phần tải xuống trước khi thử lại."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Kết nối NAS chưa được xác nhận (mã kỹ thuật %d). Kiểm tra các nhiệm vụ trước khi thử lại."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "NAS từ chối {path} (mã %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "Tiện ích mở rộng không có sẵn trên trang này"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "Đang chờ"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Gửi lần cuối bằng cách nhấp chuột phải: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "Không có kết nối với NAS để sửa tên."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Kết nối với thông báo không có sẵn."
+  },
+  "ui_161cd02a787c": {
+    "message": "Không thể sửa đổi thông báo."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Thông báo không có sẵn."
+  },
+  "ui_d396daf24272": {
+    "message": "Không có kết nối với NAS."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Không thể kết nối với mô-đun Mac."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Sửa đổi là không thể."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "Tìm kiếm không có sẵn."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Đang khởi tạo…"
+  },
+  "ui_1052b279ffe6": {
+    "message": "Đã tải tập lệnh"
+  },
+  "ui_62611dbedb70": {
+    "message": "Từ chối tiêm"
+  },
+  "ui_f963644d9839": {
+    "message": "Mô-đun Safari không khả dụng"
+  },
+  "ui_98c28c423cc5": {
+    "message": "Torrent được bảo vệ phải có thể truy cập được từ trang này. Không có cookie nào được truyền đến trang web khác."
+  },
+  "ui_c847f62838fd": {
+    "message": "Trang web từ chối quyền truy cập vào torrent. Kiểm tra kết nối của bạn với trang web."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent quá lớn (giới hạn 512 KB)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "Trang web không trả lại tệp torrent hợp lệ."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Không có xác nhận. Kiểm tra các tác vụ NAS trước khi thử lại."
+  },
+  "ui_82e766fc3000": {
+    "message": "Trang web không cung cấp torrent trong vòng 20 giây. Bạn có thể thử lại."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Lô hàng chưa được xác nhận. Kiểm tra các tác vụ NAS trước khi thử lại."
+  },
+  "ui_b77404083cf4": {
+    "message": "Không thể xóa tài khoản."
+  },
+  "ui_a974c8e3f389": {
+    "message": "Kết nối NAS bị gián đoạn."
+  },
+  "ui_428d624126cb": {
+    "message": "DER không hợp lệ."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "Không thể mã hóa mật khẩu."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Mã định danh nam châm không hợp lệ."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL torrent không hợp lệ."
+  },
+  "ui_912d2e061225": {
+    "message": "Cấu trúc torrent không hợp lệ."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Độ dài torrent không hợp lệ."
+  },
+  "ui_8402366c958d": {
+    "message": "Toàn bộ torrent không hợp lệ."
+  },
+  "ui_82813a88c223": {
+    "message": "Từ điển thông tin không hợp lệ."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrent không đầy đủ."
+  },
+  "ui_90c67be91210": {
+    "message": "Cây torrent quá lớn."
+  },
+  "ui_6772a23b59ca": {
+    "message": "Dịch vụ tìm kiếm UGREEN không khả dụng."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "Chứng chỉ NAS không có sẵn."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Mã định danh hoặc thư mục đích không đầy đủ."
+  },
+  "ui_ee8668932e6f": {
+    "message": "Lệnh không được hỗ trợ."
+  },
+  "ui_d8dc23336417": {
+    "message": "Danh sách không có sẵn để xác định tập tin."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "NAS không xác nhận liệu tên đích có miễn phí hay không."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Đường dẫn API không hợp lệ."
+  },
+  "ui_1e5497bce01d": {
+    "message": "Yêu cầu xác thực kép. Nhập mã tạm thời vào các tùy chọn rồi bắt đầu lại."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Tin nhắn không hợp lệ."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "Tiện ích mở rộng đang hoạt động trên trang web này"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Tiện ích mở rộng đang hoạt động · liên kết trực tiếp"
+  },
+  "ui_e62e17c13421": {
+    "message": "Tìm nguồn"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "Để trống để giữ mật khẩu hiện tại"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "Xóa thông tin đăng nhập Chuỗi khóa và phiên cho hồ sơ này Safari?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Không thể xóa."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "Giám sát tiếp tục tự động."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Đã sửa tên đang chờ xử lý."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "Tiến độ của {name}"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} trên {total}"
+  }
+}

@@ -9,5 +9,5 @@ openssl req -x509 -newkey rsa:2048 -nodes -keyout "$test_dir/key.pem" -out "$tes
 python3 Tests/tls-server.py "$test_dir/cert.pem" "$test_dir/key.pem" &
 server_pid=$!
 cat "Xcode/UGREEN NAS Download/UGREEN NAS Download Extension/SafariWebExtensionHandler.swift" Tests/native-test-tail.swift > "$test_dir/tests.swift"
-xcrun swiftc -parse-as-library -module-cache-path "$test_dir/cache" "$test_dir/tests.swift" -o "$test_dir/tests"
+xcrun swiftc -parse-as-library Shared/Localization.swift -module-cache-path "$test_dir/cache" "$test_dir/tests.swift" -o "$test_dir/tests"
 "$test_dir/tests"

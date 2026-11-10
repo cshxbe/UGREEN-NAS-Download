@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Scarica in NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Nessun collegamento per il download utilizzabile."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Collegamento per il download non valido."
+  },
+  "ui_eb7039127a09": {
+    "message": "Questo file è generato in Safari o protetto. Lo NAS necessita di un collegamento HTTP o HTTPS direttamente accessibile."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "Non sono accettati link contenenti nome utente o password."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Spedizione non confermata."
+  },
+  "ui_43ed82d682c5": {
+    "message": "Una spedizione è già in corso. Riprova tra qualche istante."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Nessuna conferma di NAS. Controlla le sue attività prima di riprovare."
+  },
+  "ui_0868c445da94": {
+    "message": "Spedizione non confermata. Controlla le attività NAS."
+  },
+  "ui_9810a954e3f7": {
+    "message": "Monitoraggio dei download non disponibile."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "Modifica non confermata."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "Una spedizione è già in corso."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Intercettazione disabilitata."
+  },
+  "ui_28042909c3c2": {
+    "message": "Torrente o origine non autorizzata."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Collegamento non valido."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Nessuna conferma di NAS. Controlla le attività prima di riprovare."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Invia a NAS..."
+  },
+  "ui_df615a99851a": {
+    "message": "Controllare NAS prima di riprovare."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Nessuna conferma. Controllare NAS prima di riprovare."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "Ricarica questa pagina per attivare l'estensione"
+  },
+  "ui_d143da43aff6": {
+    "message": "Invio automatico disabilitato"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Accesso non autorizzato a questo sito o pagina per ricaricare"
+  },
+  "ui_38858cd588e0": {
+    "message": "Scarica"
+  },
+  "ui_239c064e0d40": {
+    "message": "In pausa"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Verifica"
+  },
+  "ui_797f5dcd0217": {
+    "message": "In corso"
+  },
+  "ui_01f19353c67f": {
+    "message": " ricevuto"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "Lo NAS elabora un'altra operazione..."
+  },
+  "ui_e43026bf1415": {
+    "message": "Risposta da NAS non disponibile."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "Elenco dei download non disponibile."
+  },
+  "ui_dcc71329139f": {
+    "message": "Elenco parziale: NAS contiene più di 10.000 attività."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Nessun download in corso."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Aggiornato a "
+  },
+  "ui_cca90e72b30f": {
+    "message": "Aggiornamento interrotto. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS inaccessibile."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Nome del file da controllare: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Conto configurato. Sessione e identificatori memorizzati nel portachiavi."
+  },
+  "ui_26d832931702": {
+    "message": "Apri l'app per Mac e riprova."
+  },
+  "ui_ab13d42df210": {
+    "message": "Leggere il certificato, senza trasmettere identificatori…"
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Controlla l'impronta digitale, quindi conferma NAS."
+  },
+  "ui_4122652cdf72": {
+    "message": "Prova di connessione a NAS…"
+  },
+  "ui_03000c00b0b7": {
+    "message": "Connessione non confermata."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Connessione non confermata. Controlla NAS e riprova."
+  },
+  "ui_b7356b338117": {
+    "message": "Conto dimenticato."
+  },
+  "ui_b791d0fcafae": {
+    "message": "Impostazione non disponibile. Ricarica questa pagina."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "Consenti banner UGREEN NAS Download in Impostazioni di sistema → Notifiche."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Ultimi download controllati: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Notifica di prova inviata. Se rimane invisibile, controlla la modalità Focus e le impostazioni di notifica."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "Test non disponibile."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "Ricerca di NAS…"
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Risposta di ricerca imprevista."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Scegli il tuo NAS, quindi controlla il suo certificato."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "Nessun NAS trovato. Controlla la tua rete o inserisci il suo indirizzo manualmente."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Indirizzo fornito. Controllare il certificato prima di connettersi."
+  },
+  "ui_4fd15b694321": {
+    "message": " È possibile inserire l'indirizzo manualmente."
+  },
+  "ui_450dc649eed7": {
+    "message": "Da Safari al tuo NAS"
+  },
+  "ui_abe5338595d8": {
+    "message": "Invio automatico"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrenti e collegamenti magnetici"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Download"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Collegamento a NAS…"
+  },
+  "ui_84d1987114e2": {
+    "message": "Invia un collegamento"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Scarica il link o il magnete"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Controllando questa pagina…"
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Impostazioni di connessione"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Intercetta collegamenti torrent e magnetici"
+  },
+  "ui_53107f6482b8": {
+    "message": "Aggiorna i download"
+  },
+  "ui_b76a016a207d": {
+    "message": "Download in corso"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "URL di file o collegamento magnetico"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Invia a NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "Collegamento a NAS UGREEN"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Collegamento a NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Configura il tuo account una volta. Le spedizioni future verranno effettuate direttamente da Safari."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Trova il mio NAS"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Cerca tramite il servizio online UGREEN. Nessun nome utente o password gli viene trasmesso. È necessaria una connessione Internet."
+  },
+  "ui_d40941f301ba": {
+    "message": "Indirizzo HTTPS di NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Parola d'ordine"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Doppio codice di autenticazione (se abilitato)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Registra questa estensione come dispositivo attendibile su NAS per consentire riconnessioni senza un nuovo codice."
+  },
+  "ui_354c180feac5": {
+    "message": "Questa autorizzazione può essere revocata nella gestione dei dispositivi attendibili di NAS. Senza di esso, potrebbe essere richiesto un nuovo codice alla scadenza della sessione."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Cartella di destinazione sullo NAS"
+  },
+  "ui_059b656d6323": {
+    "message": "Prima connessione: aprire l'applicazione Mac UGREEN NAS Download e utilizzare \"Consenti connessione di rete locale\". La casella sottostante sarà disponibile dopo aver recuperato il certificato."
+  },
+  "ui_373ca63c9193": {
+    "message": "Controllare il certificato di NAS"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Riconosco questo NAS e confermo questa impronta del certificato."
+  },
+  "ui_e2583fb31345": {
+    "message": "Salva e testa la connessione"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Dimentica questo account"
+  },
+  "ui_352e0513f977": {
+    "message": "Verifica l'impronta digitale SHA-256 da una fonte attendibile prima del primo accesso. Le password e i token non vengono mai archiviati nella memoria web dell'estensione."
+  },
+  "ui_dd750a280438": {
+    "message": "Scarica notifiche"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Completato, interrotto o in errore"
+  },
+  "ui_e44412dc793d": {
+    "message": "Prova una notifica"
+  },
+  "ui_984e864f3451": {
+    "message": "Conservato nel portachiavi macOS"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Codice temporaneo, mai salvato"
+  },
+  "ui_08987f40bc10": {
+    "message": "Scarica file, torrent e collegamenti magnetici sul tuo NAS UGREEN, direttamente da Safari."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Consenti rete locale se macOS te lo chiede."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "Controllo dell'estensione…"
+  },
+  "ui_b556373f5802": {
+    "message": "In Safari, fare clic con il tasto destro su un file,\nquindi scegli \"Scarica su NAS\"."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Impostazioni dell'estensione in Safari…"
+  },
+  "ui_9db119b9906f": {
+    "message": "Consenti l'accesso a NAS…"
+  },
+  "ui_c5d406ecc207": {
+    "message": "Estensione abilitata in Safari"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "Estensione da attivare nelle impostazioni Safari"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Apri Safari per verificare l'estensione."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Apri Safari → Impostazioni → Estensioni."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Connessione a NAS… Consenti rete locale se macOS lo richiede."
+  },
+  "ui_dfe810da2890": {
+    "message": "Accesso alla rete locale disponibile. Quindi configura il tuo NAS in Safari."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Consenti l'accesso in Impostazioni di sistema → Privacy e sicurezza → Rete locale."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "NAS è inaccessibile. Controlla la tua connessione e l'accesso alla rete locale."
+  },
+  "ui_b6104af839b2": {
+    "message": "Lo NAS non risponde. Controlla la connessione e riprova."
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS non ha accettato la notifica. Controlla le impostazioni di notifica dell'app."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Utilizza un indirizzo HTTPS completo, con la relativa porta, senza percorso o identificatori."
+  },
+  "ui_9209362478e0": {
+    "message": "Accesso al portachiavi negato o bloccato."
+  },
+  "ui_eb583918b61e": {
+    "message": "Impossibile salvare le credenziali nel portachiavi."
+  },
+  "ui_079197b78282": {
+    "message": "Impossibile aggiornare il portachiavi."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "Reindirizzamento NAS rifiutato."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "Risposta API NAS non valida o reindirizzamento rifiutato."
+  },
+  "ui_ff1507c53259": {
+    "message": "Manca la risposta NAS."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "Risposta NAS troppo grande."
+  },
+  "ui_ae437aff49ba": {
+    "message": "Impossibile leggere la risposta NAS."
+  },
+  "ui_b044999d35ab": {
+    "message": "Chiave di accesso NAS non valida."
+  },
+  "ui_7b80438ec983": {
+    "message": "Chiave RSA non valida."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "Chiave RSA non supportata."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Utilizza un collegamento HTTP o HTTPS diretto al file, senza identificatori incorporati."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Torrente non valido o superiore a 512 KB."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Canale torrent non valido."
+  },
+  "ui_2d34af66a278": {
+    "message": "Chiave torrent non valida."
+  },
+  "ui_4024b2fc5907": {
+    "message": "Contenuto ricevuto non torrent."
+  },
+  "ui_75f70ed3140a": {
+    "message": "Il contenuto ricevuto non è un torrent."
+  },
+  "ui_4a8e63360f63": {
+    "message": "Metadati del torrent mancanti o non validi."
+  },
+  "ui_8eb203ba941d": {
+    "message": "NAS non ha identificato alcun file da scaricare."
+  },
+  "ui_137e68b05223": {
+    "message": "NAS non ha identificato il nome del torrent. Nessuna attività è stata confermata."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "Nome dell'attività rifiutato da NAS."
+  },
+  "ui_409c39d465ec": {
+    "message": "Elenco dei download ricevuti in un formato imprevisto."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Download completato"
+  },
+  "ui_f01c5b082925": {
+    "message": "Download interrotto"
+  },
+  "ui_8a9821880139": {
+    "message": "Scarica per errore"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Risposta inaspettata dal servizio di ricerca UGREEN."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "Un'operazione NAS è già in corso."
+  },
+  "ui_094557fca057": {
+    "message": "Ricontrolla il certificato prima di registrare l'account."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Connessione riuscita. Identificatori e sessione salvati nel Portachiavi."
+  },
+  "ui_4bb0c308d018": {
+    "message": "Sessione da rinnovare al prossimo invio."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Consenti notifiche in Impostazioni di sistema → Notifiche."
+  },
+  "ui_207aa6d45769": {
+    "message": "Configura il tuo NAS nelle impostazioni."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "Elenco dei file completati non disponibile."
+  },
+  "ui_ce120d12a24d": {
+    "message": "Troppi file completati per tenere traccia completamente delle notifiche."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Configura il tuo NAS nelle opzioni dell'estensione."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "NAS non ha restituito alcun file da confermare. Controlla i download prima di riprovare."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "Attività accettata da NAS Download."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Tipo non identificato: verrà mantenuto il nome originale."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Sessione rifiutata. Controlla le credenziali nelle opzioni."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "Nome NAS non trovato (DNS). Apri l'app UGREEN NAS Download e consenti la rete locale, quindi riprova. Puoi anche controllare l'indirizzo IP dello NAS nelle opzioni."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "Connessione locale rifiutata o NAS inaccessibile. Nell'app Mac, utilizza Consenti connessione alla rete locale, quindi controlla l'indirizzo e la porta."
+  },
+  "ui_8872b03932e1": {
+    "message": "Connessione TLS o certificato rifiutato. Controlla il certificato e la relativa identificazione personale nelle opzioni prima di riprovare."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "Timeout connessione NAS. Controllare la rete e i lavori prima di inviare nuovamente."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "Troppe attività per identificare in modo sicuro il file."
+  },
+  "ui_3638a59bd40e": {
+    "message": "NAS non ha fornito un nome file utilizzabile. La ridenominazione rimane in sospeso."
+  },
+  "ui_201901522851": {
+    "message": "Nessun nome di file libero. Nessun file è stato sostituito."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS risposta inaspettata."
+  },
+  "ui_8493662e7e41": {
+    "message": "Lo NAS rifiuta le impostazioni di connessione di questo client (codice 9406). Verificare la versione e il protocollo di connessione."
+  },
+  "ui_00127e31a7b9": {
+    "message": "Il codice temporaneo deve contenere da 6 a 8 cifre."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Connessione recentemente rifiutata. Controlla le opzioni quindi attendi un minuto."
+  },
+  "ui_df225b598a79": {
+    "message": "NAS non ha fornito la chiave di connessione RSA."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Connessione incompleta: convalida aggiuntiva richiesta da NAS."
+  },
+  "ui_85d198010d47": {
+    "message": "Incarico non confermato da NAS (stato %d). Controlla i download prima di riprovare."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "NAS non ha confermato i file (stato %d). Controlla i download prima di riprovare."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Connessione NAS non confermata (codice tecnico %d). Controlla le attività prima di riprovare."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "Lo NAS rifiuta {path} (codice %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "Estensione non disponibile in questa pagina"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "In attesa"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Ultimo inviato con il tasto destro: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "Connessione a NAS non disponibile per correggere il nome."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Connessione alle notifiche non disponibile."
+  },
+  "ui_161cd02a787c": {
+    "message": "Impossibile modificare le notifiche."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Notifiche non disponibili."
+  },
+  "ui_d396daf24272": {
+    "message": "Connessione a NAS non disponibile."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Impossibile connettersi al modulo Mac."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Modifica impossibile."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "Ricerca non disponibile."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Inizializzazione…"
+  },
+  "ui_1052b279ffe6": {
+    "message": "Script caricato"
+  },
+  "ui_62611dbedb70": {
+    "message": "L'iniezione è stata rifiutata"
+  },
+  "ui_f963644d9839": {
+    "message": "Modulo Safari non disponibile"
+  },
+  "ui_98c28c423cc5": {
+    "message": "Il torrent protetto deve essere accessibile da questo sito. Nessun cookie viene trasmesso ad un altro sito."
+  },
+  "ui_c847f62838fd": {
+    "message": "Il sito rifiuta l'accesso al torrent. Controlla la tua connessione al sito."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent troppo grande (limite 512 KB)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "Il sito non ha restituito un file torrent valido."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Nessuna conferma. Controlla le attività NAS prima di riprovare."
+  },
+  "ui_82e766fc3000": {
+    "message": "Il sito non ha fornito il torrent entro 20 secondi. Puoi riprovare."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Spedizione non confermata. Controlla le attività NAS prima di riprovare."
+  },
+  "ui_b77404083cf4": {
+    "message": "Impossibile eliminare l'account."
+  },
+  "ui_a974c8e3f389": {
+    "message": "Collegamento NAS interrotto."
+  },
+  "ui_428d624126cb": {
+    "message": "DER non valido."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "La crittografia della password non è possibile."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Identificatore del magnete non valido."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL torrent non valido."
+  },
+  "ui_912d2e061225": {
+    "message": "Struttura torrent non valida."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Lunghezza torrent non valida."
+  },
+  "ui_8402366c958d": {
+    "message": "Intero torrent non valido."
+  },
+  "ui_82813a88c223": {
+    "message": "Dizionario delle informazioni non valido."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrente incompleto."
+  },
+  "ui_90c67be91210": {
+    "message": "Albero torrent troppo grande."
+  },
+  "ui_6772a23b59ca": {
+    "message": "Il servizio di ricerca UGREEN non è disponibile."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "Certificato NAS non disponibile."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Identificatori o cartella di destinazione incompleti."
+  },
+  "ui_ee8668932e6f": {
+    "message": "Comando non supportato."
+  },
+  "ui_d8dc23336417": {
+    "message": "Elenco non disponibile per identificare il file."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "NAS non conferma se il nome di destinazione è libero."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Percorso API non valido."
+  },
+  "ui_1e5497bce01d": {
+    "message": "È richiesta la doppia autenticazione. Inserisci un codice temporaneo nelle opzioni, quindi ricomincia."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Messaggio non valido."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "Estensione attiva su questo sito"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Estensione attiva · Collegamenti diretti"
+  },
+  "ui_e62e17c13421": {
+    "message": "Trovare fonti"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "Lascia vuoto per mantenere la password corrente"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "Eliminare gli accessi e la sessione del portachiavi per questo profilo Safari?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Impossibile eliminare."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "Il monitoraggio riprende automaticamente."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Nome fisso in sospeso."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "Avanzamento di {name}"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} su {total}"
+  }
+}

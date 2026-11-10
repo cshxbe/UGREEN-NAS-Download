@@ -1,0 +1,656 @@
+{
+  "ui_3896007954a3": {
+    "message": "Unduh ke NAS"
+  },
+  "ui_90fe07c7f2e5": {
+    "message": "Tidak ada tautan unduhan yang dapat digunakan."
+  },
+  "ui_a2ab0e04be85": {
+    "message": "Tautan unduhan tidak valid."
+  },
+  "ui_eb7039127a09": {
+    "message": "File ini dibuat di Safari atau dilindungi. NAS memerlukan tautan HTTP atau HTTPS yang dapat diakses langsung."
+  },
+  "ui_2e4551fa5efd": {
+    "message": "Tautan yang berisi nama pengguna atau kata sandi tidak diterima."
+  },
+  "ui_a413ef4f1131": {
+    "message": "Pengiriman belum dikonfirmasi."
+  },
+  "ui_43ed82d682c5": {
+    "message": "Pengiriman sedang berlangsung. Coba lagi dalam beberapa saat."
+  },
+  "ui_5bfbbfddefce": {
+    "message": "Tidak ada konfirmasi NAS. Periksa tugasnya sebelum mencoba lagi."
+  },
+  "ui_0868c445da94": {
+    "message": "Pengiriman belum dikonfirmasi. Periksa tugas NAS."
+  },
+  "ui_9810a954e3f7": {
+    "message": "Pelacakan unduhan tidak tersedia."
+  },
+  "ui_7eeba48b9b9c": {
+    "message": "Perubahan tidak dikonfirmasi."
+  },
+  "ui_e7fc6373a2de": {
+    "message": "Pengiriman sedang berlangsung."
+  },
+  "ui_18a9a37c15a1": {
+    "message": "Intersepsi dinonaktifkan."
+  },
+  "ui_28042909c3c2": {
+    "message": "Torrent atau asal tidak sah."
+  },
+  "ui_6658df9c38ab": {
+    "message": "Tautan tidak valid."
+  },
+  "ui_b2558047a3e8": {
+    "message": "Tidak ada konfirmasi NAS. Periksa tugas sebelum mencoba lagi."
+  },
+  "ui_3b732d654b2e": {
+    "message": "Kirim ke NAS…"
+  },
+  "ui_df615a99851a": {
+    "message": "Periksa NAS sebelum mencoba lagi."
+  },
+  "ui_56e0d2482f10": {
+    "message": "Tidak ada konfirmasi. Periksa NAS sebelum mencoba lagi."
+  },
+  "ui_cb8d924d14fd": {
+    "message": "Muat ulang halaman ini untuk mengaktifkan ekstensi"
+  },
+  "ui_d143da43aff6": {
+    "message": "Pengiriman otomatis dinonaktifkan"
+  },
+  "ui_cd4d0abee3d3": {
+    "message": "Akses tidak sah ke situs atau halaman ini untuk memuat ulang"
+  },
+  "ui_38858cd588e0": {
+    "message": "Unduh"
+  },
+  "ui_239c064e0d40": {
+    "message": "Sedang jeda"
+  },
+  "ui_97a4b5570c16": {
+    "message": "Verifikasi"
+  },
+  "ui_797f5dcd0217": {
+    "message": "Sedang berlangsung"
+  },
+  "ui_01f19353c67f": {
+    "message": " diterima"
+  },
+  "ui_a8b51d2ae9ee": {
+    "message": "NAS memproses operasi lain…"
+  },
+  "ui_e43026bf1415": {
+    "message": "Respons dari NAS tidak tersedia."
+  },
+  "ui_62f9e34d1cb3": {
+    "message": "Daftar unduhan tidak tersedia."
+  },
+  "ui_dcc71329139f": {
+    "message": "Daftar sebagian: NAS berisi lebih dari 10.000 tugas."
+  },
+  "ui_6d5a188afe25": {
+    "message": "Tidak ada pengunduhan yang sedang berlangsung."
+  },
+  "ui_fa6ca0863a17": {
+    "message": "Diperbarui ke "
+  },
+  "ui_cca90e72b30f": {
+    "message": "Pembaruan terputus. "
+  },
+  "ui_36a1cad0f5a2": {
+    "message": "NAS tidak dapat diakses."
+  },
+  "ui_0f218cb7d56c": {
+    "message": "Nama file yang akan diperiksa: "
+  },
+  "ui_141de5281f3f": {
+    "message": "Akun dikonfigurasi. Sesi dan pengidentifikasi disimpan di Gantungan Kunci."
+  },
+  "ui_26d832931702": {
+    "message": "Buka aplikasi Mac dan coba lagi."
+  },
+  "ui_ab13d42df210": {
+    "message": "Membaca sertifikat, tanpa mengirimkan pengenal…"
+  },
+  "ui_1bdda3a5e0a1": {
+    "message": "Periksa sidik jari, lalu konfirmasi NAS."
+  },
+  "ui_4122652cdf72": {
+    "message": "Tes koneksi ke NAS…"
+  },
+  "ui_03000c00b0b7": {
+    "message": "Koneksi belum dikonfirmasi."
+  },
+  "ui_d8bda67860cd": {
+    "message": "Koneksi belum dikonfirmasi. Periksa NAS dan coba lagi."
+  },
+  "ui_b7356b338117": {
+    "message": "Akun yang terlupakan."
+  },
+  "ui_b791d0fcafae": {
+    "message": "Setelan tidak tersedia. Muat ulang halaman ini."
+  },
+  "ui_cdc531eeb77d": {
+    "message": "Izinkan spanduk UGREEN NAS Download di Pengaturan Sistem → Pemberitahuan."
+  },
+  "ui_aa5f51ab7162": {
+    "message": "Unduhan terakhir diperiksa: "
+  },
+  "ui_d880fbbb21d5": {
+    "message": "Pemberitahuan pengujian terkirim. Jika tetap tidak terlihat, periksa mode Fokus dan pengaturan notifikasi."
+  },
+  "ui_c30bdfb591a9": {
+    "message": "Pengujian tidak tersedia."
+  },
+  "ui_69a73fdd87c7": {
+    "message": "Mencari NAS…"
+  },
+  "ui_5bb39ffa1a2f": {
+    "message": "Respons pencarian yang tidak terduga."
+  },
+  "ui_5fd0980a2907": {
+    "message": "Pilih NAS Anda, lalu periksa sertifikatnya."
+  },
+  "ui_3ea1e67e5d0e": {
+    "message": "Tidak ditemukan NAS. Periksa jaringan Anda atau masukkan alamatnya secara manual."
+  },
+  "ui_71a547ac7d47": {
+    "message": "Alamat disediakan. Periksa sertifikat sebelum menghubungkan."
+  },
+  "ui_4fd15b694321": {
+    "message": " Anda dapat memasukkan alamat secara manual."
+  },
+  "ui_450dc649eed7": {
+    "message": "Dari Safari hingga NAS Anda"
+  },
+  "ui_abe5338595d8": {
+    "message": "Pengiriman otomatis"
+  },
+  "ui_35ce1e5ad51d": {
+    "message": "Torrent dan tautan magnet"
+  },
+  "ui_9581d056ec2b": {
+    "message": "Unduhan"
+  },
+  "ui_c87d99eda40e": {
+    "message": "Menghubungkan ke NAS…"
+  },
+  "ui_84d1987114e2": {
+    "message": "Kirim tautan"
+  },
+  "ui_1d9bdbd604e3": {
+    "message": "Tautan unduhan atau magnet"
+  },
+  "ui_f7fe29a23f63": {
+    "message": "Memeriksa halaman ini…"
+  },
+  "ui_c9a1508ec8ae": {
+    "message": "Pengaturan koneksi"
+  },
+  "ui_b633bf1a1a2d": {
+    "message": "Cegat tautan torrent dan magnet"
+  },
+  "ui_53107f6482b8": {
+    "message": "Segarkan unduhan"
+  },
+  "ui_b76a016a207d": {
+    "message": "Pengunduhan sedang berlangsung"
+  },
+  "ui_7e27ed8ff0d3": {
+    "message": "URL file atau tautan magnet"
+  },
+  "ui_b0322b8340c7": {
+    "message": "Kirim ke NAS"
+  },
+  "ui_28e3697540a2": {
+    "message": "Koneksi ke NAS UGREEN"
+  },
+  "ui_599d9fc5ff7b": {
+    "message": "Menghubungkan ke NAS"
+  },
+  "ui_69b5fa9d0752": {
+    "message": "Siapkan akun Anda sekali. Pengiriman selanjutnya akan dilakukan langsung dari Safari."
+  },
+  "ui_6ab12e9085a8": {
+    "message": "Temukan NAS saya"
+  },
+  "ui_81d46c8dbec1": {
+    "message": "Cari melalui layanan online UGREEN. Tidak ada nama pengguna atau kata sandi yang dikirimkan kepadanya. Koneksi Internet diperlukan."
+  },
+  "ui_d40941f301ba": {
+    "message": "Alamat HTTPS dari NAS"
+  },
+  "ui_ff9c8b8c0677": {
+    "message": "Kata sandi"
+  },
+  "ui_1f8bc1930d7a": {
+    "message": "Kode autentikasi ganda (jika diaktifkan)"
+  },
+  "ui_cea13e0bef7a": {
+    "message": "Daftarkan ekstensi ini sebagai perangkat tepercaya di NAS untuk mengizinkan koneksi ulang tanpa kode baru."
+  },
+  "ui_354c180feac5": {
+    "message": "Izin ini dapat dicabut di manajemen perangkat tepercaya NAS. Tanpanya, kode baru mungkin diperlukan saat sesi berakhir."
+  },
+  "ui_67850d38a7fd": {
+    "message": "Folder tujuan di NAS"
+  },
+  "ui_059b656d6323": {
+    "message": "Koneksi pertama: Buka aplikasi Mac UGREEN NAS Download dan gunakan “Izinkan koneksi jaringan lokal”. Kotak di bawah ini akan tersedia setelah mengambil sertifikat."
+  },
+  "ui_373ca63c9193": {
+    "message": "Periksa sertifikat NAS"
+  },
+  "ui_d717e9becb9d": {
+    "message": "Saya mengenali NAS ini dan mengonfirmasi jejak sertifikat ini."
+  },
+  "ui_e2583fb31345": {
+    "message": "Simpan dan uji koneksi"
+  },
+  "ui_c9b4a37a5f02": {
+    "message": "Lupakan akun ini"
+  },
+  "ui_352e0513f977": {
+    "message": "Verifikasi sidik jari SHA-256 dari sumber tepercaya sebelum login pertama. Kata sandi dan token tidak pernah disimpan di penyimpanan web ekstensi."
+  },
+  "ui_dd750a280438": {
+    "message": "Unduh notifikasi"
+  },
+  "ui_ff0aff8b385e": {
+    "message": "Selesai, terhenti, atau terjadi kesalahan"
+  },
+  "ui_e44412dc793d": {
+    "message": "Uji notifikasi"
+  },
+  "ui_984e864f3451": {
+    "message": "Disimpan di Gantungan Kunci macOS"
+  },
+  "ui_a578e17cff5f": {
+    "message": "Kode sementara, tidak pernah disimpan"
+  },
+  "ui_08987f40bc10": {
+    "message": "Unduh file, torrent, dan tautan magnet ke NAS UGREEN Anda, langsung dari Safari."
+  },
+  "ui_4551356cc3d9": {
+    "message": "Izinkan jaringan lokal jika macOS meminta Anda melakukannya."
+  },
+  "ui_0a99e9bf1c84": {
+    "message": "Memeriksa ekstensi…"
+  },
+  "ui_b556373f5802": {
+    "message": "Di Safari, klik kanan pada file,\nlalu pilih “Unduh ke NAS”."
+  },
+  "ui_0f924b5d201f": {
+    "message": "Pengaturan ekstensi di Safari…"
+  },
+  "ui_9db119b9906f": {
+    "message": "Izinkan akses ke NAS…"
+  },
+  "ui_c5d406ecc207": {
+    "message": "Ekstensi diaktifkan di Safari"
+  },
+  "ui_3fb17cfc0569": {
+    "message": "Ekstensi untuk diaktifkan di pengaturan Safari"
+  },
+  "ui_f0c18dd9c1a4": {
+    "message": "Buka Safari untuk memeriksa ekstensi."
+  },
+  "ui_a0974b4c78f7": {
+    "message": "Buka Safari → Pengaturan → Ekstensi."
+  },
+  "ui_28f8ee74ca61": {
+    "message": "Menghubungkan ke NAS… Izinkan jaringan lokal jika macOS memintanya."
+  },
+  "ui_dfe810da2890": {
+    "message": "Akses jaringan lokal tersedia. Kemudian konfigurasikan NAS Anda menjadi Safari."
+  },
+  "ui_3d7f52fd8db1": {
+    "message": "Izinkan akses di Pengaturan Sistem → Privasi & Keamanan → Jaringan Lokal."
+  },
+  "ui_d72e6bd1c97b": {
+    "message": "NAS tidak dapat diakses. Periksa koneksi dan akses jaringan lokal Anda."
+  },
+  "ui_b6104af839b2": {
+    "message": "NAS tidak merespons. Periksa koneksi Anda, lalu coba lagi."
+  },
+  "ui_b43b586485e3": {
+    "message": "macOS tidak menerima pemberitahuan tersebut. Periksa pengaturan notifikasi aplikasi."
+  },
+  "ui_f5addc7b5c24": {
+    "message": "Gunakan alamat HTTPS lengkap, dengan portnya, tanpa jalur atau pengidentifikasi."
+  },
+  "ui_9209362478e0": {
+    "message": "Akses ke Gantungan Kunci ditolak atau dikunci."
+  },
+  "ui_eb583918b61e": {
+    "message": "Tidak dapat menyimpan kredensial di Rantai Kunci."
+  },
+  "ui_079197b78282": {
+    "message": "Tidak dapat memperbarui Rantai Kunci."
+  },
+  "ui_b52ac257e9d5": {
+    "message": "Pengalihan NAS ditolak."
+  },
+  "ui_f51ec28c3af6": {
+    "message": "Respons API NAS tidak valid atau pengalihan ditolak."
+  },
+  "ui_ff1507c53259": {
+    "message": "Respons NAS hilang."
+  },
+  "ui_d6ce26cae65c": {
+    "message": "Respons NAS terlalu besar."
+  },
+  "ui_ae437aff49ba": {
+    "message": "Tidak dapat membaca respons NAS."
+  },
+  "ui_b044999d35ab": {
+    "message": "Kunci masuk NAS tidak valid."
+  },
+  "ui_7b80438ec983": {
+    "message": "Kunci RSA tidak valid."
+  },
+  "ui_dbb5f4df5427": {
+    "message": "Kunci RSA tidak didukung."
+  },
+  "ui_cd3dac3e4a2a": {
+    "message": "Gunakan tautan HTTP atau HTTPS langsung ke file, tanpa pengenal yang disematkan."
+  },
+  "ui_3716aaf78bec": {
+    "message": "Torrent tidak valid atau lebih besar dari 512 KB."
+  },
+  "ui_a74be4e6d377": {
+    "message": "Saluran torrent tidak valid."
+  },
+  "ui_2d34af66a278": {
+    "message": "Kunci torrent tidak valid."
+  },
+  "ui_4024b2fc5907": {
+    "message": "Konten diterima tanpa torrent."
+  },
+  "ui_75f70ed3140a": {
+    "message": "Konten yang diterima bukan torrent."
+  },
+  "ui_4a8e63360f63": {
+    "message": "Metadata torrent hilang atau tidak valid."
+  },
+  "ui_8eb203ba941d": {
+    "message": "NAS belum mengidentifikasi file apa pun untuk diunduh."
+  },
+  "ui_137e68b05223": {
+    "message": "NAS tidak mengidentifikasi nama torrent. Tidak ada tugas yang dikonfirmasi."
+  },
+  "ui_5ebaf4042fab": {
+    "message": "Nama tugas ditolak oleh NAS."
+  },
+  "ui_409c39d465ec": {
+    "message": "Daftar unduhan yang diterima dalam format yang tidak terduga."
+  },
+  "ui_19356d0fa0b7": {
+    "message": "Pengunduhan selesai"
+  },
+  "ui_f01c5b082925": {
+    "message": "Pengunduhan terhenti"
+  },
+  "ui_8a9821880139": {
+    "message": "Unduh karena kesalahan"
+  },
+  "ui_5dffb3ac450b": {
+    "message": "Respons tak terduga dari layanan pencarian UGREEN."
+  },
+  "ui_89450dc3c8e2": {
+    "message": "Operasi NAS sedang berlangsung."
+  },
+  "ui_094557fca057": {
+    "message": "Periksa kembali sertifikat sebelum mendaftarkan akun."
+  },
+  "ui_d82863a8cab7": {
+    "message": "Koneksi berhasil. Pengidentifikasi dan sesi disimpan di Gantungan Kunci."
+  },
+  "ui_4bb0c308d018": {
+    "message": "Sesi akan diperbarui pada pengiriman berikutnya."
+  },
+  "ui_6b7a96d5703e": {
+    "message": "Izinkan notifikasi di Pengaturan Sistem → Notifikasi."
+  },
+  "ui_207aa6d45769": {
+    "message": "Konfigurasikan NAS Anda di pengaturan."
+  },
+  "ui_e15ebf8c3f20": {
+    "message": "Daftar file yang sudah selesai tidak tersedia."
+  },
+  "ui_ce120d12a24d": {
+    "message": "Terlalu banyak file yang sudah selesai untuk melacak notifikasi sepenuhnya."
+  },
+  "ui_ffe11a4deea9": {
+    "message": "Konfigurasikan NAS Anda di opsi ekstensi."
+  },
+  "ui_bcdcbe57a1af": {
+    "message": "NAS tidak mengembalikan file apa pun untuk dikonfirmasi. Periksa Unduhan sebelum mencoba lagi."
+  },
+  "ui_ecf3d342b3b1": {
+    "message": "Tugas diterima oleh Unduhan NAS."
+  },
+  "ui_8534c1e85d41": {
+    "message": " Jenis tidak teridentifikasi: nama asli akan dipertahankan."
+  },
+  "ui_b67e827b8e82": {
+    "message": "Sesi menolak. Periksa kredensial di opsi."
+  },
+  "ui_5ecb5bf8600a": {
+    "message": "Nama NAS tidak ditemukan (DNS). Buka aplikasi UGREEN NAS Download dan izinkan jaringan lokal, lalu coba lagi. Anda juga dapat memeriksa alamat IP NAS di opsi."
+  },
+  "ui_7a3c2b255cb4": {
+    "message": "Koneksi lokal ditolak atau NAS tidak dapat diakses. Di app Mac, gunakan Izinkan Koneksi Area Lokal, lalu periksa alamat dan port."
+  },
+  "ui_8872b03932e1": {
+    "message": "Koneksi TLS atau sertifikat ditolak. Periksa sertifikat dan cap jempolnya di opsi sebelum mencoba lagi."
+  },
+  "ui_eb93e7cae9e6": {
+    "message": "Batas waktu koneksi NAS. Periksa jaringan dan pekerjaan sebelum mengirim lagi."
+  },
+  "ui_51e3ca1fd3aa": {
+    "message": "Terlalu banyak tugas untuk mengidentifikasi file dengan aman."
+  },
+  "ui_3638a59bd40e": {
+    "message": "NAS tidak memberikan nama file yang dapat digunakan. Penggantian nama masih tertunda."
+  },
+  "ui_201901522851": {
+    "message": "Tidak ada nama file gratis. Tidak ada file yang diganti."
+  },
+  "ui_ab3b50f251b3": {
+    "message": "HTTP NAS respons tak terduga."
+  },
+  "ui_8493662e7e41": {
+    "message": "NAS menolak pengaturan koneksi klien ini (kode 9406). Periksa versi dan protokol koneksi."
+  },
+  "ui_00127e31a7b9": {
+    "message": "Kode sementara harus berisi 6 hingga 8 digit."
+  },
+  "ui_a8d1da72b360": {
+    "message": "Koneksi baru-baru ini ditolak. Periksa opsi lalu tunggu sebentar."
+  },
+  "ui_df225b598a79": {
+    "message": "NAS tidak menyediakan kunci koneksi RSA-nya."
+  },
+  "ui_2432f5f3cac4": {
+    "message": "Koneksi tidak lengkap: validasi tambahan diminta oleh NAS."
+  },
+  "ui_85d198010d47": {
+    "message": "Tugas tidak dikonfirmasi oleh NAS (sebutkan %d). Periksa Unduhan sebelum mencoba lagi."
+  },
+  "ui_353a6a7f7fa5": {
+    "message": "NAS belum mengonfirmasi file tersebut (sebutkan %d). Periksa Unduhan sebelum mencoba lagi."
+  },
+  "ui_6efc97ce913e": {
+    "message": "Koneksi NAS yang belum dikonfirmasi (kode teknis %d). Periksa tugas sebelum mencoba lagi."
+  },
+  "ui_e7bdf09e336a": {
+    "message": "NAS menolak {path} (kode %d). {message}"
+  },
+  "ui_c66fb56b416f": {
+    "message": "Ekstensi tidak tersedia di halaman ini"
+  },
+  "ui_2f6c8477e92b": {
+    "message": "Menunggu"
+  },
+  "ui_3515c16c8e2f": {
+    "message": "Terakhir dikirim dengan klik kanan: "
+  },
+  "ui_fe514dd7780a": {
+    "message": "Koneksi ke NAS tidak tersedia untuk nama yang benar."
+  },
+  "ui_7bcf7edabd48": {
+    "message": "Koneksi ke notifikasi tidak tersedia."
+  },
+  "ui_161cd02a787c": {
+    "message": "Tidak dapat mengubah notifikasi."
+  },
+  "ui_f599ca63f18d": {
+    "message": "Notifikasi tidak tersedia."
+  },
+  "ui_d396daf24272": {
+    "message": "Koneksi ke NAS tidak tersedia."
+  },
+  "ui_50edc0c70deb": {
+    "message": "Tidak dapat terhubung ke modul Mac."
+  },
+  "ui_e8c9f22114cb": {
+    "message": "SHA-256: "
+  },
+  "ui_c1486275c837": {
+    "message": "Modifikasi tidak mungkin."
+  },
+  "ui_9e5c694d62ed": {
+    "message": "Pencarian tidak tersedia."
+  },
+  "ui_1347b8f0a0e4": {
+    "message": "Inisialisasi…"
+  },
+  "ui_1052b279ffe6": {
+    "message": "Skrip dimuat"
+  },
+  "ui_62611dbedb70": {
+    "message": "Injeksi ditolak"
+  },
+  "ui_f963644d9839": {
+    "message": "Modul Safari tidak tersedia"
+  },
+  "ui_98c28c423cc5": {
+    "message": "Torrent yang dilindungi harus dapat diakses dari situs ini. Tidak ada cookie yang dikirimkan ke situs lain."
+  },
+  "ui_c847f62838fd": {
+    "message": "Situs ini menolak akses ke torrent. Periksa koneksi Anda ke situs."
+  },
+  "ui_cd3568f6a76b": {
+    "message": "Torrent terlalu besar (batas 512 KB)."
+  },
+  "ui_df84ce2fd25c": {
+    "message": "Situs ini tidak mengembalikan file torrent yang valid."
+  },
+  "ui_e69bcfcdd24c": {
+    "message": "Tidak ada konfirmasi. Periksa tugas NAS sebelum mencoba lagi."
+  },
+  "ui_82e766fc3000": {
+    "message": "Situs tersebut tidak menyediakan torrent dalam waktu 20 detik. Anda dapat mencoba lagi."
+  },
+  "ui_4b5f254ca06c": {
+    "message": "Pengiriman belum dikonfirmasi. Periksa tugas NAS sebelum mencoba lagi."
+  },
+  "ui_b77404083cf4": {
+    "message": "Tidak dapat menghapus akun."
+  },
+  "ui_a974c8e3f389": {
+    "message": "Koneksi NAS terputus."
+  },
+  "ui_428d624126cb": {
+    "message": "DER tidak valid."
+  },
+  "ui_e7bd42ba90b0": {
+    "message": "Enkripsi kata sandi tidak dimungkinkan."
+  },
+  "ui_f3cdccb5402b": {
+    "message": "Pengidentifikasi magnet tidak valid."
+  },
+  "ui_cb5b339795b7": {
+    "message": "URL torrent tidak valid."
+  },
+  "ui_912d2e061225": {
+    "message": "Struktur torrent tidak valid."
+  },
+  "ui_3326f8e02c15": {
+    "message": "Panjang torrent tidak valid."
+  },
+  "ui_8402366c958d": {
+    "message": "Seluruh torrent tidak valid."
+  },
+  "ui_82813a88c223": {
+    "message": "Kamus info tidak valid."
+  },
+  "ui_b88378cc7549": {
+    "message": "Torrent tidak lengkap."
+  },
+  "ui_90c67be91210": {
+    "message": "Pohon torrent terlalu besar."
+  },
+  "ui_6772a23b59ca": {
+    "message": "Layanan pencarian UGREEN tidak tersedia."
+  },
+  "ui_03bfba1ab6f4": {
+    "message": "Sertifikat NAS tidak tersedia."
+  },
+  "ui_7143f9a88e8f": {
+    "message": "Pengidentifikasi atau folder tujuan tidak lengkap."
+  },
+  "ui_ee8668932e6f": {
+    "message": "Perintah tidak didukung."
+  },
+  "ui_d8dc23336417": {
+    "message": "Daftar tidak tersedia untuk mengidentifikasi file."
+  },
+  "ui_eb63290d0d8b": {
+    "message": "NAS tidak mengonfirmasi apakah nama tujuan gratis."
+  },
+  "ui_32a1a240c4e6": {
+    "message": "Jalur API tidak valid."
+  },
+  "ui_1e5497bce01d": {
+    "message": "Diperlukan otentikasi ganda. Masukkan kode sementara di opsi lalu mulai lagi."
+  },
+  "ui_86d4edf3510b": {
+    "message": "Pesan tidak valid."
+  },
+  "ui_4b695c7c1ff4": {
+    "message": "Ekstensi aktif di situs ini"
+  },
+  "ui_8c14f6145e6e": {
+    "message": "Ekstensi aktif · tautan langsung"
+  },
+  "ui_e62e17c13421": {
+    "message": "Menemukan sumber"
+  },
+  "ui_414fcf8c8cb7": {
+    "message": "Biarkan kosong untuk menyimpan kata sandi saat ini"
+  },
+  "ui_27fd2a5f456f": {
+    "message": "Hapus login dan sesi Rantai Kunci untuk profil ini Safari?"
+  },
+  "ui_29871f14bdb5": {
+    "message": "Tidak dapat menghapus."
+  },
+  "ui_bc8a610a15ef": {
+    "message": "Pemantauan dilanjutkan secara otomatis."
+  },
+  "ui_de2d2f9089c7": {
+    "message": "Memperbaiki nama tertunda."
+  },
+  "ui_bf5f1a5e561a": {
+    "message": "Kemajuan {name}"
+  },
+  "ui_fcd28038ac90": {
+    "message": "{received} pada {total}"
+  }
+}
