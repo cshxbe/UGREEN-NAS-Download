@@ -22,7 +22,6 @@
 .brand>picture,.settings>header>picture{display:block;flex-shrink:0}.brand>picture img,.settings>header>picture img{display:block;border-radius:10px}
 
 /* Keep localized text readable at popup width and mirror directional spacing. */
-.popover{width:344px;min-width:0;max-width:100vw}
 .popover,.settings{overflow-wrap:anywhere}
 .automation label,.section-heading h2,.brand>div{min-width:0}
 .settings button{max-width:100%;white-space:normal}

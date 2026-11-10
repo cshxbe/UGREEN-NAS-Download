@@ -4,7 +4,7 @@
 
 A macOS application and a Safari extension to send downloads to the **Downloads** application of a UGREEN NAS running UGOS Pro, without keeping the NAS page open.
 
-Source and DMG version: **0.6.0**. Independent community project, not affiliated with UGREEN or Apple.
+Source and DMG version: **0.6.1**. Independent community project, not affiliated with UGREEN or Apple.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ The project is configured for **macOS 27 or later** and was compiled with **Xcod
 
 ## Install from DMG
 
-[Download UGREEN NAS Download 0.6.0 for Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
+[Download UGREEN NAS Download 0.6.1 for Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1).
 
 1. Open the DMG, drag **UGREEN NAS Download** into **Applications**, then open the app.
 2. In **Safari → Settings → Advanced**, enable features for web developers. In **Developer**, enable **Allow unsigned extensions**, then enable **UGREEN NAS Download** in **Extensions**.

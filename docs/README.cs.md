@@ -4,7 +4,7 @@
 
 Aplikace macOS a rozšíření Safari pro odesílání stažených souborů do aplikace **Downloads** aplikace NAS UGREEN pod UGOS Pro, aniž by byla ponechána otevřená stránka NAS.
 
-Zdroje a verze DMG: **0.6.0**. Nezávislý komunitní projekt, který není spojen s UGREEN nebo Apple.
+Zdroje a verze DMG: **0.6.1**. Nezávislý komunitní projekt, který není spojen s UGREEN nebo Apple.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ Projekt je nakonfigurován pro **macOS 27 nebo novější** a byl zkompilován s
 
 ## Nainstalujte z DMG
 
-[Stáhněte si UGREEN NAS Download 0.6.0 pro Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
+[Stáhněte si UGREEN NAS Download 0.6.1 pro Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1).
 
 1. Otevřete DMG, přetáhněte **UGREEN NAS Download** do **Aplikace** a otevřete aplikaci.
 2. V **Safari → Nastavení → Upřesnit** povolte funkce pro webové vývojáře. V **Vývojáři** povolte **Povolit nepodepsaná rozšíření** a poté povolte **UGREEN NAS Download** v **Rozšíření**.

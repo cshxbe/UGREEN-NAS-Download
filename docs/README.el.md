@@ -4,7 +4,7 @@
 
 Μια εφαρμογή macOS και μια επέκταση Safari για αποστολή λήψεων στην εφαρμογή **Λήψεις** ενός NAS UGREEN κάτω από το UGOS Pro, χωρίς να διατηρείται ανοιχτή η σελίδα NAS.
 
-Πηγές και έκδοση DMG: **0.6.0**. Ανεξάρτητο κοινοτικό έργο, μη συνδεδεμένο με την UGREEN ή την Apple.
+Πηγές και έκδοση DMG: **0.6.1**. Ανεξάρτητο κοινοτικό έργο, μη συνδεδεμένο με την UGREEN ή την Apple.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@
 
 ## Εγκατάσταση από DMG
 
-[Λήψη του UGREEN NAS Download 0.6.0 για Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
+[Λήψη του UGREEN NAS Download 0.6.1 για Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1).
 
 1. Ανοίξτε το DMG, σύρετε το **UGREEN NAS Download** στις **Εφαρμογές** και μετά ανοίξτε την εφαρμογή.
 2. Στο **Safari → Ρυθμίσεις → Για προχωρημένους**, ενεργοποιήστε τις δυνατότητες για προγραμματιστές ιστού. Στον **Προγραμματιστή**, ενεργοποιήστε το **Να επιτρέπονται οι μη υπογεγραμμένες επεκτάσεις** και, στη συνέχεια, ενεργοποιήστε το **UGREEN NAS Download** στις **Επεκτάσεις**.

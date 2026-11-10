@@ -4,7 +4,7 @@
 
 Aplikacija macOS in razširitev Safari za pošiljanje prenosov v aplikacijo **Prenosi** za NAS UGREEN pod UGOS Pro, ne da bi stran NAS ostala odprta.
 
-Viri in različica DMG: **0.6.0**. Neodvisen projekt skupnosti, ki ni povezan z UGREEN ali Apple.
+Viri in različica DMG: **0.6.1**. Neodvisen projekt skupnosti, ki ni povezan z UGREEN ali Apple.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ Projekt je konfiguriran za **macOS 27 ali novejšo** in je bil preveden z **Xcod
 
 ## Namestite iz DMG
 
-[Prenos UGREEN NAS Download 0.6.0 za Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
+[Prenos UGREEN NAS Download 0.6.1 za Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1).
 
 1. Odprite DMG, povlecite **UGREEN NAS Download** v **Aplikacije** in nato odprite aplikacijo.
 2. V **Safari → Nastavitve → Napredno** omogočite funkcije za spletne razvijalce. V **Razvijalec** omogočite **Dovoli nepodpisane razširitve**, nato omogočite **UGREEN NAS Download** v **Razširitve**.

@@ -4,7 +4,7 @@
 
 Ứng dụng macOS và tiện ích mở rộng Safari để gửi các bản tải xuống tới ứng dụng **Tải xuống** của NAS UGREEN trong UGOS Pro mà không cần mở trang NAS.
 
-Nguồn và phiên bản DMG: **0.6.0**. Dự án cộng đồng độc lập, không liên kết với UGREEN hay Apple.
+Nguồn và phiên bản DMG: **0.6.1**. Dự án cộng đồng độc lập, không liên kết với UGREEN hay Apple.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ Dự án được định cấu hình cho **macOS 27 trở lên** và được b
 
 ## Cài đặt từ DMG
 
-[Tải xuống UGREEN NAS Tải xuống 0.6.0 cho Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
+[Tải xuống UGREEN NAS Tải xuống 0.6.1 cho Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1).
 
 1. Mở DMG, kéo **UGREEN NAS Download** vào **Applications**, sau đó mở ứng dụng.
 2. Trong **Safari → Cài đặt → Nâng cao**, bật các tính năng dành cho nhà phát triển web. Trong **Nhà phát triển**, bật **Cho phép tiện ích mở rộng chưa được ký**, sau đó bật **Tải xuống NAS UGREEN** trong **Tiện ích mở rộng**.

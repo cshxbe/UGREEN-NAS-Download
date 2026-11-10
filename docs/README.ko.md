@@ -4,7 +4,7 @@
 
 macOS 애플리케이션 및 Safari 확장은 NAS 페이지를 열어두지 않고 UGOS Pro 아래에 있는 NAS UGREEN의 **다운로드** 애플리케이션으로 다운로드를 보냅니다.
 
-소스 및 DMG 버전: **0.6.0**. UGREEN이나 Apple과 관련이 없는 독립 커뮤니티 프로젝트입니다.
+소스 및 DMG 버전: **0.6.1**. UGREEN이나 Apple과 관련이 없는 독립 커뮤니티 프로젝트입니다.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ macOS 애플리케이션 및 Safari 확장은 NAS 페이지를 열어두지 않�
 
 ## DMG에서 설치
 
-[Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0)용 UGREEN NAS Download 0.6.0을 다운로드하세요.
+[Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1)용 UGREEN NAS Download 0.6.1을 다운로드하세요.
 
 1. DMG를 열고 **UGREEN NAS Download**를 **응용 프로그램**으로 드래그한 다음 앱을 엽니다.
 2. **Safari → 설정 → 고급**에서 웹 개발자를 위한 기능을 활성화하세요. **개발자**에서 **서명되지 않은 확장 허용**을 활성화한 다음 **확장 프로그램**에서 **UGREEN NAS Download**를 활성화합니다.

@@ -4,7 +4,7 @@
 
 แอป macOS และส่วนขยาย Safari เพื่อส่งการดาวน์โหลดไปยังแอป **ดาวน์โหลด** ของ NAS UGREEN ต่ำกว่า UGOS Pro โดยไม่เปิดหน้า NAS ไว้
 
-แหล่งที่มาและเวอร์ชัน DMG: **0.6.0** โครงการชุมชนอิสระ ไม่เกี่ยวข้องกับ UGREEN หรือ Apple
+แหล่งที่มาและเวอร์ชัน DMG: **0.6.1** โครงการชุมชนอิสระ ไม่เกี่ยวข้องกับ UGREEN หรือ Apple
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@
 
 ## ติดตั้งจาก DMG
 
-[ดาวน์โหลด UGREEN NAS Download 0.6.0 สำหรับ Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0)
+[ดาวน์โหลด UGREEN NAS Download 0.6.1 สำหรับ Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1)
 
 1. เปิด DMG ลาก **UGREEN NAS Download** ไปที่ **Applications** จากนั้นเปิดแอป
 2. ใน **Safari → การตั้งค่า → ขั้นสูง** เปิดใช้งานคุณสมบัติสำหรับนักพัฒนาเว็บ ใน **นักพัฒนา** ให้เปิดใช้งาน **อนุญาตส่วนขยายที่ไม่ได้ลงนาม** จากนั้นเปิดใช้งาน **UGREEN NAS Download** ใน **ส่วนขยาย**

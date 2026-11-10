@@ -4,7 +4,7 @@
 
 MacOS-sovellus ja Safari-laajennus, jotka lähettävät latauksia UGOS Pron UGREEN NAS:n **Lataukset**-sovellukseen ilman, että NAS-sivua pidetään auki.
 
-Lähteet ja DMG-versio: **0.6.0**. Itsenäinen yhteisöprojekti, joka ei ole sidoksissa UGREENiin tai Appleen.
+Lähteet ja DMG-versio: **0.6.1**. Itsenäinen yhteisöprojekti, joka ei ole sidoksissa UGREENiin tai Appleen.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ Projekti on määritetty **macOS 27:lle tai uudemmalle** ja se on käännetty **
 
 ## Asenna DMG:ltä
 
-[Lataa UGREEN NAS Download 0.6.0 Macille Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
+[Lataa UGREEN NAS Download 0.6.1 Macille Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1).
 
 1. Avaa DMG, vedä **UGREEN NAS Download** **Applications**-kohtaan ja avaa sovellus.
 2. Ota ominaisuudet käyttöön verkkokehittäjille kohdassa **Safari → Asetukset → Lisäasetukset**. Ota **Kehittäjä** käyttöön **Salli allekirjoittamattomat laajennukset** ja ota sitten käyttöön **UGREEN NAS -lataus** kohdassa **Laajennukset**.

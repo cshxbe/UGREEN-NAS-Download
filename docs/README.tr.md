@@ -4,7 +4,7 @@
 
 NAS sayfasını açık tutmadan indirilenleri UGOS Pro altındaki UGREEN NAS'ın **İndirilenler** uygulamasına göndermek için bir macOS uygulaması ve Safari uzantısı.
 
-Kaynaklar ve DMG sürümü: **0.6.0**. UGREEN veya Apple'a bağlı olmayan bağımsız topluluk projesi.
+Kaynaklar ve DMG sürümü: **0.6.1**. UGREEN veya Apple'a bağlı olmayan bağımsız topluluk projesi.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ Proje **macOS 27 veya üzeri** için yapılandırılmıştır ve Apple Silicon i
 
 ## DMG'den yükleyin
 
-[Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0) için UGREEN NAS İndir 0.6.0'ı indirin.
+[Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1) için UGREEN NAS İndir 0.6.1'ı indirin.
 
 1. DMG'yi açın, **UGREEN NAS İndirme**'yi **Uygulamalar**'a sürükleyin ve ardından uygulamayı açın.
 2. **Safari → Ayarlar → Gelişmiş**'de web geliştiricilerine yönelik özellikleri etkinleştirin. **Geliştirici**'de **İmzasız uzantılara izin ver**'i etkinleştirin, ardından **Uzantılar**'da **UGREEN NAS İndirme**'yi etkinleştirin.

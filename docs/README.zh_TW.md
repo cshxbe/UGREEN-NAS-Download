@@ -4,7 +4,7 @@
 
 macOS 應用程式和 Safari 擴充程序，用於將下載內容傳送至 UGOS Pro 下 UGREEN NAS 的 **下載** 應用程序，而無需保持 NAS 頁面開啟。
 
-來源和 DMG 版本：**0.6.0**。獨立社區項目，不隸屬於 UGREEN 或 Apple。
+來源和 DMG 版本：**0.6.1**。獨立社區項目，不隸屬於 UGREEN 或 Apple。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ macOS 應用程式和 Safari 擴充程序，用於將下載內容傳送至 UGOS 
 
 ## 從 DMG 安裝
 
-[下載 UGREEN NAS 下載 0.6.0 for Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0)。
+[下載 UGREEN NAS 下載 0.6.1 for Mac Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1)。
 
 1. 開啟DMG，將**UGREEN NAS Download**拖入**應用程式**，然後開啟應用程式。
 2. 在 **Safari → 設定 → 進階** 中，為 Web 開發人員啟用功能。在**開發人員**中，啟用**允許未簽署的擴充功能**，然後在**擴充**中啟用**UGREEN NAS 下載**。

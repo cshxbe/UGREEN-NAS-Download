@@ -4,7 +4,7 @@
 
 Egy macOS alkalmazás és egy Safari bővítmény a letöltések elküldéséhez a NAS UGREEN **Letöltések** alkalmazásához a UGOS Pro alatt anélkül, hogy a NAS oldalt nyitva tartaná.
 
-Források és DMG-verzió: **0.6.0**. Független közösségi projekt, nem kapcsolódik az UGREEN-hez vagy az Apple-hez.
+Források és DMG-verzió: **0.6.1**. Független közösségi projekt, nem kapcsolódik az UGREEN-hez vagy az Apple-hez.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../Extension/icon-dark-128.png">
@@ -30,7 +30,7 @@ A projekt **macOS 27 vagy újabb** verzióra van konfigurálva, és a **Xcode 27
 
 ## Telepítés a DMG-ről
 
-[A UGREEN NAS Download 0.6.0 letöltése Mac-hez Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.0).
+[A UGREEN NAS Download 0.6.1 letöltése Mac-hez Apple Silicon](https://github.com/cshxbe/UGREEN-NAS-Download/releases/tag/v0.6.1).
 
 1. Nyissa meg a DMG-t, húzza a **UGREEN NAS Download** elemet az **Alkalmazások** közé, majd nyissa meg az alkalmazást.
 2. A **Safari → Beállítások → Speciális** menüpontban engedélyezze a funkciókat a webfejlesztők számára. A **Fejlesztőben** engedélyezze az **Aláíratlan bővítmények engedélyezése** lehetőséget, majd engedélyezze a **UGREEN NAS Download** lehetőséget a **Bővítmények** részben.
