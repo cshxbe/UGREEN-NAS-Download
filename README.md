@@ -24,9 +24,17 @@ Version des sources : **0.5.2**. Projet communautaire indépendant, non affilié
 
 Le projet est configuré pour **macOS 27 ou ultérieur** et a été compilé avec **Xcode 27.1**, pour Apple Silicon. Les essais NAS ont été réalisés avec un **DXP2800**, **UGOS Pro 1.20.0.0142** et **Téléchargements 1.19.1.0004**. Les autres versions ne sont pas garanties : l’intégration repose sur des API observées, sans contrat public stable d’UGREEN.
 
-## Compiler et installer
+## Installer depuis le DMG
 
-Les sources sont fournies ici. Le DMG personnel signé utilisé pendant le développement n’est pas publié.
+[Télécharger UGREEN NAS Download 0.5.2 pour Mac Apple Silicon](../../releases/tag/v0.5.2).
+
+1. Ouvrir le DMG, glisser **UGREEN NAS Download** dans **Applications**, puis ouvrir l’app.
+2. Dans **Safari → Réglages → Avancés**, activer les fonctionnalités pour les développeurs web. Dans **Développeur**, activer **Autoriser les extensions non signées**, puis activer **UGREEN NAS Download** dans **Extensions**.
+3. Configurer le NAS dans les réglages de l’extension.
+
+Ce paquet public est signé localement (ad hoc) et non notarié. macOS peut bloquer son ouverture initiale. Safari peut demander de réactiver l’autorisation des extensions non signées après avoir quitté le navigateur.
+
+## Compiler depuis les sources
 
 1. Cloner ce dépôt et ouvrir `Xcode/UGREEN NAS Download/UGREEN NAS Download.xcodeproj`.
 2. Dans **Signing & Capabilities**, choisir votre propre équipe Apple pour les deux cibles : l’application et son extension. Aucune équipe personnelle n’est renseignée dans le dépôt.
